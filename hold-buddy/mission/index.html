@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="de">
+<head><link rel="icon" href="data:,">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dingsty</title>
+  <link rel="stylesheet" href="runner.css">
+  <link rel="stylesheet" href="buddy-fonts.css">
+  <link rel="stylesheet" href="buddy-game.css">
+</head>
+<body>
+  <main class="runner-shell" aria-labelledby="title">
+    <header>
+      <div><p class="eyebrow">DINGSTY · WARTE-BUDDY</p><h1 id="title" data-i18n="title">Warten? Ich mach was draus.</h1></div>
+      <div class="controls" aria-label="Spielmodus">
+        <div class="mode-switch" role="group">
+          <button type="button" data-mode="watch" class="selected">Zuschauen</button><button type="button" data-mode="play">Spielen</button>
+        </div>
+        <button id="sound" class="sound" type="button" aria-pressed="false">Ton: aus</button>
+      </div>
+    </header>
+    <p class="world-label">WELT 01 · IM HANDY GEFANGEN</p>
+    <section class="game-wrap" aria-label="Dingstys Pixel-Wartewelt">
+      <canvas id="game" tabindex="0" width="160" height="96" aria-label="Dingstys Spielmission im Handy. Drei Musikmaschinen ausschalten."></canvas>
+      <div id="alert" class="alert" role="status" aria-live="assertive" hidden>
+        <div class="real-dingsty"><img src="dingsty-phone.png" alt="Dingsty am Telefon"></div>
+        <div><p class="eyebrow" data-i18n="alarmLabel">DEMO · MIKROFON AUS</p><strong data-i18n="alarmTitle">Jetzt wärst du dran.</strong><p data-i18n="alarmBody">So sieht der Hinweis aus. Dieses Demo hört keinen Anruf mit.</p><button id="resume" type="button">Zurück ins Spiel</button></div>
+      </div>
+    </section>
+    <div id="game-controls" class="game-controls" role="group" aria-label="Spielsteuerung" hidden><button type="button" data-move="left">←</button><button type="button" data-move="right">→</button><button type="button" id="jump">Springen</button></div>
+    <p id="game-joke" class="game-joke" role="status">Im Handy gefangen. Drei Musikmaschinen müssen aus.</p>
+    <p id="mission-goal" class="mission-goal">3 Maschinen aus. Dann zum Schalter →</p>
+    <p id="hint" class="hint">Tippen zum Mitspielen · Leertaste springt</p>
+    <div class="scoreline"><span id="score">SPIELMISSION · 0/3 Musikmaschinen aus</span><button id="restart" type="button" hidden>Nochmal spielen</button><button id="demo-alert" type="button">Demo-Hinweis</button></div>
+    <p id="quiet-note" class="quiet-note" data-i18n="note">Demo ohne Mikrofon · Ton bleibt aus, bis du ihn einschaltest.</p>
+  </main>
+  <script>(function(){var l=new URLSearchParams(location.search).get("lang");if(l==="en"||l==="es"||l==="de")document.documentElement.lang=l;})();</script>
+  <script src="buddy-platformer.js"></script>
+  <script>
+  // Layout-only message: no detector, microphone permission or remote endpoint.
+  (()=>{let previous=0;const send=()=>{const height=Math.ceil(document.querySelector('.runner-shell').getBoundingClientRect().height+8);if(height!==previous&&height>=150&&height<=1200){previous=height;if(parent!==window&&location.origin!=='null')parent.postMessage({type:'dingsty:widget-size',version:1,height},location.origin);}};new ResizeObserver(send).observe(document.querySelector('.runner-shell'));document.fonts.ready.then(send);send();})();
+  </script>
+  <script>
+  // Bouncy content tabs (Osmo style): one yellow blob springs to the chosen tab. Locked component, reuse for every tab bar.
+  (function(){var sw=document.querySelector('.mode-switch');if(!sw)return;var b=document.createElement('i');b.className='blob';b.setAttribute('aria-hidden','true');sw.insertBefore(b,sw.firstChild);
+  function place(anim){var s=sw.querySelector('button.selected')||sw.querySelector('button');if(!s)return;if(!anim)b.style.transition='none';else void b.offsetWidth;b.style.width=s.offsetWidth+'px';b.style.transform='translateX('+s.offsetLeft+'px)';if(!anim){void b.offsetWidth;b.style.transition='';}}
+  place(false);sw.addEventListener('click',function(){place(true);});var lastW=innerWidth;addEventListener('resize',function(){if(innerWidth!==lastW){lastW=innerWidth;place(false);}});if(document.fonts&&document.fonts.ready)document.fonts.ready.then(function(){place(false);});})();
+  </script>
+</body>
+</html>

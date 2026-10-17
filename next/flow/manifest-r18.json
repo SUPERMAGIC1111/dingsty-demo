@@ -1,0 +1,2733 @@
+{
+ "round": 18,
+ "status": "SERVED from round 19: flow/burst-v2 and flow/vanish-v2 (flow.js frameSrc and the stage sheet in index.html). The old flow/burst and flow/vanish folders are kept on disk, unreferenced.",
+ "frame_size": [
+  440,
+  385
+ ],
+ "alpha": "lossless WebP alpha, lossy RGB q80 (-sharp_yuv -m 6), straight alpha",
+ "pipeline": {
+  "source": "original mp4, native 1280x720, BT.601 TV range, RGB via ffmpeg default",
+  "crop_native": [
+   300,
+   120,
+   940,
+   680
+  ],
+  "key": "greenness gd = G - max(R,B); hard foreground gd<=20; edge band 20<gd<0.9*key; alpha = projection of (C-K) on (F-K); F = mean of nearby hard pixels",
+  "downscale": "premultiplied area average to 440x385; protected pale pixels (antenna, cream) use nearest-neighbour alpha and colour",
+  "choke": "3x3 minimum (1 px), skipped on protected pixels",
+  "feather": "3x3 binomial (1 px), skipped on protected pixels",
+  "despill": "G <= max(R,B) everywhere; partial pixels G <= max(R,B)-10",
+  "colour_extension": "colour under alpha 0 extended from the object",
+  "closed_loop": "decode after encode; lower G on flagged partial-alpha edge pixels (and their neighbours) until the decoded edge band has 0 green-dominant pixels (8 rounds max)"
+ },
+ "clips": {
+  "burst-v2": {
+   "folder": "flow/burst-v2/",
+   "frames": 192,
+   "total_bytes": 2922500,
+   "source_mp4": "/Users/campell/Documents/2026/Dingsty/FINAL-DINGSTY_PAKET/animation/dingsty-pixelated-1.mp4",
+   "source_mp4_sha256": "0d010b2da2837a4e19d3a3fffa5cee50a55a7222cc4b52665badab66ada3bec3",
+   "per_frame": [
+    {
+     "frame": 0,
+     "file": "f000.webp",
+     "bytes": 10128,
+     "sha256_12": "1ad6d5bf63fe",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 1,
+     "file": "f001.webp",
+     "bytes": 10140,
+     "sha256_12": "3dfe1d860f33",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 2,
+     "file": "f002.webp",
+     "bytes": 10166,
+     "sha256_12": "44dd95d021b7",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 3,
+     "file": "f003.webp",
+     "bytes": 10092,
+     "sha256_12": "6a4a44628d41",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 4,
+     "file": "f004.webp",
+     "bytes": 9898,
+     "sha256_12": "12375ec94183",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 5,
+     "file": "f005.webp",
+     "bytes": 9762,
+     "sha256_12": "f6db82bf5042",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 6,
+     "file": "f006.webp",
+     "bytes": 9564,
+     "sha256_12": "ea9bea54880e",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 7,
+     "file": "f007.webp",
+     "bytes": 9586,
+     "sha256_12": "7eb90857ae8a",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 8,
+     "file": "f008.webp",
+     "bytes": 9458,
+     "sha256_12": "96b6707651f8",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 9,
+     "file": "f009.webp",
+     "bytes": 9488,
+     "sha256_12": "dd0a496a1860",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 10,
+     "file": "f010.webp",
+     "bytes": 9638,
+     "sha256_12": "e3125d94ace9",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 11,
+     "file": "f011.webp",
+     "bytes": 9782,
+     "sha256_12": "23cd558aa318",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 12,
+     "file": "f012.webp",
+     "bytes": 9756,
+     "sha256_12": "ec0ac3e0a6f7",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 13,
+     "file": "f013.webp",
+     "bytes": 9846,
+     "sha256_12": "aca7493dbdfa",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 14,
+     "file": "f014.webp",
+     "bytes": 9940,
+     "sha256_12": "71588c6b905d",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 15,
+     "file": "f015.webp",
+     "bytes": 9900,
+     "sha256_12": "a0857f71ab84",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 16,
+     "file": "f016.webp",
+     "bytes": 10002,
+     "sha256_12": "eba9d0293936",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 17,
+     "file": "f017.webp",
+     "bytes": 9928,
+     "sha256_12": "0fbddf30df3c",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 18,
+     "file": "f018.webp",
+     "bytes": 9928,
+     "sha256_12": "32a10bb2885e",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 19,
+     "file": "f019.webp",
+     "bytes": 9954,
+     "sha256_12": "fedd4423a851",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 20,
+     "file": "f020.webp",
+     "bytes": 9894,
+     "sha256_12": "b9e1d3e78199",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 21,
+     "file": "f021.webp",
+     "bytes": 9892,
+     "sha256_12": "dcd5b1ed0660",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 22,
+     "file": "f022.webp",
+     "bytes": 9898,
+     "sha256_12": "e4d4123df0a4",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 23,
+     "file": "f023.webp",
+     "bytes": 9902,
+     "sha256_12": "1540f4f88be4",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 24,
+     "file": "f024.webp",
+     "bytes": 9938,
+     "sha256_12": "0b1b67508e1f",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 25,
+     "file": "f025.webp",
+     "bytes": 9954,
+     "sha256_12": "47e50af28f63",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 26,
+     "file": "f026.webp",
+     "bytes": 9958,
+     "sha256_12": "fddc0fb8571f",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 27,
+     "file": "f027.webp",
+     "bytes": 9796,
+     "sha256_12": "de670a7f4785",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 28,
+     "file": "f028.webp",
+     "bytes": 9692,
+     "sha256_12": "92b4ecd160b3",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 29,
+     "file": "f029.webp",
+     "bytes": 9520,
+     "sha256_12": "a3544e2ffab0",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 30,
+     "file": "f030.webp",
+     "bytes": 9466,
+     "sha256_12": "bf8695201ead",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 31,
+     "file": "f031.webp",
+     "bytes": 9280,
+     "sha256_12": "853652af1f6a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 32,
+     "file": "f032.webp",
+     "bytes": 9412,
+     "sha256_12": "35f5242f3d11",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 33,
+     "file": "f033.webp",
+     "bytes": 9812,
+     "sha256_12": "c8a1d542a920",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 34,
+     "file": "f034.webp",
+     "bytes": 10416,
+     "sha256_12": "1692864b3420",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 35,
+     "file": "f035.webp",
+     "bytes": 10714,
+     "sha256_12": "b7601beab734",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 36,
+     "file": "f036.webp",
+     "bytes": 11512,
+     "sha256_12": "8f778df969cf",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 37,
+     "file": "f037.webp",
+     "bytes": 11488,
+     "sha256_12": "d2161b7a0670",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 38,
+     "file": "f038.webp",
+     "bytes": 11836,
+     "sha256_12": "2bc3a3770750",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 39,
+     "file": "f039.webp",
+     "bytes": 11634,
+     "sha256_12": "df26540431a2",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 40,
+     "file": "f040.webp",
+     "bytes": 11614,
+     "sha256_12": "e1e320891393",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 41,
+     "file": "f041.webp",
+     "bytes": 11572,
+     "sha256_12": "fb1c7377fb7c",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 42,
+     "file": "f042.webp",
+     "bytes": 11408,
+     "sha256_12": "b9b85870b4f1",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 43,
+     "file": "f043.webp",
+     "bytes": 11242,
+     "sha256_12": "d44895db4b8a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 44,
+     "file": "f044.webp",
+     "bytes": 11362,
+     "sha256_12": "a51118935b72",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 45,
+     "file": "f045.webp",
+     "bytes": 11262,
+     "sha256_12": "1423c8419a3a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 46,
+     "file": "f046.webp",
+     "bytes": 11318,
+     "sha256_12": "d38c15e0b8e8",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 47,
+     "file": "f047.webp",
+     "bytes": 11226,
+     "sha256_12": "40fb32f0b141",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 48,
+     "file": "f048.webp",
+     "bytes": 11290,
+     "sha256_12": "426a619646cb",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 49,
+     "file": "f049.webp",
+     "bytes": 11334,
+     "sha256_12": "c94f94f5a519",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 50,
+     "file": "f050.webp",
+     "bytes": 11182,
+     "sha256_12": "54bb87f69d99",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 51,
+     "file": "f051.webp",
+     "bytes": 11208,
+     "sha256_12": "1eb7e514f286",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 52,
+     "file": "f052.webp",
+     "bytes": 11194,
+     "sha256_12": "bd9e30b3a2ae",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 53,
+     "file": "f053.webp",
+     "bytes": 11250,
+     "sha256_12": "6d012556137d",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 54,
+     "file": "f054.webp",
+     "bytes": 11228,
+     "sha256_12": "b53b7fc1d3de",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 55,
+     "file": "f055.webp",
+     "bytes": 11328,
+     "sha256_12": "5d9a147ef005",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 56,
+     "file": "f056.webp",
+     "bytes": 11330,
+     "sha256_12": "57636ad1e452",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 57,
+     "file": "f057.webp",
+     "bytes": 11218,
+     "sha256_12": "f4510795cbac",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 58,
+     "file": "f058.webp",
+     "bytes": 11316,
+     "sha256_12": "3981aeaeab43",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 59,
+     "file": "f059.webp",
+     "bytes": 11246,
+     "sha256_12": "40b66e5a9a59",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 60,
+     "file": "f060.webp",
+     "bytes": 11172,
+     "sha256_12": "0c1ac4707037",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 61,
+     "file": "f061.webp",
+     "bytes": 11154,
+     "sha256_12": "70d19a3a40f4",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 62,
+     "file": "f062.webp",
+     "bytes": 11136,
+     "sha256_12": "0b4e946ba3c1",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 63,
+     "file": "f063.webp",
+     "bytes": 11044,
+     "sha256_12": "c2913362aaed",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 64,
+     "file": "f064.webp",
+     "bytes": 11124,
+     "sha256_12": "2fd362240212",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 65,
+     "file": "f065.webp",
+     "bytes": 11214,
+     "sha256_12": "9a6338143f85",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 66,
+     "file": "f066.webp",
+     "bytes": 11466,
+     "sha256_12": "c58bc07bdc27",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 67,
+     "file": "f067.webp",
+     "bytes": 11756,
+     "sha256_12": "3c75628ad193",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 68,
+     "file": "f068.webp",
+     "bytes": 12134,
+     "sha256_12": "b72dfca78a48",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 69,
+     "file": "f069.webp",
+     "bytes": 12304,
+     "sha256_12": "112b0d2a2f77",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 70,
+     "file": "f070.webp",
+     "bytes": 12472,
+     "sha256_12": "bd381367f8f3",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 71,
+     "file": "f071.webp",
+     "bytes": 12904,
+     "sha256_12": "ae8809790b49",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 72,
+     "file": "f072.webp",
+     "bytes": 13510,
+     "sha256_12": "9a5673e32349",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 73,
+     "file": "f073.webp",
+     "bytes": 14002,
+     "sha256_12": "17899f2d5ba1",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 74,
+     "file": "f074.webp",
+     "bytes": 14394,
+     "sha256_12": "474b75093f8e",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 75,
+     "file": "f075.webp",
+     "bytes": 14780,
+     "sha256_12": "d6a424112677",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 76,
+     "file": "f076.webp",
+     "bytes": 15018,
+     "sha256_12": "cf0fe2fd3266",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 77,
+     "file": "f077.webp",
+     "bytes": 15422,
+     "sha256_12": "480101509ec0",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 78,
+     "file": "f078.webp",
+     "bytes": 15686,
+     "sha256_12": "2a5311cc7e88",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 79,
+     "file": "f079.webp",
+     "bytes": 15746,
+     "sha256_12": "daad00ad0b58",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 80,
+     "file": "f080.webp",
+     "bytes": 16136,
+     "sha256_12": "5c1312f3f78a",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 81,
+     "file": "f081.webp",
+     "bytes": 16260,
+     "sha256_12": "129a4d0a87c9",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 82,
+     "file": "f082.webp",
+     "bytes": 16506,
+     "sha256_12": "7cd8efff2f73",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 83,
+     "file": "f083.webp",
+     "bytes": 16668,
+     "sha256_12": "881d0df7f9c3",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 84,
+     "file": "f084.webp",
+     "bytes": 17020,
+     "sha256_12": "bfef189b9081",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 85,
+     "file": "f085.webp",
+     "bytes": 17184,
+     "sha256_12": "3f63e7434cfe",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 86,
+     "file": "f086.webp",
+     "bytes": 17618,
+     "sha256_12": "f41bb48b273c",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 87,
+     "file": "f087.webp",
+     "bytes": 17540,
+     "sha256_12": "160cbd4d7f3f",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 88,
+     "file": "f088.webp",
+     "bytes": 17702,
+     "sha256_12": "eeae6df1d2d3",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 89,
+     "file": "f089.webp",
+     "bytes": 17968,
+     "sha256_12": "30c81af3a8c2",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 90,
+     "file": "f090.webp",
+     "bytes": 23582,
+     "sha256_12": "7b616144e378",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 91,
+     "file": "f091.webp",
+     "bytes": 18308,
+     "sha256_12": "43e529c45a2c",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 92,
+     "file": "f092.webp",
+     "bytes": 18000,
+     "sha256_12": "c3e8d843b595",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 93,
+     "file": "f093.webp",
+     "bytes": 23656,
+     "sha256_12": "641f6c3aedc9",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 94,
+     "file": "f094.webp",
+     "bytes": 18610,
+     "sha256_12": "a1a1d610df13",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 95,
+     "file": "f095.webp",
+     "bytes": 18790,
+     "sha256_12": "5cd54c2e00a0",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 96,
+     "file": "f096.webp",
+     "bytes": 19278,
+     "sha256_12": "6e776f02f491",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 97,
+     "file": "f097.webp",
+     "bytes": 19232,
+     "sha256_12": "03e4f5e713b9",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 98,
+     "file": "f098.webp",
+     "bytes": 19246,
+     "sha256_12": "4abb9d134d56",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 99,
+     "file": "f099.webp",
+     "bytes": 19324,
+     "sha256_12": "07650037bb9b",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 100,
+     "file": "f100.webp",
+     "bytes": 19276,
+     "sha256_12": "d90523b2c0fc",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 101,
+     "file": "f101.webp",
+     "bytes": 19594,
+     "sha256_12": "d1802102afc8",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 102,
+     "file": "f102.webp",
+     "bytes": 19594,
+     "sha256_12": "fff125e7a709",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 103,
+     "file": "f103.webp",
+     "bytes": 25816,
+     "sha256_12": "238f1be989f0",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 104,
+     "file": "f104.webp",
+     "bytes": 19964,
+     "sha256_12": "57162422bd5c",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 105,
+     "file": "f105.webp",
+     "bytes": 20354,
+     "sha256_12": "7aec0b00e751",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 106,
+     "file": "f106.webp",
+     "bytes": 20280,
+     "sha256_12": "abfa83d0966b",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 107,
+     "file": "f107.webp",
+     "bytes": 20452,
+     "sha256_12": "d7f01b4e62c7",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 108,
+     "file": "f108.webp",
+     "bytes": 20770,
+     "sha256_12": "036ad91a6a0c",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 109,
+     "file": "f109.webp",
+     "bytes": 20820,
+     "sha256_12": "37cff69118c4",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 110,
+     "file": "f110.webp",
+     "bytes": 20908,
+     "sha256_12": "903eac4d398a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 111,
+     "file": "f111.webp",
+     "bytes": 21032,
+     "sha256_12": "f281a95d9398",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 112,
+     "file": "f112.webp",
+     "bytes": 21342,
+     "sha256_12": "a5649c54b350",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 113,
+     "file": "f113.webp",
+     "bytes": 21328,
+     "sha256_12": "6620a36cf8ff",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 114,
+     "file": "f114.webp",
+     "bytes": 21312,
+     "sha256_12": "05ef36444e77",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 115,
+     "file": "f115.webp",
+     "bytes": 21300,
+     "sha256_12": "3a486c76e34a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 116,
+     "file": "f116.webp",
+     "bytes": 21172,
+     "sha256_12": "a9d94ce2988e",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 117,
+     "file": "f117.webp",
+     "bytes": 20780,
+     "sha256_12": "a26cdaa14f46",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 118,
+     "file": "f118.webp",
+     "bytes": 20716,
+     "sha256_12": "071409672e09",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 119,
+     "file": "f119.webp",
+     "bytes": 20550,
+     "sha256_12": "110f86628e68",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 120,
+     "file": "f120.webp",
+     "bytes": 20500,
+     "sha256_12": "2a6c531911de",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 121,
+     "file": "f121.webp",
+     "bytes": 20604,
+     "sha256_12": "40ba9b8132f3",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 122,
+     "file": "f122.webp",
+     "bytes": 26766,
+     "sha256_12": "3aff9596afa7",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 123,
+     "file": "f123.webp",
+     "bytes": 20336,
+     "sha256_12": "ff911256df83",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 124,
+     "file": "f124.webp",
+     "bytes": 19866,
+     "sha256_12": "7dfd54622fb2",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 125,
+     "file": "f125.webp",
+     "bytes": 19740,
+     "sha256_12": "4892cca58e72",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 126,
+     "file": "f126.webp",
+     "bytes": 19652,
+     "sha256_12": "16ba029ba806",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 127,
+     "file": "f127.webp",
+     "bytes": 19404,
+     "sha256_12": "7b14dbe79cab",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 128,
+     "file": "f128.webp",
+     "bytes": 19392,
+     "sha256_12": "3ea0192cc01b",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 129,
+     "file": "f129.webp",
+     "bytes": 25364,
+     "sha256_12": "14234ed29fbf",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 130,
+     "file": "f130.webp",
+     "bytes": 25510,
+     "sha256_12": "8f56b1b7f2f7",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 131,
+     "file": "f131.webp",
+     "bytes": 24912,
+     "sha256_12": "3073925eeaec",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 132,
+     "file": "f132.webp",
+     "bytes": 18374,
+     "sha256_12": "57334366942a",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 133,
+     "file": "f133.webp",
+     "bytes": 18430,
+     "sha256_12": "2e2e09009705",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 134,
+     "file": "f134.webp",
+     "bytes": 18614,
+     "sha256_12": "da42ad4c1d93",
+     "loop_rounds": 5
+    },
+    {
+     "frame": 135,
+     "file": "f135.webp",
+     "bytes": 18600,
+     "sha256_12": "44cfb4b80551",
+     "loop_rounds": 5
+    },
+    {
+     "frame": 136,
+     "file": "f136.webp",
+     "bytes": 24678,
+     "sha256_12": "35eaa7502ed8",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 137,
+     "file": "f137.webp",
+     "bytes": 18962,
+     "sha256_12": "0b25523c55da",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 138,
+     "file": "f138.webp",
+     "bytes": 18772,
+     "sha256_12": "dc3e089ff7e5",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 139,
+     "file": "f139.webp",
+     "bytes": 18776,
+     "sha256_12": "e903fc549b44",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 140,
+     "file": "f140.webp",
+     "bytes": 18432,
+     "sha256_12": "4177ebf92f87",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 141,
+     "file": "f141.webp",
+     "bytes": 18296,
+     "sha256_12": "13d966d4e0c3",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 142,
+     "file": "f142.webp",
+     "bytes": 18132,
+     "sha256_12": "90911cb3cca2",
+     "loop_rounds": 5
+    },
+    {
+     "frame": 143,
+     "file": "f143.webp",
+     "bytes": 18664,
+     "sha256_12": "39a7a8b3f530",
+     "loop_rounds": 7
+    },
+    {
+     "frame": 144,
+     "file": "f144.webp",
+     "bytes": 17878,
+     "sha256_12": "2d0332528af0",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 145,
+     "file": "f145.webp",
+     "bytes": 18226,
+     "sha256_12": "3d68a4b642b9",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 146,
+     "file": "f146.webp",
+     "bytes": 17946,
+     "sha256_12": "9fcad9c6b3ad",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 147,
+     "file": "f147.webp",
+     "bytes": 17746,
+     "sha256_12": "a3e378e918fb",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 148,
+     "file": "f148.webp",
+     "bytes": 17930,
+     "sha256_12": "22f2aaf1e20c",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 149,
+     "file": "f149.webp",
+     "bytes": 18000,
+     "sha256_12": "c5ee507d5c42",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 150,
+     "file": "f150.webp",
+     "bytes": 17714,
+     "sha256_12": "5e65559c7661",
+     "loop_rounds": 7
+    },
+    {
+     "frame": 151,
+     "file": "f151.webp",
+     "bytes": 17284,
+     "sha256_12": "9e7c01ec1072",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 152,
+     "file": "f152.webp",
+     "bytes": 16918,
+     "sha256_12": "6378ec56f3f1",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 153,
+     "file": "f153.webp",
+     "bytes": 17058,
+     "sha256_12": "734c9fb134c0",
+     "loop_rounds": 5
+    },
+    {
+     "frame": 154,
+     "file": "f154.webp",
+     "bytes": 16876,
+     "sha256_12": "e0db7b4b4bcf",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 155,
+     "file": "f155.webp",
+     "bytes": 16540,
+     "sha256_12": "f095e5c92794",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 156,
+     "file": "f156.webp",
+     "bytes": 16382,
+     "sha256_12": "372318ef058d",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 157,
+     "file": "f157.webp",
+     "bytes": 16660,
+     "sha256_12": "c653724ec389",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 158,
+     "file": "f158.webp",
+     "bytes": 16504,
+     "sha256_12": "882f1ec02fb3",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 159,
+     "file": "f159.webp",
+     "bytes": 21882,
+     "sha256_12": "b5c5995cbd4a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 160,
+     "file": "f160.webp",
+     "bytes": 16222,
+     "sha256_12": "b6836e570c92",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 161,
+     "file": "f161.webp",
+     "bytes": 21558,
+     "sha256_12": "a99f9b055a9d",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 162,
+     "file": "f162.webp",
+     "bytes": 15976,
+     "sha256_12": "faa913ae5fd8",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 163,
+     "file": "f163.webp",
+     "bytes": 15902,
+     "sha256_12": "ad23fdaa6132",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 164,
+     "file": "f164.webp",
+     "bytes": 15654,
+     "sha256_12": "05a12d40ebb2",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 165,
+     "file": "f165.webp",
+     "bytes": 20630,
+     "sha256_12": "8ce52e5aea1d",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 166,
+     "file": "f166.webp",
+     "bytes": 15190,
+     "sha256_12": "473a1c1e4468",
+     "loop_rounds": 7
+    },
+    {
+     "frame": 167,
+     "file": "f167.webp",
+     "bytes": 15456,
+     "sha256_12": "8cf4f76c5c55",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 168,
+     "file": "f168.webp",
+     "bytes": 15202,
+     "sha256_12": "cabbad4a8931",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 169,
+     "file": "f169.webp",
+     "bytes": 15610,
+     "sha256_12": "eb36d054db82",
+     "loop_rounds": 6
+    },
+    {
+     "frame": 170,
+     "file": "f170.webp",
+     "bytes": 15210,
+     "sha256_12": "01aa1391e652",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 171,
+     "file": "f171.webp",
+     "bytes": 20218,
+     "sha256_12": "f1034e816226",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 172,
+     "file": "f172.webp",
+     "bytes": 14386,
+     "sha256_12": "6d98b91fd4ab",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 173,
+     "file": "f173.webp",
+     "bytes": 14834,
+     "sha256_12": "7df57e877bda",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 174,
+     "file": "f174.webp",
+     "bytes": 14674,
+     "sha256_12": "85841ba1c26e",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 175,
+     "file": "f175.webp",
+     "bytes": 14610,
+     "sha256_12": "158c8396349e",
+     "loop_rounds": 8
+    },
+    {
+     "frame": 176,
+     "file": "f176.webp",
+     "bytes": 14384,
+     "sha256_12": "217fc072d7cb",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 177,
+     "file": "f177.webp",
+     "bytes": 19012,
+     "sha256_12": "8ba785c6d365",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 178,
+     "file": "f178.webp",
+     "bytes": 14300,
+     "sha256_12": "a805ecb804d0",
+     "loop_rounds": 8
+    },
+    {
+     "frame": 179,
+     "file": "f179.webp",
+     "bytes": 14216,
+     "sha256_12": "e55e3d0ded6c",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 180,
+     "file": "f180.webp",
+     "bytes": 13840,
+     "sha256_12": "33df8563610a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 181,
+     "file": "f181.webp",
+     "bytes": 13424,
+     "sha256_12": "ee5bab079f43",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 182,
+     "file": "f182.webp",
+     "bytes": 13262,
+     "sha256_12": "e3f3654d3113",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 183,
+     "file": "f183.webp",
+     "bytes": 13416,
+     "sha256_12": "d64adacab2ec",
+     "loop_rounds": 7
+    },
+    {
+     "frame": 184,
+     "file": "f184.webp",
+     "bytes": 13142,
+     "sha256_12": "aa38d87b32df",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 185,
+     "file": "f185.webp",
+     "bytes": 13246,
+     "sha256_12": "14fefbd6c5d2",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 186,
+     "file": "f186.webp",
+     "bytes": 12970,
+     "sha256_12": "0a1e00c2d4b0",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 187,
+     "file": "f187.webp",
+     "bytes": 12948,
+     "sha256_12": "6df185ceff99",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 188,
+     "file": "f188.webp",
+     "bytes": 12658,
+     "sha256_12": "177599545346",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 189,
+     "file": "f189.webp",
+     "bytes": 12270,
+     "sha256_12": "dcbf2249be10",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 190,
+     "file": "f190.webp",
+     "bytes": 12104,
+     "sha256_12": "b42952ae87bb",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 191,
+     "file": "f191.webp",
+     "bytes": 12132,
+     "sha256_12": "8b2044d2e0c5",
+     "loop_rounds": 1
+    }
+   ]
+  },
+  "vanish-v2": {
+   "folder": "flow/vanish-v2/",
+   "frames": 192,
+   "total_bytes": 1298374,
+   "source_mp4": "/Users/campell/Documents/2026/Dingsty/FINAL-DINGSTY_PAKET/animation/Dingsty-pixelated-vanished-1.mp4",
+   "source_mp4_sha256": "a075236b3a1f6157143f8b4e379ff824fe04e9bb0a6a0bbdb6a4667dce21f600",
+   "per_frame": [
+    {
+     "frame": 0,
+     "file": "f000.webp",
+     "bytes": 12050,
+     "sha256_12": "ed9f015b3714",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 1,
+     "file": "f001.webp",
+     "bytes": 11958,
+     "sha256_12": "ab50d561791c",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 2,
+     "file": "f002.webp",
+     "bytes": 11998,
+     "sha256_12": "f6a20aa5f890",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 3,
+     "file": "f003.webp",
+     "bytes": 11762,
+     "sha256_12": "a22b830e688e",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 4,
+     "file": "f004.webp",
+     "bytes": 11640,
+     "sha256_12": "0600a9cd9406",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 5,
+     "file": "f005.webp",
+     "bytes": 11698,
+     "sha256_12": "3863a395946b",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 6,
+     "file": "f006.webp",
+     "bytes": 11946,
+     "sha256_12": "d66731449969",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 7,
+     "file": "f007.webp",
+     "bytes": 11508,
+     "sha256_12": "4f859f451005",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 8,
+     "file": "f008.webp",
+     "bytes": 11460,
+     "sha256_12": "e66f72ebd8ad",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 9,
+     "file": "f009.webp",
+     "bytes": 11232,
+     "sha256_12": "8539d6201762",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 10,
+     "file": "f010.webp",
+     "bytes": 11270,
+     "sha256_12": "c399318538c4",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 11,
+     "file": "f011.webp",
+     "bytes": 11002,
+     "sha256_12": "69b08331adf9",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 12,
+     "file": "f012.webp",
+     "bytes": 10918,
+     "sha256_12": "df9d88776ed9",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 13,
+     "file": "f013.webp",
+     "bytes": 10758,
+     "sha256_12": "b0ddd7d0bed2",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 14,
+     "file": "f014.webp",
+     "bytes": 10910,
+     "sha256_12": "8416389e8d97",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 15,
+     "file": "f015.webp",
+     "bytes": 10896,
+     "sha256_12": "c03f92e9600e",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 16,
+     "file": "f016.webp",
+     "bytes": 11240,
+     "sha256_12": "fde3db4c130f",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 17,
+     "file": "f017.webp",
+     "bytes": 11290,
+     "sha256_12": "e6c470e276ef",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 18,
+     "file": "f018.webp",
+     "bytes": 11494,
+     "sha256_12": "9d382b162ba1",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 19,
+     "file": "f019.webp",
+     "bytes": 11510,
+     "sha256_12": "372ee5d96a82",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 20,
+     "file": "f020.webp",
+     "bytes": 11736,
+     "sha256_12": "b7202dd2e96e",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 21,
+     "file": "f021.webp",
+     "bytes": 11654,
+     "sha256_12": "771359a610f0",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 22,
+     "file": "f022.webp",
+     "bytes": 11762,
+     "sha256_12": "3475960fc53b",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 23,
+     "file": "f023.webp",
+     "bytes": 11474,
+     "sha256_12": "3364d4c881d8",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 24,
+     "file": "f024.webp",
+     "bytes": 11226,
+     "sha256_12": "4d18b9b6b878",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 25,
+     "file": "f025.webp",
+     "bytes": 11128,
+     "sha256_12": "4b6be09c4743",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 26,
+     "file": "f026.webp",
+     "bytes": 11632,
+     "sha256_12": "848b28e45bbf",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 27,
+     "file": "f027.webp",
+     "bytes": 11444,
+     "sha256_12": "ae4c8d99ba2b",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 28,
+     "file": "f028.webp",
+     "bytes": 11436,
+     "sha256_12": "80ffe833429a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 29,
+     "file": "f029.webp",
+     "bytes": 11348,
+     "sha256_12": "8fa0f75a957f",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 30,
+     "file": "f030.webp",
+     "bytes": 11342,
+     "sha256_12": "7c0b2d55c7fb",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 31,
+     "file": "f031.webp",
+     "bytes": 11432,
+     "sha256_12": "3ebf6ec1a01e",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 32,
+     "file": "f032.webp",
+     "bytes": 11484,
+     "sha256_12": "4fae60c52af9",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 33,
+     "file": "f033.webp",
+     "bytes": 11812,
+     "sha256_12": "126d2ca5f08a",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 34,
+     "file": "f034.webp",
+     "bytes": 11764,
+     "sha256_12": "d59d94823333",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 35,
+     "file": "f035.webp",
+     "bytes": 11726,
+     "sha256_12": "fd2fcb175109",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 36,
+     "file": "f036.webp",
+     "bytes": 11936,
+     "sha256_12": "5de646d2e8a6",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 37,
+     "file": "f037.webp",
+     "bytes": 11670,
+     "sha256_12": "fbe4d4712215",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 38,
+     "file": "f038.webp",
+     "bytes": 11798,
+     "sha256_12": "d97e08c1bd43",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 39,
+     "file": "f039.webp",
+     "bytes": 11654,
+     "sha256_12": "839a3f91f96c",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 40,
+     "file": "f040.webp",
+     "bytes": 11144,
+     "sha256_12": "64b73c2cc523",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 41,
+     "file": "f041.webp",
+     "bytes": 11048,
+     "sha256_12": "3cdfcf292556",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 42,
+     "file": "f042.webp",
+     "bytes": 11016,
+     "sha256_12": "6440736821c8",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 43,
+     "file": "f043.webp",
+     "bytes": 10652,
+     "sha256_12": "9a11ed6af1a7",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 44,
+     "file": "f044.webp",
+     "bytes": 10218,
+     "sha256_12": "0c2085ef4fc0",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 45,
+     "file": "f045.webp",
+     "bytes": 9726,
+     "sha256_12": "2d11d6c6f437",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 46,
+     "file": "f046.webp",
+     "bytes": 9458,
+     "sha256_12": "c1d1f2fdf08c",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 47,
+     "file": "f047.webp",
+     "bytes": 9192,
+     "sha256_12": "912670395b00",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 48,
+     "file": "f048.webp",
+     "bytes": 9090,
+     "sha256_12": "395ff501b78c",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 49,
+     "file": "f049.webp",
+     "bytes": 9016,
+     "sha256_12": "b5761473ec67",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 50,
+     "file": "f050.webp",
+     "bytes": 8960,
+     "sha256_12": "cc5a427c809c",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 51,
+     "file": "f051.webp",
+     "bytes": 8766,
+     "sha256_12": "7e7876930a6c",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 52,
+     "file": "f052.webp",
+     "bytes": 8550,
+     "sha256_12": "edd4d77e7447",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 53,
+     "file": "f053.webp",
+     "bytes": 8448,
+     "sha256_12": "c4d0d7cb1e64",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 54,
+     "file": "f054.webp",
+     "bytes": 8292,
+     "sha256_12": "82d4f2601186",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 55,
+     "file": "f055.webp",
+     "bytes": 8186,
+     "sha256_12": "543a0e9d6f3a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 56,
+     "file": "f056.webp",
+     "bytes": 7992,
+     "sha256_12": "639e1be6bcda",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 57,
+     "file": "f057.webp",
+     "bytes": 7832,
+     "sha256_12": "53b4877f064a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 58,
+     "file": "f058.webp",
+     "bytes": 7752,
+     "sha256_12": "9ce9501f059c",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 59,
+     "file": "f059.webp",
+     "bytes": 7806,
+     "sha256_12": "3997483f6f0e",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 60,
+     "file": "f060.webp",
+     "bytes": 7772,
+     "sha256_12": "79fbe37f2ceb",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 61,
+     "file": "f061.webp",
+     "bytes": 7748,
+     "sha256_12": "5f65ce9a6876",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 62,
+     "file": "f062.webp",
+     "bytes": 7752,
+     "sha256_12": "017b6b1ade00",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 63,
+     "file": "f063.webp",
+     "bytes": 7806,
+     "sha256_12": "0d9fd043069a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 64,
+     "file": "f064.webp",
+     "bytes": 7680,
+     "sha256_12": "cac2d86dedf7",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 65,
+     "file": "f065.webp",
+     "bytes": 7512,
+     "sha256_12": "ee5d6d9db8c4",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 66,
+     "file": "f066.webp",
+     "bytes": 7416,
+     "sha256_12": "5d4c47249429",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 67,
+     "file": "f067.webp",
+     "bytes": 7348,
+     "sha256_12": "626799a89bee",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 68,
+     "file": "f068.webp",
+     "bytes": 7284,
+     "sha256_12": "5a1e8b440419",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 69,
+     "file": "f069.webp",
+     "bytes": 7298,
+     "sha256_12": "1b0a2b1d9a06",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 70,
+     "file": "f070.webp",
+     "bytes": 7260,
+     "sha256_12": "6e22ac3ae5ff",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 71,
+     "file": "f071.webp",
+     "bytes": 7160,
+     "sha256_12": "5c812e397f92",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 72,
+     "file": "f072.webp",
+     "bytes": 7256,
+     "sha256_12": "76c31e642022",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 73,
+     "file": "f073.webp",
+     "bytes": 7356,
+     "sha256_12": "68d2357d54da",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 74,
+     "file": "f074.webp",
+     "bytes": 7426,
+     "sha256_12": "24efe0d223c6",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 75,
+     "file": "f075.webp",
+     "bytes": 7332,
+     "sha256_12": "7a1e246fd97c",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 76,
+     "file": "f076.webp",
+     "bytes": 7422,
+     "sha256_12": "eb72d15ee238",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 77,
+     "file": "f077.webp",
+     "bytes": 7358,
+     "sha256_12": "4724c7cee25a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 78,
+     "file": "f078.webp",
+     "bytes": 7386,
+     "sha256_12": "95560be51760",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 79,
+     "file": "f079.webp",
+     "bytes": 7272,
+     "sha256_12": "0f3dd01c6f1b",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 80,
+     "file": "f080.webp",
+     "bytes": 7398,
+     "sha256_12": "8c74fa8c9646",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 81,
+     "file": "f081.webp",
+     "bytes": 7314,
+     "sha256_12": "33c4377c0c71",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 82,
+     "file": "f082.webp",
+     "bytes": 7236,
+     "sha256_12": "7337e37b8368",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 83,
+     "file": "f083.webp",
+     "bytes": 7280,
+     "sha256_12": "f9e64a511024",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 84,
+     "file": "f084.webp",
+     "bytes": 7330,
+     "sha256_12": "5d64e45d1794",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 85,
+     "file": "f085.webp",
+     "bytes": 7590,
+     "sha256_12": "c37afed4a14e",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 86,
+     "file": "f086.webp",
+     "bytes": 7800,
+     "sha256_12": "478bcb33cf3b",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 87,
+     "file": "f087.webp",
+     "bytes": 7620,
+     "sha256_12": "55ea4bfddfb1",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 88,
+     "file": "f088.webp",
+     "bytes": 7736,
+     "sha256_12": "ccaa07b5b73d",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 89,
+     "file": "f089.webp",
+     "bytes": 7638,
+     "sha256_12": "272550f3a27b",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 90,
+     "file": "f090.webp",
+     "bytes": 7676,
+     "sha256_12": "c512273620b2",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 91,
+     "file": "f091.webp",
+     "bytes": 7644,
+     "sha256_12": "288b37966864",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 92,
+     "file": "f092.webp",
+     "bytes": 7508,
+     "sha256_12": "9774228cecf0",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 93,
+     "file": "f093.webp",
+     "bytes": 7366,
+     "sha256_12": "a5fa780e6257",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 94,
+     "file": "f094.webp",
+     "bytes": 7540,
+     "sha256_12": "20fd0d071c02",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 95,
+     "file": "f095.webp",
+     "bytes": 7612,
+     "sha256_12": "506eef961500",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 96,
+     "file": "f096.webp",
+     "bytes": 7596,
+     "sha256_12": "4d376e7efbee",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 97,
+     "file": "f097.webp",
+     "bytes": 7560,
+     "sha256_12": "3e92bf9ac44a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 98,
+     "file": "f098.webp",
+     "bytes": 7476,
+     "sha256_12": "1c0620bb319b",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 99,
+     "file": "f099.webp",
+     "bytes": 7416,
+     "sha256_12": "fc548aa907f3",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 100,
+     "file": "f100.webp",
+     "bytes": 7278,
+     "sha256_12": "5f6eee18f508",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 101,
+     "file": "f101.webp",
+     "bytes": 7008,
+     "sha256_12": "9cbeb9d430dd",
+     "loop_rounds": 4
+    },
+    {
+     "frame": 102,
+     "file": "f102.webp",
+     "bytes": 6998,
+     "sha256_12": "98ba1b93abe9",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 103,
+     "file": "f103.webp",
+     "bytes": 6800,
+     "sha256_12": "1f111442f9dc",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 104,
+     "file": "f104.webp",
+     "bytes": 6582,
+     "sha256_12": "c191d318ead2",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 105,
+     "file": "f105.webp",
+     "bytes": 6382,
+     "sha256_12": "ae0aef1ad8b2",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 106,
+     "file": "f106.webp",
+     "bytes": 6322,
+     "sha256_12": "8f451c5a1408",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 107,
+     "file": "f107.webp",
+     "bytes": 6036,
+     "sha256_12": "5323ee743bc8",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 108,
+     "file": "f108.webp",
+     "bytes": 5600,
+     "sha256_12": "d630b4f4cfc8",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 109,
+     "file": "f109.webp",
+     "bytes": 5522,
+     "sha256_12": "2c227a3877f5",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 110,
+     "file": "f110.webp",
+     "bytes": 5392,
+     "sha256_12": "9816496e735a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 111,
+     "file": "f111.webp",
+     "bytes": 5242,
+     "sha256_12": "f2dd627f147a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 112,
+     "file": "f112.webp",
+     "bytes": 5110,
+     "sha256_12": "7fc6f210a557",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 113,
+     "file": "f113.webp",
+     "bytes": 4910,
+     "sha256_12": "74585012ed89",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 114,
+     "file": "f114.webp",
+     "bytes": 4596,
+     "sha256_12": "9e5e6dc9f76a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 115,
+     "file": "f115.webp",
+     "bytes": 4428,
+     "sha256_12": "2e2a89cb893e",
+     "loop_rounds": 3
+    },
+    {
+     "frame": 116,
+     "file": "f116.webp",
+     "bytes": 4334,
+     "sha256_12": "212b9dde8cd7",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 117,
+     "file": "f117.webp",
+     "bytes": 4148,
+     "sha256_12": "8e9b171af57a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 118,
+     "file": "f118.webp",
+     "bytes": 4064,
+     "sha256_12": "859d00f3f1f7",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 119,
+     "file": "f119.webp",
+     "bytes": 3968,
+     "sha256_12": "ef330eccd2b6",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 120,
+     "file": "f120.webp",
+     "bytes": 3748,
+     "sha256_12": "cc0398784ea3",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 121,
+     "file": "f121.webp",
+     "bytes": 3878,
+     "sha256_12": "9909de82a961",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 122,
+     "file": "f122.webp",
+     "bytes": 3828,
+     "sha256_12": "f83882f34445",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 123,
+     "file": "f123.webp",
+     "bytes": 3824,
+     "sha256_12": "7c80c5a09bf0",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 124,
+     "file": "f124.webp",
+     "bytes": 3772,
+     "sha256_12": "4f8163d351cf",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 125,
+     "file": "f125.webp",
+     "bytes": 3832,
+     "sha256_12": "e2f1219a3bac",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 126,
+     "file": "f126.webp",
+     "bytes": 3846,
+     "sha256_12": "0b24c93a671d",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 127,
+     "file": "f127.webp",
+     "bytes": 3808,
+     "sha256_12": "7485e828f9c9",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 128,
+     "file": "f128.webp",
+     "bytes": 3834,
+     "sha256_12": "5bc9a9c87d21",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 129,
+     "file": "f129.webp",
+     "bytes": 3832,
+     "sha256_12": "6b3f805aeb2e",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 130,
+     "file": "f130.webp",
+     "bytes": 3814,
+     "sha256_12": "177e505663d8",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 131,
+     "file": "f131.webp",
+     "bytes": 3800,
+     "sha256_12": "6ee8b61873ae",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 132,
+     "file": "f132.webp",
+     "bytes": 3688,
+     "sha256_12": "3ec50ba7b2b1",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 133,
+     "file": "f133.webp",
+     "bytes": 3672,
+     "sha256_12": "044278a63462",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 134,
+     "file": "f134.webp",
+     "bytes": 3640,
+     "sha256_12": "17c31193faaf",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 135,
+     "file": "f135.webp",
+     "bytes": 3640,
+     "sha256_12": "5caec970f417",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 136,
+     "file": "f136.webp",
+     "bytes": 3690,
+     "sha256_12": "e7b54e74149e",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 137,
+     "file": "f137.webp",
+     "bytes": 3750,
+     "sha256_12": "33b9e7db1405",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 138,
+     "file": "f138.webp",
+     "bytes": 3898,
+     "sha256_12": "88641a61b4dd",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 139,
+     "file": "f139.webp",
+     "bytes": 3786,
+     "sha256_12": "9b7739bee69d",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 140,
+     "file": "f140.webp",
+     "bytes": 3604,
+     "sha256_12": "9dd21842395f",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 141,
+     "file": "f141.webp",
+     "bytes": 3210,
+     "sha256_12": "c215577329ae",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 142,
+     "file": "f142.webp",
+     "bytes": 3320,
+     "sha256_12": "cec1d9ffece9",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 143,
+     "file": "f143.webp",
+     "bytes": 3548,
+     "sha256_12": "4cd23bdc6f75",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 144,
+     "file": "f144.webp",
+     "bytes": 3884,
+     "sha256_12": "16eece0f2133",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 145,
+     "file": "f145.webp",
+     "bytes": 4192,
+     "sha256_12": "9fc850ba6678",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 146,
+     "file": "f146.webp",
+     "bytes": 3954,
+     "sha256_12": "b94c361a8201",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 147,
+     "file": "f147.webp",
+     "bytes": 3454,
+     "sha256_12": "bfce41e04800",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 148,
+     "file": "f148.webp",
+     "bytes": 3242,
+     "sha256_12": "ca15be34a514",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 149,
+     "file": "f149.webp",
+     "bytes": 3180,
+     "sha256_12": "518789e28c4e",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 150,
+     "file": "f150.webp",
+     "bytes": 3210,
+     "sha256_12": "d4f85052edb8",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 151,
+     "file": "f151.webp",
+     "bytes": 3204,
+     "sha256_12": "1090ff39e876",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 152,
+     "file": "f152.webp",
+     "bytes": 3228,
+     "sha256_12": "db6b57b82954",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 153,
+     "file": "f153.webp",
+     "bytes": 3212,
+     "sha256_12": "f558c823a93d",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 154,
+     "file": "f154.webp",
+     "bytes": 3172,
+     "sha256_12": "19255995c778",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 155,
+     "file": "f155.webp",
+     "bytes": 3192,
+     "sha256_12": "acfd61b5aac3",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 156,
+     "file": "f156.webp",
+     "bytes": 3244,
+     "sha256_12": "bee229ca9b3f",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 157,
+     "file": "f157.webp",
+     "bytes": 3190,
+     "sha256_12": "43314fb0f0ce",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 158,
+     "file": "f158.webp",
+     "bytes": 3194,
+     "sha256_12": "bf40c1c562d3",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 159,
+     "file": "f159.webp",
+     "bytes": 3224,
+     "sha256_12": "f5b804982a33",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 160,
+     "file": "f160.webp",
+     "bytes": 3240,
+     "sha256_12": "eb3bd0ce4f5f",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 161,
+     "file": "f161.webp",
+     "bytes": 3218,
+     "sha256_12": "9e581de3d420",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 162,
+     "file": "f162.webp",
+     "bytes": 3228,
+     "sha256_12": "1d60c1f94b8e",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 163,
+     "file": "f163.webp",
+     "bytes": 3188,
+     "sha256_12": "ebe547fa29fb",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 164,
+     "file": "f164.webp",
+     "bytes": 3234,
+     "sha256_12": "cb9c3748dcdb",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 165,
+     "file": "f165.webp",
+     "bytes": 3160,
+     "sha256_12": "9d32195aa47a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 166,
+     "file": "f166.webp",
+     "bytes": 3236,
+     "sha256_12": "c025ac54d1d0",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 167,
+     "file": "f167.webp",
+     "bytes": 3196,
+     "sha256_12": "37bfd92bc9eb",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 168,
+     "file": "f168.webp",
+     "bytes": 3188,
+     "sha256_12": "fb345712e1e8",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 169,
+     "file": "f169.webp",
+     "bytes": 3196,
+     "sha256_12": "b39e06b869d6",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 170,
+     "file": "f170.webp",
+     "bytes": 3186,
+     "sha256_12": "eb8e4bb45e5b",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 171,
+     "file": "f171.webp",
+     "bytes": 3208,
+     "sha256_12": "6ce0dc19fdbd",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 172,
+     "file": "f172.webp",
+     "bytes": 3232,
+     "sha256_12": "93ebaddaf653",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 173,
+     "file": "f173.webp",
+     "bytes": 3212,
+     "sha256_12": "abcb67c8fc38",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 174,
+     "file": "f174.webp",
+     "bytes": 3198,
+     "sha256_12": "ff62d47635a2",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 175,
+     "file": "f175.webp",
+     "bytes": 3164,
+     "sha256_12": "b4920210a22c",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 176,
+     "file": "f176.webp",
+     "bytes": 3144,
+     "sha256_12": "30a67b27ccf8",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 177,
+     "file": "f177.webp",
+     "bytes": 3112,
+     "sha256_12": "b026b2bc25b8",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 178,
+     "file": "f178.webp",
+     "bytes": 3166,
+     "sha256_12": "754c52869d1a",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 179,
+     "file": "f179.webp",
+     "bytes": 3172,
+     "sha256_12": "01a1fea8d114",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 180,
+     "file": "f180.webp",
+     "bytes": 3208,
+     "sha256_12": "4bc955592f0f",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 181,
+     "file": "f181.webp",
+     "bytes": 3240,
+     "sha256_12": "9c6c30b27fe9",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 182,
+     "file": "f182.webp",
+     "bytes": 3208,
+     "sha256_12": "f4fc6c91e7ed",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 183,
+     "file": "f183.webp",
+     "bytes": 3192,
+     "sha256_12": "2b5d3f914706",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 184,
+     "file": "f184.webp",
+     "bytes": 3210,
+     "sha256_12": "c6a4ce1697f0",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 185,
+     "file": "f185.webp",
+     "bytes": 3172,
+     "sha256_12": "432e8a786e8e",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 186,
+     "file": "f186.webp",
+     "bytes": 3194,
+     "sha256_12": "d4b5959dddfd",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 187,
+     "file": "f187.webp",
+     "bytes": 3176,
+     "sha256_12": "51ce6357b68c",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 188,
+     "file": "f188.webp",
+     "bytes": 3184,
+     "sha256_12": "15d6c30028f3",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 189,
+     "file": "f189.webp",
+     "bytes": 3158,
+     "sha256_12": "0ec67d1c3384",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 190,
+     "file": "f190.webp",
+     "bytes": 3134,
+     "sha256_12": "6b84408fa772",
+     "loop_rounds": 1
+    },
+    {
+     "frame": 191,
+     "file": "f191.webp",
+     "bytes": 3140,
+     "sha256_12": "1e39d08bbab2",
+     "loop_rounds": 1
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,31 @@
+:root { --page:#f4f1e9; --shell:#fff8d5; --soft:#f4eee2; --ink:#252321; --rose:#eda0bd; --blue:#56a8e8; --orange:#f28b28; }
+* { box-sizing:border-box; }
+body { margin:0; min-width:0; background:var(--page); color:var(--ink); font-family:"Elms Sans", system-ui, sans-serif; }
+button { font:inherit; color:inherit; }
+.game-shell { width:min(100%, 560px); margin:0 auto; padding:clamp(16px, 4vw, 32px) clamp(14px, 4vw, 28px) 32px; }
+.game-head { display:flex; align-items:baseline; justify-content:space-between; gap:16px; }
+.logo { display:block; width:clamp(132px, 31vw, 186px); height:auto; }
+.game-head p:last-child { margin:0; font-size:12px; font-weight:800; letter-spacing:.1em; font-variant-numeric:tabular-nums; }
+h1 { margin:8px 0 18px; font-family:"Young Serif", Georgia, serif; font-size:clamp(22px, 5vw, 30px); font-weight:400; letter-spacing:-.04em; }
+.handheld { padding:clamp(12px, 3.5vw, 22px); border:2px solid var(--ink); border-radius:28px; background:var(--shell); box-shadow:5px 6px 0 rgba(37,35,33,.16); }
+.screen { overflow:hidden; border:2px solid var(--ink); border-radius:15px; background:var(--blue); aspect-ratio:16 / 9; }
+canvas { display:block; width:100%; height:100%; touch-action:manipulation; image-rendering:pixelated; }
+.keys { display:grid; grid-template-columns:1fr 1.25fr 1fr; gap:8px; align-items:center; padding-top:14px; }
+.keys button { min-height:48px; border:0; border-radius:999px; background:var(--soft); font-size:12px; font-weight:800; letter-spacing:.035em; cursor:pointer; transition:transform .6s cubic-bezier(.34,1.56,.64,1), background-color .6s cubic-bezier(.625,.05,0,1), color .6s cubic-bezier(.625,.05,0,1); }
+.keys button:hover, .keys button:focus-visible { background:#000; color:#fff; }
+.keys button:active { transform:scale(.94); }
+.keys button:disabled, .keypad button:disabled { opacity:.45; cursor:not-allowed; transform:none; }
+.keys .play { background:linear-gradient(135deg, #f28b28 0%, #f6a64f 100%); color:var(--ink); font-family:"Young Serif", Georgia, serif; font-weight:400; } /* Günter's explicit PLAY order on this game. */
+.pause-row { display:flex; justify-content:center; padding-top:8px; }
+.pause-row button { min-height:48px; padding-inline:22px; border:0; border-radius:999px; background:var(--soft); color:var(--ink); font:800 12px/1 "Elms Sans", system-ui, sans-serif; letter-spacing:.035em; cursor:pointer; transition:transform .6s cubic-bezier(.34,1.56,.64,1), background-color .6s cubic-bezier(.625,.05,0,1), color .6s cubic-bezier(.625,.05,0,1); }
+.pause-row button:hover, .pause-row button:focus-visible { background:#000; color:#fff; }
+.pause-row button:active { transform:scale(.94); }
+.keypad { grid-template-columns:repeat(5, 48px); justify-content:center; gap:7px; padding-top:12px; }
+.keypad:not([hidden]) { display:grid; }
+.keypad button { width:48px; min-height:48px; border:0; border-radius:999px; background:var(--soft); color:var(--ink); font:700 16px/1 "Elms Sans", system-ui, sans-serif; cursor:pointer; transition:transform .6s cubic-bezier(.34,1.56,.64,1), background-color .6s cubic-bezier(.625,.05,0,1), color .6s cubic-bezier(.625,.05,0,1); }
+.keypad button:hover, .keypad button:focus-visible { background:#000; color:#fff; }
+.keypad button:active { transform:scale(.94); }
+.status { min-height:3em; margin:18px 2px 8px; line-height:1.45; font-size:16px; }
+.small-note { margin:0 2px; color:#615c54; font-size:12px; line-height:1.5; }
+@media (max-width:390px) { .game-shell { padding-inline:12px; } .handheld { border-radius:22px; padding:10px; } .keys { gap:6px; padding-top:10px; } .keys button { min-height:48px; font-size:11px; } .keypad { gap:5px; } }
+@media (prefers-reduced-motion:reduce) { *, *::before, *::after { scroll-behavior:auto !important; transition:none !important; animation:none !important; } }

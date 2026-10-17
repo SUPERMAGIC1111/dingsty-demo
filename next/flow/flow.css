@@ -220,3 +220,63 @@ button:focus-visible,#flow-back:focus-visible,#flow-again:focus-visible,#flow-st
   /* round 17 (C): the 288 px card wraps the alert title to three lines; the character gives up height so the copy stays inside the 300 px card */
   .flow-scene[data-state="alert"] #dingsty{height:min(64vw,300px,46cqh)}
 }
+
+/* ROUND 22 (Günter, 2026-10-17): the segmented controls are a soft grey track with ONE WHITE pill that springs between the options
+   (0.6 s, the measured Osmo curve); yellow only for ONE primary action per screen; neutral soft pills for Stopp, Mehr, Ton, Nein,
+   the demo offer and the link; the arrow is an inline SVG; typography and card spacing follow the Paket Brief (go-live) where the locks allow. */
+:root{--track:#e9e5dc;--pill-white:#fff;--ease-osmo:cubic-bezier(.625,.05,0,1);
+  --pill-font:600 .95rem/1.2 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+/* Zuschauen / Spielen: soft grey track, one white selected pill, selected ink, unselected quieter ink, hover darkens the label */
+.flow-tabs{background:var(--track)!important;border-radius:999px}
+.flow-tabs .blob{background:var(--pill-white)!important;box-shadow:0 1px 2px rgba(31,29,26,.10),0 2px 8px rgba(31,29,26,.07);transition:transform .6s var(--ease-osmo),width .6s var(--ease-osmo),opacity .3s linear}
+.flow-tabs button{background:transparent!important;color:var(--mute,#6b665f)!important;box-shadow:none!important}
+.flow-tabs button[aria-pressed="true"]{color:var(--ink,#33332f)!important}
+.flow-tabs button:hover{color:var(--ink,#33332f)!important}
+.flow-tabs button:focus-visible{background:#000!important;color:#fff!important}
+@media (prefers-reduced-motion:reduce){.flow-tabs .blob{transition:none!important}}
+/* the language track in the Mehr popover: the same track and white pill */
+.seg{position:relative;display:inline-flex;align-items:center;background:var(--track);border-radius:999px;padding:0;flex:none}
+.seg .blob{position:absolute;z-index:0;top:3px;left:0;height:calc(100% - 6px);background:var(--pill-white);border-radius:999px;box-shadow:0 1px 2px rgba(31,29,26,.10),0 2px 8px rgba(31,29,26,.07);pointer-events:none;transition:transform .6s var(--ease-osmo),width .6s var(--ease-osmo)}
+.seg button{position:relative;z-index:1;height:42px;min-height:42px;padding:0 12px;border:0;border-radius:999px;background:transparent;color:var(--mute,#6b665f);font:600 .88rem/1 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;box-shadow:none;cursor:pointer}
+.seg button[aria-pressed="true"]{color:var(--ink,#33332f)}
+.seg button:hover{color:var(--ink,#33332f)}
+.seg button:focus-visible{background:#000;color:#fff;outline:none}
+@media (prefers-reduced-motion:reduce){.seg .blob{transition:none}}
+/* YELLOW ONLY for one primary per screen: Ich bin da / Starten (flow), Ja (alert), Nochmal (done), Starten (launch) */
+#notice-demo:not(:focus-visible),#copy-link:not(:focus-visible){background:var(--soft,#f4eee2)!important;background-color:var(--soft,#f4eee2)!important;color:var(--ink,#33332f)!important}
+#notice-demo:hover,#copy-link:hover{background:#000!important;color:#fff!important}
+/* primaries use Young Serif (the lock's primary face); pills keep the 48 px token */
+#flow-here,#flow-start,#gotit,#flow-again,.launch .go,button.go{font-family:"Young Serif",Georgia,"Times New Roman",serif;font-weight:400;font-size:.95rem}
+/* the arrow: an inline SVG with its own space (replaces the text glyph that touched "da") */
+button svg.arrow{display:inline-block;width:14px;height:14px;margin-left:6px;vertical-align:middle;flex:none;color:currentColor;overflow:visible}
+/* card: flat, the Brief's card shadow */
+.flow-scene{box-shadow:0 1px 2px rgba(31,29,26,.06)}
+/* typography: the Brief's caption and label sizes (muted caption, medium labels) */
+#flow-caption{font:400 .9rem/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--mute,#6b665f)}
+.menu-row{font:500 .88rem/1.3 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#3b3833}
+
+/* ROUND 23 (Günter, 2026-10-17): the segmented toggles never fill black. Hover = the label darkens only; keyboard focus = a clear ink
+   ring around the option; the WHITE pill is the only fill and slides on selection. The black rollover stays for ordinary pills.
+   Mehr is an outlined pill (1.5 px ink, transparent). The status tag is outlined (no yellow fill). Yellow: ONE primary per screen. */
+.flow-tabs button:hover,.flow-tabs button:focus,.flow-tabs button:active,.flow-tabs button:focus-visible,
+.seg button:hover,.seg button:focus,.seg button:active,.seg button:focus-visible{background:transparent!important;background-color:transparent!important;color:var(--mute,#6b665f)!important}
+.flow-tabs button[aria-pressed="true"],.flow-tabs button[aria-pressed="true"]:hover,.flow-tabs button[aria-pressed="true"]:focus-visible,
+.seg button[aria-pressed="true"],.seg button[aria-pressed="true"]:hover,.seg button[aria-pressed="true"]:focus-visible{color:var(--ink,#33332f)!important}
+.flow-tabs button:hover:not([aria-pressed="true"]),.seg button:hover:not([aria-pressed="true"]){color:var(--ink,#33332f)!important}
+.flow-tabs button:focus-visible,.seg button:focus-visible{outline:none!important;box-shadow:inset 0 0 0 2px var(--ink,#33332f)!important;border-radius:999px}
+.flow-tabs button{box-shadow:none}
+/* the white pill slides only on selection; hover moves nothing */
+.flow-tabs .blob,.seg .blob{transition:transform .6s var(--ease-osmo),width .6s var(--ease-osmo)!important}
+@media (prefers-reduced-motion:reduce){.flow-tabs .blob,.seg .blob{transition:none!important}}
+/* Mehr: transparent, thin ink outline (1.5 px), label ink; hover and focus = the lock's black fill with white text */
+#more>summary{background:transparent!important;background-color:transparent!important;border:1.5px solid var(--ink,#33332f)!important;color:var(--ink,#33332f)!important;border-radius:999px}
+#more>summary:hover,#more>summary:focus-visible,#more[open]>summary{background:#000!important;background-color:#000!important;color:#fff!important}
+#more[open]>summary{background:transparent!important;background-color:transparent!important;color:var(--ink,#33332f)!important}
+#more[open]>summary:hover{background:#000!important;color:#fff!important}
+/* the status tag: outlined in ink, no yellow fill (yellow stays for ONE primary per screen) */
+.brandline b{background:transparent!important;background-color:transparent!important;border:1.5px solid var(--ink,#33332f);color:var(--ink,#33332f)!important;padding:2px 9px!important}
+/* Osmo slide (Günter, 2026-10-17): the label colour cross-fades with the pill on the same 0.6 s curve; press = a tiny scale .98;
+   hover moves nothing; reduced motion = instant. The site's measured motion is 0.6 s cubic-bezier(0.625, 0.05, 0, 1) (transform, colour, opacity). */
+.flow-tabs button,.seg button{transition:color .6s var(--ease-osmo),transform .15s var(--ease-osmo)!important}
+.flow-tabs button:active,.seg button:active{transform:scale(.98)!important}
+@media (prefers-reduced-motion:reduce){.flow-tabs button,.seg button{transition:none!important}.flow-tabs button:active,.seg button:active{transform:none!important}}

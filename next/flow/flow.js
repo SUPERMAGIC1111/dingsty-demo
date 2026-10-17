@@ -728,6 +728,7 @@
   backBtn.addEventListener('click', back);
   if (demoEl) demoEl.textContent = T.demo;
   hereBtn.textContent = T.here;
+  if (window.addArrow) window.addArrow(hereBtn); // round 22: the inline SVG arrow (index.html)
   hereBtn.addEventListener('click', function () { human('button'); });
 
   // round 12 (R11-05): the game frame does not request buddy-fonts.css again. The page's sheet is already loaded, so its rules are
@@ -799,10 +800,12 @@
   }
   if (missionFrame) { missionFrame.addEventListener('load', shareFonts); shareFonts(); }
   startBtn.textContent = T.start;
+  if (window.addArrow) window.addArrow(startBtn);
   startBtn.addEventListener('click', function () {
     try { window.dispatchEvent(new CustomEvent('dingsty:start')); } catch (e) { /* old browser: no restart */ }
   });
   noticeDemo.textContent = T.launchDemo;
+  if (window.addArrow) window.addArrow(noticeDemo);
   noticeDemo.addEventListener('click', function () {
     try { window.dispatchEvent(new CustomEvent('dingsty:demo')); } catch (e) { /* old browser: no demo */ }
   });

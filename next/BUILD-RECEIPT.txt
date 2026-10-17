@@ -1,20 +1,20 @@
 DINGSTY COMBINED 1017 BUILD RECEIPT
-build: c5d168dbb
-generated: 2026-10-17 17:04:29 CEST
+build: cb2a67cf7
+generated: 2026-10-17 17:55:06 CEST
 status: CANDIDATE. NOT FINAL. NOT READY. The builder does not vote on this build.
 
 SOURCES (read-only originals, full sha256)
-b8d466a3c2f3f69b6061b281eb77109f31e893c1c2ba391bc5a30de67e8230bb  interface index.html  (/Users/campell/aigotya-hq/work/dingsty-demo-1017/hold-buddy/index.html)
-9065f1f0ec3e3fee9f4d8ade6a99dd431b2c5cc1240381bad8adeab1a149d738  interface flow/flow.js  (/Users/campell/aigotya-hq/work/dingsty-demo-1017/hold-buddy/flow/flow.js)
+b889f514c67e76252310f3117e3a6ac0fb7f8d35d45c0f3d9f1b6db5a556555f  interface index.html  (/Users/campell/aigotya-hq/work/dingsty-demo-1017/hold-buddy/index.html)
+6672ee23e2d352d19f1888e8337ab93d54d5387a0dda88648d5aa24d06eec2ae  interface flow/flow.js  (/Users/campell/aigotya-hq/work/dingsty-demo-1017/hold-buddy/flow/flow.js)
 07b16e2f0753c8d674fe7ec210d2b9c928ff82eb6cbb748437b989051acb27ce  game index.html  (/Users/campell/aigotya-hq/work/dingsty-loop-game-1017/index.html)
 9ea5a3c039af804f4995fd0c36bea6e2cd06784f8fbb385069b8f735ea982e5f  combined glue (tools/glue)  (/Users/campell/aigotya-hq/work/dingsty-combined-1017-tools/glue/combined-glue.js)
 e7b1482e206996f895940117ab37ac23b44c5b6f2cbb2d7759355d5c9e78ce80  assembler (tools)  (/Users/campell/aigotya-hq/work/dingsty-combined-1017-tools/assemble.py)
-ALL SOURCE FILES digest (sha256 of every source row the tag is derived from): 5d168dbb72836edeeaa9d209b61f48470621199cb97e5c68e6985dbdc81dc0cd
+ALL SOURCE FILES digest (sha256 of every source row the tag is derived from): b2a67cf7e030c16ea09543b9dc95071d4c286872ee89ba3d65e177a6c2422f64
 
 PATCHES (combined-only, anchor-checked, reproducible from tools/assemble.py)
-index.html: cache tags r15b and flow.js/flow.css -> c5d168dbb (mission src included)
+index.html: cache tags r15b and flow.js/flow.css -> cb2a67cf7 (mission src included)
 flow/flow.js: P1 game:begin in the game case; P2 game:stop in done(); P3 game:stop in back() (replaces game:resume)
-mission/index.html: M1 inline runtime mount replaced by combined-glue.js (the glue mounts); M2..M5 cache tags c5d168dbb
+mission/index.html: M1 inline runtime mount replaced by combined-glue.js (the glue mounts); M2..M5 cache tags cb2a67cf7
 glue: mission/combined-glue.js is copied from tools/glue/combined-glue.js
 
 EXCLUDED FROM THE COPY (not served)
@@ -220,8 +220,8 @@ aa38d87b32dff12487e275abdbbe78ae0ac3ced7a178dd6214cb5b883eac8002  flow/burst-v2/
 dcbf2249be10eb3b2d881071d36cc136a906df949ef09b5b4f4cd8ce46622e29  flow/burst-v2/f189.webp  dcbf2249be10
 b42952ae87bb2b08dcce41b8c47ce07abc0b3744c7ca0461ffc49fe0d32f1c28  flow/burst-v2/f190.webp  b42952ae87bb
 8b2044d2e0c5c5e0ec03c97aa243f244d19cd3e7e80185b1c64fc0a2209f0c37  flow/burst-v2/f191.webp  8b2044d2e0c5
-1c9606a794f9d66caa319fa35c867281a41ddd3750a08960ae705235847204f9  flow/flow.css  1c9606a794f9
-89c7ff0b1185ce3d9ff495fa2d105633f77152055efe342fbbed19ab9c0b2680  flow/flow.js  89c7ff0b1185
+dfef1e17b0883ae534da1e94fd50af1e6b50fec55fe19f3ed04081225099ef72  flow/flow.css  dfef1e17b088
+3f02e07d52c68bba6da49f4db353b4b6f52afa7034ce29ab2e7fe0e2b8202ad6  flow/flow.js  3f02e07d52c6
 54c906bed13f7be44da4f75be0b813521cf225e393909e8cd2d7938533b502f9  flow/manifest-r18.json  54c906bed13f
 ed9f015b371469dc4a7ec69f4fefa8766e425a7e454b5b71d88d45f626ad799e  flow/vanish-v2/f000.webp  ed9f015b3714
 ab50d561791c34a44298ad55f371d530818e07ee7335e02ecac7bf669c4e97c7  flow/vanish-v2/f001.webp  ab50d561791c
@@ -415,7 +415,7 @@ d4b5959dddfd82b4c90cfc12f882407cd347f55d4adc05b78e24e9b6621cde05  flow/vanish-v2
 0ec67d1c338471180e7be636dcf5145aab0d5b5d4b93a783e78345275a3693b6  flow/vanish-v2/f189.webp  0ec67d1c3384
 6b84408fa772423314c4fc7082822010f66b8a44f6c8c324e5458ad3f5c4735e  flow/vanish-v2/f190.webp  6b84408fa772
 1e39d08bbab20711321468addde19c2a345ee5bf0d9ac89082d58cea1fbb121c  flow/vanish-v2/f191.webp  1e39d08bbab2
-be4124f51b843e4a466baaa00a064cd740e481636b6bd00e847f98dc98020b72  index.html  be4124f51b84
+524b522ea43eb843d45a72a67b2be21f04733efbd2287a815b5615e75e666de7  index.html  524b522ea43e
 0560e02027633c886fc7d1c55e0a9015f8de2b36ea0eb2ec2c6fbb6742f9b2d8  mission/assets/buddy-fonts.css  0560e0202763
 d144d47bf7cd18b825d0d37b6463449d7f18e6d7955f1a717fcfa587c598d8ac  mission/assets/dingsty-paket-logo-4.png  d144d47bf7cd
 255b50a15648ff4332457aef47a3f85d67c56e46421f1b102929c369924210da  mission/assets/jump-sheet.png  255b50a15648
@@ -424,9 +424,9 @@ b3b0ba4b98ac0638b077c29efc52880162044050c65596fd83f46da8190b3fad  mission/assets
 0560e02027633c886fc7d1c55e0a9015f8de2b36ea0eb2ec2c6fbb6742f9b2d8  mission/buddy-fonts.css  0560e0202763
 9ea5a3c039af804f4995fd0c36bea6e2cd06784f8fbb385069b8f735ea982e5f  mission/combined-glue.js  9ea5a3c039af
 052ce26fd60bac301f0e3322a064f28333fd16f226653d25ad20d1ac573389b1  mission/game.js  052ce26fd60b
-f35964f04f3b5aa49ea95682dfb973da25c74b34110ef79052c482ee54fc9705  mission/index.html  f35964f04f3b
-a3c9272ef9cd915b0b0a29f572b6d2611923d051bcc30c297d1aadc560b317ed  mission/render.js  a3c9272ef9cd
-05ecacc1d8c3394d57f9261bed51ae177f3988a144bb09b70716f3c3c5903b03  mission/runtime.js  05ecacc1d8c3
+cdee908203de93019fe5f9a20ec555da1053c22d31c5e80111bc29a30b4f43a5  mission/index.html  cdee908203de
+ea40004fafd6331740a5d64cb130bedef5ff9aadbe322332caa2f4ea87d131bd  mission/render.js  ea40004fafd6
+9147721f5a6b6e933aeef159af4bab7ced6d6f8a542af413842a9ee21b47cd53  mission/runtime.js  9147721f5a6b
 9923f9a15074941e97f3597bf54740534b6ce9b4d98ffa57f72a6e820102b18e  mission/style.css  9923f9a15074
 
-COMBINED MANIFEST sha256 of the sorted "sha256  path" list: 4ca85e305964ab01c5694d84bf7ea734408949483096e5fac26456eb887bd8e2 (first 12: 4ca85e305964)
+COMBINED MANIFEST sha256 of the sorted "sha256  path" list: c05c2d8c5ac611a344b44214f94da539a0fa16419bf6b34e473ff2ffcedf3557 (first 12: c05c2d8c5ac6)

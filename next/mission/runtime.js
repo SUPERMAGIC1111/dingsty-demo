@@ -11,8 +11,8 @@
     const $ = deps.$ || (s => doc.querySelector(s)), state = deps.state || Logic.make(1017);
     const renderer = deps.renderer || win.DingstyLoopRender.makeRenderer($('#game'));
     const lang = (doc.documentElement && doc.documentElement.lang || 'de').slice(0, 2);
-    const text = { de: { gate: 'WÄHLE 0800', paused: 'PAUSE · PLAY zum Weiter', gag: 'DU BIST DRAN', over: 'RUNDE VORBEI', idle: 'PLAY startet die Runde.', running: 'Runde läuft.', hit: 'Seitlich erwischt. Noch ein Versuch.', rearm: 'Ziffer kommt wieder.', wrong: 'Falsche Reihenfolge. Noch einmal.', open: 'Tor offen. Weiter zur nächsten Szene.', loop: 'Zurück zu Szene 1.', stomp: 'Papp-Bot platt.', pickup: 'Token eingesammelt.' }, en: { gate: 'DIAL 0800', paused: 'PAUSED · PLAY to continue', gag: 'YOU ARE NEXT', over: 'GAME OVER', idle: 'PLAY starts the loop.', running: 'Loop running.', hit: 'Side hit. Try again.', rearm: 'Digit returns.', wrong: 'Wrong order. Try again.', open: 'Gate open. Next scene.', loop: 'Back to scene 1.', stomp: 'Bot squashed.', pickup: 'Token collected.' }, es: { gate: 'MARCA 0800', paused: 'PAUSA · PLAY para continuar', gag: 'ERES EL SIGUIENTE', over: 'FIN DEL JUEGO', idle: 'PLAY inicia el bucle.', running: 'Bucle en marcha.', hit: 'Golpe lateral. Inténtalo de nuevo.', rearm: 'El dígito vuelve.', wrong: 'Orden incorrecto. Inténtalo de nuevo.', open: 'Puerta abierta. Siguiente escena.', loop: 'Vuelta a la escena 1.', stomp: 'Bot aplastado.', pickup: 'Ficha recogida.' } };
-    const copy = deps.copy || text[lang] || text.de;
+    const text = COPY;
+    const copy = Object.assign({}, text.de, text[lang] || text.de, deps.copy || {});
     const el = { game: $('#game'), play: $('#play'), pause: $('#pause'), jump: $('#jump'), sound: $('#sound'), keypad: $('#keypad'), status: $('#status'), scene: $('#scene-label') };
     const FRAME_CATCHUP_SECONDS = 1, MAX_STEPS_PER_FRAME = 120, FIXED_STEP = Logic.constants.FIXED_STEP;
     let raf = 0, last = 0, accumulator = 0, stopped = false, soundOn = false, audio = null;
@@ -44,5 +44,6 @@
     resize();
     return { version: 6, start, freeze, resume, stop, setMode: mode => { Logic.setMode(state, mode); draw(); }, getState: () => Logic.snapshot(state), events: ['game:start', 'game:freeze', 'game:resume', 'game:stop', 'game:mode'] };
   }
-  return { mount };
+  const COPY = { de: { gate: 'WÄHLE 0800', frozen: 'Moment, da ist wer.', paused: 'PAUSE · PLAY zum Weiter', gag: 'DU BIST DRAN', over: 'RUNDE VORBEI', idle: 'PLAY startet die Runde.', running: 'Runde läuft.', hit: 'Seitlich erwischt. Noch ein Versuch.', rearm: 'Ziffer kommt wieder.', wrong: 'Falsche Reihenfolge. Noch einmal.', open: 'Tor offen. Weiter zur nächsten Szene.', loop: 'Zurück zu Szene 1.', stomp: 'Papp-Bot platt.', pickup: 'Token eingesammelt.' }, en: { gate: 'DIAL 0800', frozen: 'Hold on, someone is there.', paused: 'PAUSED · PLAY to continue', gag: 'YOU ARE NEXT', over: 'GAME OVER', idle: 'PLAY starts the loop.', running: 'Loop running.', hit: 'Side hit. Try again.', rearm: 'Digit returns.', wrong: 'Wrong order. Try again.', open: 'Gate open. Next scene.', loop: 'Back to scene 1.', stomp: 'Bot squashed.', pickup: 'Token collected.' }, es: { gate: 'MARCA 0800', frozen: 'Un momento, hay alguien.', paused: 'PAUSA · PLAY para continuar', gag: 'ERES EL SIGUIENTE', over: 'FIN DEL JUEGO', idle: 'PLAY inicia el bucle.', running: 'Bucle en marcha.', hit: 'Golpe lateral. Inténtalo de nuevo.', rearm: 'El dígito vuelve.', wrong: 'Orden incorrecto. Inténtalo de nuevo.', open: 'Puerta abierta. Siguiente escena.', loop: 'Vuelta a la escena 1.', stomp: 'Bot aplastado.', pickup: 'Ficha recogida.' } };
+  return { mount, copy: COPY };
 });

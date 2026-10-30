@@ -80,6 +80,15 @@ test('phone demo visibly declares that it never places a real call', () => {
   assert.match(phone, /kein echter Anruf, keine Nummer, kein Mikrofon/);
 });
 
+test('legacy microphone experiments immediately route to the approved simulated phone preview', () => {
+  for (const legacy of ['hold-buddy/index.html', 'next/index.html']) {
+    const source = read(legacy);
+    assert.match(source, /http-equiv="refresh" content="0; url=\.\.\/anruf\/index\.html\?demo=1"/);
+    assert.match(source, /location\.replace\('\.\.\/anruf\/index\.html\?demo=1'/);
+    assert.ok(source.indexOf("location.replace('../anruf/index.html?demo=1'") < source.indexOf('getUserMedia'), `${legacy} redirects before legacy microphone code`);
+  }
+});
+
 test('real five-step Brief and existing game remain linked in the waiting demo', () => {
   assert.match(brief, /5\/5/);
   assert.match(phone, /id="mission-frame"/);

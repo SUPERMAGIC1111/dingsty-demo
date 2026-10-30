@@ -1,0 +1,17 @@
+/* UX round 1: result line on each choice card, plus a not-sure hint. Colours and fonts come from the existing shared styles. */
+.choice-meta {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  opacity: 0.85;
+}
+.hint {
+  margin: 14px 4px 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  opacity: 0.85;
+}
+@media (prefers-reduced-motion: reduce) {
+  .choice-meta, .hint { transition: none; }
+}

@@ -1,0 +1,40 @@
+/* Dingsty Paket all-in-one: shared shell (top bar, pills, segmented control, legal pages).
+   Every class is prefixed dx- so the copied parts (brief, anruf) keep their own CSS. */
+:root{--dx-bg:#f4f2ed;--dx-card:#fffdf8;--dx-soft:#f4eee2;--dx-track:#e6e2d9;--dx-ink:#33332f;--dx-mute:#6b6a64;--dx-yellow:#fff35e;--dx-hot:#c82773;--dx-smooth:cubic-bezier(.625,.05,0,1);--dx-bounce:cubic-bezier(.34,1.56,.64,1)}
+
+/* Top bar: one place on every step, a way back to the landing */
+.dx-tb{position:fixed;top:0;left:0;right:auto;width:100%;max-width:100%;z-index:60;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 16px;background:var(--dx-bg);font-family:Geist,ui-sans-serif,system-ui,sans-serif;color:var(--dx-ink);box-sizing:border-box;min-height:64px}
+.dx-has-bar{padding-top:72px !important}
+.dx-tb{flex-wrap:wrap;row-gap:6px}
+@media (max-width:420px){.dx-tb .dx-pill{padding:0 14px}.dx-badge{font-size:11px;padding:0 10px}.dx-wm{font-size:18px}}
+.dx-wm{font:700 20.8px/1 Poppins,ui-sans-serif,system-ui,sans-serif;letter-spacing:-.03em;color:var(--dx-ink);text-decoration:none;white-space:nowrap}
+.dx-sl{color:var(--dx-yellow);font-weight:800;margin-left:2px}
+.dx-tb-r{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+
+/* Pills: 48 px high, soft fill, black on rollover and focus (components lock) */
+.dx-pill{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;min-width:48px;padding:0 22px;border:0;border-radius:999px;background:var(--dx-soft);color:var(--dx-ink);font:inherit;font-size:16px;font-weight:600;text-decoration:none;cursor:pointer;transition:background-color .6s var(--dx-smooth),color .6s var(--dx-smooth),transform .6s var(--dx-bounce)}
+.dx-pill:hover,.dx-pill:focus-visible{background:#000;color:#fff}
+.dx-pill:active{transform:scale(.94)}
+.dx-pill[aria-disabled="true"]{opacity:.55;pointer-events:none}
+.dx-pill.dx-on{background:var(--dx-ink);color:#fff}
+/* Yellow is reserved for ONE primary action per screen (amended lock, 2026-10-17) */
+.dx-primary{background:var(--dx-yellow);font-weight:700}
+.dx-primary:hover,.dx-primary:focus-visible{background:#000;color:#fff}
+.dx-badge{display:inline-flex;align-items:center;min-height:32px;padding:0 12px;border-radius:999px;background:var(--dx-soft);color:var(--dx-mute);font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;white-space:nowrap}
+
+/* Segmented control, Osmo toggle-switch look: grey track, ONE white selected pill that springs */
+.dx-seg{position:relative;display:inline-grid;grid-template-columns:repeat(3,minmax(52px,1fr));padding:6px;border-radius:999px;background:var(--dx-track)}
+.dx-seg-thumb{position:absolute;top:6px;bottom:6px;left:6px;width:calc((100% - 12px) / 3);border-radius:999px;background:#fff;box-shadow:0 1px 2px rgba(0,0,0,.06),0 2px 8px rgba(0,0,0,.06);transition:transform .6s var(--dx-smooth)}
+.dx-seg button{position:relative;z-index:1;min-height:44px;padding:0 14px;border:0;border-radius:999px;background:transparent;color:var(--dx-mute);font:inherit;font-size:14px;font-weight:400;cursor:pointer;transition:color .6s var(--dx-smooth),background-color .6s var(--dx-smooth)}
+.dx-seg button[aria-checked="true"]{color:var(--dx-ink)}
+.dx-seg button:hover{color:var(--dx-ink)}
+.dx-seg button:focus-visible{background:#000;color:#fff;border-radius:999px}
+
+/* Legal drafts */
+.dx-legal{max-width:680px;margin:0 auto;padding:20px 16px 56px;font-family:Geist,ui-sans-serif,system-ui,sans-serif;color:var(--dx-ink);background:var(--dx-bg);min-height:100vh;box-sizing:border-box}
+.dx-legal h1{font-family:"Young Serif",Georgia,serif;font-weight:400;font-size:34px;line-height:1.1;margin:16px 0 8px}
+.dx-legal h2{font-size:18px;margin:26px 0 6px}
+.dx-legal p,.dx-legal li{font-size:16px;line-height:1.55}
+.dx-draft{background:var(--dx-card);border-radius:20px;padding:18px 20px;margin:16px 0}
+.dx-draft strong{font-weight:700}
+.dx-legal-nav{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}

@@ -1,0 +1,2098 @@
+{
+ "build_tag": "e4a93f81d",
+ "files": [
+  {
+   "path": "anruf/BUILD-RECEIPT.txt",
+   "sha256": "64ba0694ff95829f09fadd54ee19642b6734b15ca5ee4daf4f20698f0485f7e9",
+   "bytes": 44179
+  },
+  {
+   "path": "anruf/LICENSE",
+   "sha256": "b4e4df821fd4a4534167906439ea104a54e79417f0e63fe3a8db3c6d8fc706db",
+   "bytes": 1064
+  },
+  {
+   "path": "anruf/analyzer.js",
+   "sha256": "d651b9f9354f336c031816e4122fa3796e908a12b0f64b1c5c0cc2d1d0cc0720",
+   "bytes": 4422
+  },
+  {
+   "path": "anruf/anruf-glue.js",
+   "sha256": "b10dfc3c758c27283e8cf117818225bcbc8cc5474ba8d5181882aa8a45c8a589",
+   "bytes": 1045
+  },
+  {
+   "path": "anruf/flow/burst-v2/f000.webp",
+   "sha256": "1ad6d5bf63fe01d8d8dd84f8b682a2ef8a928ea575685cb844720426676bed29",
+   "bytes": 10128
+  },
+  {
+   "path": "anruf/flow/burst-v2/f001.webp",
+   "sha256": "3dfe1d860f3332d3dfcb2c7c10b08233e028b661198891b72ed6bf07689d04f1",
+   "bytes": 10140
+  },
+  {
+   "path": "anruf/flow/burst-v2/f002.webp",
+   "sha256": "44dd95d021b75373bc5b2b679452ddc5ae9cd0e873d3df3b47f034e0d85fc1b4",
+   "bytes": 10166
+  },
+  {
+   "path": "anruf/flow/burst-v2/f003.webp",
+   "sha256": "6a4a44628d41daa91ce7fb769b6d64145f585f2862bee64ad3ecbdef68e143cf",
+   "bytes": 10092
+  },
+  {
+   "path": "anruf/flow/burst-v2/f004.webp",
+   "sha256": "12375ec94183ab139236024c374cd5976fdaf5877213ad9c8009b9cbe32d9895",
+   "bytes": 9898
+  },
+  {
+   "path": "anruf/flow/burst-v2/f005.webp",
+   "sha256": "f6db82bf50426f2fba632a1f2842d7af4660c211111c8ff8824a0979c41de5ac",
+   "bytes": 9762
+  },
+  {
+   "path": "anruf/flow/burst-v2/f006.webp",
+   "sha256": "ea9bea54880e90e0ec29170b234c54b43271b9bb9b9987ba52c77007e91cb497",
+   "bytes": 9564
+  },
+  {
+   "path": "anruf/flow/burst-v2/f007.webp",
+   "sha256": "7eb90857ae8a90b53902730c7bcc516da271207ee053979f32475ac0cb9de311",
+   "bytes": 9586
+  },
+  {
+   "path": "anruf/flow/burst-v2/f008.webp",
+   "sha256": "96b6707651f8fe2d4d07d309ec0e3efd30ef27b908bc642c8b305f21ba50ef9a",
+   "bytes": 9458
+  },
+  {
+   "path": "anruf/flow/burst-v2/f009.webp",
+   "sha256": "dd0a496a186027b8a38088b2610794c13c5f74823aafb9bfbaa6a93260b2bdd5",
+   "bytes": 9488
+  },
+  {
+   "path": "anruf/flow/burst-v2/f010.webp",
+   "sha256": "e3125d94ace9a19295ef7a178bd3dcd51d7918d7b5de5f61f1ba9d0297c38bc5",
+   "bytes": 9638
+  },
+  {
+   "path": "anruf/flow/burst-v2/f011.webp",
+   "sha256": "23cd558aa318ffde093330e76115711e1e5c51f10c4280a91e510b29a52fd106",
+   "bytes": 9782
+  },
+  {
+   "path": "anruf/flow/burst-v2/f012.webp",
+   "sha256": "ec0ac3e0a6f77c4d51497805cf5ba35bb310fe65ee2209c46f9a978427bb0f2e",
+   "bytes": 9756
+  },
+  {
+   "path": "anruf/flow/burst-v2/f013.webp",
+   "sha256": "aca7493dbdfa411553fc0920277faefc70b6bb16d348c997e84bbc20a56dd76a",
+   "bytes": 9846
+  },
+  {
+   "path": "anruf/flow/burst-v2/f014.webp",
+   "sha256": "71588c6b905da89c0799e2753c8ff48b4a6c32b5e76a4e1e29591253b50d9fa7",
+   "bytes": 9940
+  },
+  {
+   "path": "anruf/flow/burst-v2/f015.webp",
+   "sha256": "a0857f71ab848cbd51143017212c11968fd3ed305e460f28a3212e26c7a0fe97",
+   "bytes": 9900
+  },
+  {
+   "path": "anruf/flow/burst-v2/f016.webp",
+   "sha256": "eba9d029393650c41a6159d378cc2e9cf9f978925e233857f742f95d0f7cbb00",
+   "bytes": 10002
+  },
+  {
+   "path": "anruf/flow/burst-v2/f017.webp",
+   "sha256": "0fbddf30df3c77d10e1da4c96dab87332b59e1186a4f157aeb07fc79228036d1",
+   "bytes": 9928
+  },
+  {
+   "path": "anruf/flow/burst-v2/f018.webp",
+   "sha256": "32a10bb2885e897eb3354c9770d19c0053961af06a7986ae7e4a6c20f638afa3",
+   "bytes": 9928
+  },
+  {
+   "path": "anruf/flow/burst-v2/f019.webp",
+   "sha256": "fedd4423a851c55083db47719545143a5337f4f0560afbb32d84b46efd92f1a7",
+   "bytes": 9954
+  },
+  {
+   "path": "anruf/flow/burst-v2/f020.webp",
+   "sha256": "b9e1d3e78199dab8ad43017f189414a3f073c332bd9a268aeb59d859f8e617e6",
+   "bytes": 9894
+  },
+  {
+   "path": "anruf/flow/burst-v2/f021.webp",
+   "sha256": "dcd5b1ed06609a2f3b234b0c45477250cc735f8cae70c8d4932cb127d360856c",
+   "bytes": 9892
+  },
+  {
+   "path": "anruf/flow/burst-v2/f022.webp",
+   "sha256": "e4d4123df0a43aa1b68d0995817d2486b4946ef4061e5d4b74b42e1aa88655d6",
+   "bytes": 9898
+  },
+  {
+   "path": "anruf/flow/burst-v2/f023.webp",
+   "sha256": "1540f4f88be4f3c9d5c1a5d629c72052a97210e5af2e891d8541da921712585e",
+   "bytes": 9902
+  },
+  {
+   "path": "anruf/flow/burst-v2/f024.webp",
+   "sha256": "0b1b67508e1f368b23aa2aa9df64b7eac85bd602cb7c047788ecf6b81212ceab",
+   "bytes": 9938
+  },
+  {
+   "path": "anruf/flow/burst-v2/f025.webp",
+   "sha256": "47e50af28f631b569eec6b0e6290907e0485898cedb04d82f4e63bdf82b75a1e",
+   "bytes": 9954
+  },
+  {
+   "path": "anruf/flow/burst-v2/f026.webp",
+   "sha256": "fddc0fb8571f839e7bf440e6d0c8b3d1974e56fed0bb68eca5c39e9799e0751c",
+   "bytes": 9958
+  },
+  {
+   "path": "anruf/flow/burst-v2/f027.webp",
+   "sha256": "de670a7f47859ba7b2f28f257f031f0709e893b46ffe265f435b178f10c75df0",
+   "bytes": 9796
+  },
+  {
+   "path": "anruf/flow/burst-v2/f028.webp",
+   "sha256": "92b4ecd160b3d690160d8b5c0556c92662b0490f08efd949b8723a830bb8fc33",
+   "bytes": 9692
+  },
+  {
+   "path": "anruf/flow/burst-v2/f029.webp",
+   "sha256": "a3544e2ffab09235a9c806d9e5be6afa4b6488ae7cddefc4b1430acbaca3f8b5",
+   "bytes": 9520
+  },
+  {
+   "path": "anruf/flow/burst-v2/f030.webp",
+   "sha256": "bf8695201eadcbb2c8362512a637f6812679f3df3cfa7b7c563c4b3dde22071c",
+   "bytes": 9466
+  },
+  {
+   "path": "anruf/flow/burst-v2/f031.webp",
+   "sha256": "853652af1f6a82ba0ec21e101489a9d46abcc6502468b184d6b8fe25f1919755",
+   "bytes": 9280
+  },
+  {
+   "path": "anruf/flow/burst-v2/f032.webp",
+   "sha256": "35f5242f3d116d44e917342211ed9c039b15447070f14b42688c3f60c285af98",
+   "bytes": 9412
+  },
+  {
+   "path": "anruf/flow/burst-v2/f033.webp",
+   "sha256": "c8a1d542a92059b6f6f7a24abd20e66fa1fc93740083642879507d7e340f3410",
+   "bytes": 9812
+  },
+  {
+   "path": "anruf/flow/burst-v2/f034.webp",
+   "sha256": "1692864b34200c6b0cd39aa94d23667203546c3679656830a15e31b7c9142f60",
+   "bytes": 10416
+  },
+  {
+   "path": "anruf/flow/burst-v2/f035.webp",
+   "sha256": "b7601beab7340f033d8c8d8f35adc1848af6ca7fa36db838d65579e2a5751929",
+   "bytes": 10714
+  },
+  {
+   "path": "anruf/flow/burst-v2/f036.webp",
+   "sha256": "8f778df969cfc90ee78a9d454ea80f465d3fcfb52eaff4913509f6ef671d7e0b",
+   "bytes": 11512
+  },
+  {
+   "path": "anruf/flow/burst-v2/f037.webp",
+   "sha256": "d2161b7a0670d75a3c4d9fb2e161c08946c0cac219d00f2f0d83d43a4981c368",
+   "bytes": 11488
+  },
+  {
+   "path": "anruf/flow/burst-v2/f038.webp",
+   "sha256": "2bc3a3770750e6c29dab0f323411bdd96adfe17b4d65418850da6c33a9eea7c9",
+   "bytes": 11836
+  },
+  {
+   "path": "anruf/flow/burst-v2/f039.webp",
+   "sha256": "df26540431a219fa000b18b4ecfc9848759358e9949a17ceb9332d63f6ee11bf",
+   "bytes": 11634
+  },
+  {
+   "path": "anruf/flow/burst-v2/f040.webp",
+   "sha256": "e1e320891393328c909931e834b697ce18035843981dfed2cb8ff284fa3eefdd",
+   "bytes": 11614
+  },
+  {
+   "path": "anruf/flow/burst-v2/f041.webp",
+   "sha256": "fb1c7377fb7c9b8b22fa5e051cfd6969e51e0d57a762baf7f8e7b611e1fbb8f9",
+   "bytes": 11572
+  },
+  {
+   "path": "anruf/flow/burst-v2/f042.webp",
+   "sha256": "b9b85870b4f15465f0f04ecb80700463649c35021a83f588233fe3a315f6d0c2",
+   "bytes": 11408
+  },
+  {
+   "path": "anruf/flow/burst-v2/f043.webp",
+   "sha256": "d44895db4b8ad5024c23e0aac4dd881f940a26d0bd8f98a47d26789286735fd7",
+   "bytes": 11242
+  },
+  {
+   "path": "anruf/flow/burst-v2/f044.webp",
+   "sha256": "a51118935b7266d5783628f8e853ed15cce0c5a620003964ef017922189ce62a",
+   "bytes": 11362
+  },
+  {
+   "path": "anruf/flow/burst-v2/f045.webp",
+   "sha256": "1423c8419a3aa5beb5777642b04479d53b99df0b421282fede1f68af6c5d1f9e",
+   "bytes": 11262
+  },
+  {
+   "path": "anruf/flow/burst-v2/f046.webp",
+   "sha256": "d38c15e0b8e8f7bac86e4d0ca52155c752bc1e9458b551863dbef15e54e4ae9a",
+   "bytes": 11318
+  },
+  {
+   "path": "anruf/flow/burst-v2/f047.webp",
+   "sha256": "40fb32f0b1419913b9b8c20f7c543f46049e9682323a3057be6262921ce8c9b0",
+   "bytes": 11226
+  },
+  {
+   "path": "anruf/flow/burst-v2/f048.webp",
+   "sha256": "426a619646cbd202815923a2195e17f6cf81df6450258b408cc0cb32d94e79ba",
+   "bytes": 11290
+  },
+  {
+   "path": "anruf/flow/burst-v2/f049.webp",
+   "sha256": "c94f94f5a5195a7fa9ba6d47834db78a3897ab4f4a11b94ef5ce903beb743e35",
+   "bytes": 11334
+  },
+  {
+   "path": "anruf/flow/burst-v2/f050.webp",
+   "sha256": "54bb87f69d99ac64ed14d6fe575b7a3a3d3aaf51545e3255f134a964f19058d8",
+   "bytes": 11182
+  },
+  {
+   "path": "anruf/flow/burst-v2/f051.webp",
+   "sha256": "1eb7e514f28666b89500ecc2bb7beadf92475c559bbf18bb0e6b230abddfab00",
+   "bytes": 11208
+  },
+  {
+   "path": "anruf/flow/burst-v2/f052.webp",
+   "sha256": "bd9e30b3a2ae805be7991bd659c4bb36c05c97d3ffadd953647dd80d4acb1a7d",
+   "bytes": 11194
+  },
+  {
+   "path": "anruf/flow/burst-v2/f053.webp",
+   "sha256": "6d012556137d4eb0e7e4d341e0b8c0423a51cc7cae414240cd3bd4de93f55b47",
+   "bytes": 11250
+  },
+  {
+   "path": "anruf/flow/burst-v2/f054.webp",
+   "sha256": "b53b7fc1d3dec822292c4756819d5243a4a08b5a5f6a3d4616e7ababba70750b",
+   "bytes": 11228
+  },
+  {
+   "path": "anruf/flow/burst-v2/f055.webp",
+   "sha256": "5d9a147ef00584919c3e3118a0cc5c72320b9379d0de6d9177deab26bdfe9fea",
+   "bytes": 11328
+  },
+  {
+   "path": "anruf/flow/burst-v2/f056.webp",
+   "sha256": "57636ad1e452d6afe4031b3e91a3f8632720bd3f39cfe613d611fd7325e81a17",
+   "bytes": 11330
+  },
+  {
+   "path": "anruf/flow/burst-v2/f057.webp",
+   "sha256": "f4510795cbac6fc1fe0bdb0b986b59eef23977656bc78008b6b6d67248234a26",
+   "bytes": 11218
+  },
+  {
+   "path": "anruf/flow/burst-v2/f058.webp",
+   "sha256": "3981aeaeab43e4c815bb6060a766f84245f5a3acb3d5e110da296d355972a592",
+   "bytes": 11316
+  },
+  {
+   "path": "anruf/flow/burst-v2/f059.webp",
+   "sha256": "40b66e5a9a59167888c391bc1f68d872ab148cfffd63fd07be5a4811e86568ea",
+   "bytes": 11246
+  },
+  {
+   "path": "anruf/flow/burst-v2/f060.webp",
+   "sha256": "0c1ac4707037abfd4d76d3df25df2b365fe7efc331b48f8a48c8992fd5a4e402",
+   "bytes": 11172
+  },
+  {
+   "path": "anruf/flow/burst-v2/f061.webp",
+   "sha256": "70d19a3a40f42665ed5977765a68e733ed060ae3b2ba5f9dfeee50c651cc0ebe",
+   "bytes": 11154
+  },
+  {
+   "path": "anruf/flow/burst-v2/f062.webp",
+   "sha256": "0b4e946ba3c17dcd696b59ee8f216f4d0cb02c67acac536123a744fe62363550",
+   "bytes": 11136
+  },
+  {
+   "path": "anruf/flow/burst-v2/f063.webp",
+   "sha256": "c2913362aaed6d7d2629916138b4dd9ad46264fc70e5fbd77da2f41b0743fff9",
+   "bytes": 11044
+  },
+  {
+   "path": "anruf/flow/burst-v2/f064.webp",
+   "sha256": "2fd36224021228bc0d2bee7b79f7306360245029e9cd0895110df358d9e2b682",
+   "bytes": 11124
+  },
+  {
+   "path": "anruf/flow/burst-v2/f065.webp",
+   "sha256": "9a6338143f85aaae20cbd83630ad6fa47657802450ffe7c947b43fcc1fa0596c",
+   "bytes": 11214
+  },
+  {
+   "path": "anruf/flow/burst-v2/f066.webp",
+   "sha256": "c58bc07bdc2729a6e69ab82950825b0d1d95b05c8d95bfeb8611e7e95153982b",
+   "bytes": 11466
+  },
+  {
+   "path": "anruf/flow/burst-v2/f067.webp",
+   "sha256": "3c75628ad1934e2c9c144b2ab04b2fd388ea90307b851f61c45eb57a2a773832",
+   "bytes": 11756
+  },
+  {
+   "path": "anruf/flow/burst-v2/f068.webp",
+   "sha256": "b72dfca78a48906859a4ad9acebfded5bb89aa919c0801b487e11f646e97f0f7",
+   "bytes": 12134
+  },
+  {
+   "path": "anruf/flow/burst-v2/f069.webp",
+   "sha256": "112b0d2a2f777b1ef7319a385a266bf1dbf8b30d63c8e6729a061fe45e02dbbe",
+   "bytes": 12304
+  },
+  {
+   "path": "anruf/flow/burst-v2/f070.webp",
+   "sha256": "bd381367f8f32a3b858cf2f0a0556def6383b48fe256c45749f1d8427ab355b5",
+   "bytes": 12472
+  },
+  {
+   "path": "anruf/flow/burst-v2/f071.webp",
+   "sha256": "ae8809790b4990bb19fcd35928bceeea2771f04bc895c5d2b47212e8a974cfd4",
+   "bytes": 12904
+  },
+  {
+   "path": "anruf/flow/burst-v2/f072.webp",
+   "sha256": "9a5673e3234932526f4eb052ef4d652c45f737fa471d3e14ae87351029df7d17",
+   "bytes": 13510
+  },
+  {
+   "path": "anruf/flow/burst-v2/f073.webp",
+   "sha256": "17899f2d5ba15007c8ac5a7756d7657b1c87d43c1f47b3d7370c9f52f02fa589",
+   "bytes": 14002
+  },
+  {
+   "path": "anruf/flow/burst-v2/f074.webp",
+   "sha256": "474b75093f8eef2a37c11ff13a867400002ed39594c561c289148169a61de2d7",
+   "bytes": 14394
+  },
+  {
+   "path": "anruf/flow/burst-v2/f075.webp",
+   "sha256": "d6a4241126770ed6bdbde43e3113c64781e12859fa0d8a27efa105238b9e74f6",
+   "bytes": 14780
+  },
+  {
+   "path": "anruf/flow/burst-v2/f076.webp",
+   "sha256": "cf0fe2fd3266da338143b6c607bb8f65f81b57412820f3aaccc3defc8bccfac5",
+   "bytes": 15018
+  },
+  {
+   "path": "anruf/flow/burst-v2/f077.webp",
+   "sha256": "480101509ec09aaeab0cdcc23f1914f9ca728467127486fccd1f57e16bb299e6",
+   "bytes": 15422
+  },
+  {
+   "path": "anruf/flow/burst-v2/f078.webp",
+   "sha256": "2a5311cc7e88d6e531286a32c964e77f52ac3e5180b2c950a9fe309299d77f60",
+   "bytes": 15686
+  },
+  {
+   "path": "anruf/flow/burst-v2/f079.webp",
+   "sha256": "daad00ad0b58a5a63431f7d585f8ec06be20c6daf61d3c66008d69281a8d7448",
+   "bytes": 15746
+  },
+  {
+   "path": "anruf/flow/burst-v2/f080.webp",
+   "sha256": "5c1312f3f78a4c594da3b3d0800af5398f4407fb567d85a29da9c3cc0741667d",
+   "bytes": 16136
+  },
+  {
+   "path": "anruf/flow/burst-v2/f081.webp",
+   "sha256": "129a4d0a87c9e3ce9060c8b76e0b1c1e56bec46199ba6d6dfdacaf988f368b37",
+   "bytes": 16260
+  },
+  {
+   "path": "anruf/flow/burst-v2/f082.webp",
+   "sha256": "7cd8efff2f736792abd491583bbf92fc21ca4f2e5abb477272bf43b377f063dc",
+   "bytes": 16506
+  },
+  {
+   "path": "anruf/flow/burst-v2/f083.webp",
+   "sha256": "881d0df7f9c363010d922e53a0d197be14187a8ed232b7316aebd68037c3cc9a",
+   "bytes": 16668
+  },
+  {
+   "path": "anruf/flow/burst-v2/f084.webp",
+   "sha256": "bfef189b9081691d5fec0ec8b4a130e2e89d16dd8f1fc4c043938c81472de700",
+   "bytes": 17020
+  },
+  {
+   "path": "anruf/flow/burst-v2/f085.webp",
+   "sha256": "3f63e7434cfe903355ea760f0a54b5460a5c9d992fe266dc53e11474bafba933",
+   "bytes": 17184
+  },
+  {
+   "path": "anruf/flow/burst-v2/f086.webp",
+   "sha256": "f41bb48b273c7f7c18b6787b64b0592ec703dd1612a684c536066bf67ea62abc",
+   "bytes": 17618
+  },
+  {
+   "path": "anruf/flow/burst-v2/f087.webp",
+   "sha256": "160cbd4d7f3f4aaeb89243c5f76398713ba5d108df94c16bd9be6bece12b689c",
+   "bytes": 17540
+  },
+  {
+   "path": "anruf/flow/burst-v2/f088.webp",
+   "sha256": "eeae6df1d2d386e2c5c0c6561015fbb9104ca34583c0c88ba4db9426d1dbb315",
+   "bytes": 17702
+  },
+  {
+   "path": "anruf/flow/burst-v2/f089.webp",
+   "sha256": "30c81af3a8c226fc3d1e94090657a0962a51cc34bf0b4e442328a797c4afc531",
+   "bytes": 17968
+  },
+  {
+   "path": "anruf/flow/burst-v2/f090.webp",
+   "sha256": "7b616144e378cc760d2da25acf63cff88afbaf3e43e7a6254113c9d2bc7d3a9f",
+   "bytes": 23582
+  },
+  {
+   "path": "anruf/flow/burst-v2/f091.webp",
+   "sha256": "43e529c45a2c5692d444fb949e78a2a1e2fac04ce868194ac0c9eb356f8f3093",
+   "bytes": 18308
+  },
+  {
+   "path": "anruf/flow/burst-v2/f092.webp",
+   "sha256": "c3e8d843b5950fa07d29add52d65ae6be62197045ad78e2a36f0cb2277b0d0a0",
+   "bytes": 18000
+  },
+  {
+   "path": "anruf/flow/burst-v2/f093.webp",
+   "sha256": "641f6c3aedc9472f0c9e92a7c486854006089361ebbb087e2c88e08f2bd8fc35",
+   "bytes": 23656
+  },
+  {
+   "path": "anruf/flow/burst-v2/f094.webp",
+   "sha256": "a1a1d610df13d2ac4c80ea55cd09caa6fb8ae40ba8b995d3ec2d5d3884334cb4",
+   "bytes": 18610
+  },
+  {
+   "path": "anruf/flow/burst-v2/f095.webp",
+   "sha256": "5cd54c2e00a08eb10cabdac6ba2a2e9d541cc7b2570097aa57ff1f7939096ffb",
+   "bytes": 18790
+  },
+  {
+   "path": "anruf/flow/burst-v2/f096.webp",
+   "sha256": "6e776f02f4912f77c5db803fcdba664f549c3d3cca9c3591c71a5c3ad00f9390",
+   "bytes": 19278
+  },
+  {
+   "path": "anruf/flow/burst-v2/f097.webp",
+   "sha256": "03e4f5e713b909f31d22df25d77fd216fcc8e25a4e2e17897811a1a0a207d254",
+   "bytes": 19232
+  },
+  {
+   "path": "anruf/flow/burst-v2/f098.webp",
+   "sha256": "4abb9d134d562ded52e61fddc723014a6f663b794a07653bf81f898a7b1809b3",
+   "bytes": 19246
+  },
+  {
+   "path": "anruf/flow/burst-v2/f099.webp",
+   "sha256": "07650037bb9b8dd4863f371f9819e47e45b0c057a9f146edb399bb14d7f24728",
+   "bytes": 19324
+  },
+  {
+   "path": "anruf/flow/burst-v2/f100.webp",
+   "sha256": "d90523b2c0fcfa57b14df00a963c11bac728e5c298b096f4230379c54f8ea5dd",
+   "bytes": 19276
+  },
+  {
+   "path": "anruf/flow/burst-v2/f101.webp",
+   "sha256": "d1802102afc81f12eb5fe98d8925c7b8b0199f6fed52ca0b59313699daee4a0c",
+   "bytes": 19594
+  },
+  {
+   "path": "anruf/flow/burst-v2/f102.webp",
+   "sha256": "fff125e7a7097feb7f9bd39670e91b8eeaa054aae0541db620b650939ae622c9",
+   "bytes": 19594
+  },
+  {
+   "path": "anruf/flow/burst-v2/f103.webp",
+   "sha256": "238f1be989f08d3aad8bb664902854b25148a11b097fb222820adaffc4bad29f",
+   "bytes": 25816
+  },
+  {
+   "path": "anruf/flow/burst-v2/f104.webp",
+   "sha256": "57162422bd5cd7b535f251be26e65cdceb4499cb63d3705c1989524d0bd7e2f0",
+   "bytes": 19964
+  },
+  {
+   "path": "anruf/flow/burst-v2/f105.webp",
+   "sha256": "7aec0b00e7510a3a756f3626168799d615843ed96159082261ca323ecbb50034",
+   "bytes": 20354
+  },
+  {
+   "path": "anruf/flow/burst-v2/f106.webp",
+   "sha256": "abfa83d0966b6b10c77c12581e29ae5edfcc440fb037445310b884bc97d00a46",
+   "bytes": 20280
+  },
+  {
+   "path": "anruf/flow/burst-v2/f107.webp",
+   "sha256": "d7f01b4e62c7b5becb346ad72e5a85db1ee0e0525d6764f6e4e2e750eb6c8ef0",
+   "bytes": 20452
+  },
+  {
+   "path": "anruf/flow/burst-v2/f108.webp",
+   "sha256": "036ad91a6a0c72a2e58005454db049c8f82f3cd04dacffe6f93a066e35b15880",
+   "bytes": 20770
+  },
+  {
+   "path": "anruf/flow/burst-v2/f109.webp",
+   "sha256": "37cff69118c4628199d1f215483a9c58c7aca22f8279d3b0438d50fc5886932e",
+   "bytes": 20820
+  },
+  {
+   "path": "anruf/flow/burst-v2/f110.webp",
+   "sha256": "903eac4d398af1272078dec072f69e0c2fadf5b095536c3736700d716d477d6b",
+   "bytes": 20908
+  },
+  {
+   "path": "anruf/flow/burst-v2/f111.webp",
+   "sha256": "f281a95d9398ad3f41ba2124996bb19d2192405191a6e46cb5d546f4e4b2d77d",
+   "bytes": 21032
+  },
+  {
+   "path": "anruf/flow/burst-v2/f112.webp",
+   "sha256": "a5649c54b35049741af050b2032f7e36d37baae97db87e17893a85cf01c5b774",
+   "bytes": 21342
+  },
+  {
+   "path": "anruf/flow/burst-v2/f113.webp",
+   "sha256": "6620a36cf8ff5606aac9799b388908312cd961dd4d40424ef64204cc1eb9dfc5",
+   "bytes": 21328
+  },
+  {
+   "path": "anruf/flow/burst-v2/f114.webp",
+   "sha256": "05ef36444e770b36feedaf72655dfacb898b55bde0e466926008043fcb92175e",
+   "bytes": 21312
+  },
+  {
+   "path": "anruf/flow/burst-v2/f115.webp",
+   "sha256": "3a486c76e34a83ab82f2eb93bcbf89dc20f80ce2dcd7fee632912c2bee0c6572",
+   "bytes": 21300
+  },
+  {
+   "path": "anruf/flow/burst-v2/f116.webp",
+   "sha256": "a9d94ce2988e8cce31ac895847e74f763fc05952f77eeb5171783789c4967a1a",
+   "bytes": 21172
+  },
+  {
+   "path": "anruf/flow/burst-v2/f117.webp",
+   "sha256": "a26cdaa14f46f2f65e7a6779f682e268ad92bab9337528c6ac98fc9e51400aec",
+   "bytes": 20780
+  },
+  {
+   "path": "anruf/flow/burst-v2/f118.webp",
+   "sha256": "071409672e09b233b902f6baee5d792d01c455b33f94a79fff498be4f7a52a47",
+   "bytes": 20716
+  },
+  {
+   "path": "anruf/flow/burst-v2/f119.webp",
+   "sha256": "110f86628e685a73f2a82416c64ee97a9031b70c16cdedd40dc89397cf785288",
+   "bytes": 20550
+  },
+  {
+   "path": "anruf/flow/burst-v2/f120.webp",
+   "sha256": "2a6c531911de6f07bb68fccc4d936a2e86ad51fe268ea19670e25305f3f656da",
+   "bytes": 20500
+  },
+  {
+   "path": "anruf/flow/burst-v2/f121.webp",
+   "sha256": "40ba9b8132f364c93a5f2a4660789381831e0596b4df415086666a3f38c2e5f1",
+   "bytes": 20604
+  },
+  {
+   "path": "anruf/flow/burst-v2/f122.webp",
+   "sha256": "3aff9596afa7fe113d3f312ffef98453ef4abbaeb5d964541c548f7b83937e75",
+   "bytes": 26766
+  },
+  {
+   "path": "anruf/flow/burst-v2/f123.webp",
+   "sha256": "ff911256df83fd9b7bb8b32532992b358c7b1a949bd6f4e954fa88d2969639b2",
+   "bytes": 20336
+  },
+  {
+   "path": "anruf/flow/burst-v2/f124.webp",
+   "sha256": "7dfd54622fb27245e730af106175895571ac007583f3c524549f25c8b75a420a",
+   "bytes": 19866
+  },
+  {
+   "path": "anruf/flow/burst-v2/f125.webp",
+   "sha256": "4892cca58e72387b6167eed0d9d0eb9b6d43c4722e6a928b291aa76a4680108f",
+   "bytes": 19740
+  },
+  {
+   "path": "anruf/flow/burst-v2/f126.webp",
+   "sha256": "16ba029ba8062ee73886ba46c30c116b8d9ca7f1218d3d09d25f07e9a9ebb271",
+   "bytes": 19652
+  },
+  {
+   "path": "anruf/flow/burst-v2/f127.webp",
+   "sha256": "7b14dbe79cab8e1dcfed43d6717257bb85a18fe14f790e6a2d3e99d9c56a398b",
+   "bytes": 19404
+  },
+  {
+   "path": "anruf/flow/burst-v2/f128.webp",
+   "sha256": "3ea0192cc01b263d7f4cea4630455543a0c1ad625a8ed0bc249a5bb943d31a4e",
+   "bytes": 19392
+  },
+  {
+   "path": "anruf/flow/burst-v2/f129.webp",
+   "sha256": "14234ed29fbf7340282202fbda37bf13eb0c2cf7a2eff85f4cc57428dc7dd40c",
+   "bytes": 25364
+  },
+  {
+   "path": "anruf/flow/burst-v2/f130.webp",
+   "sha256": "8f56b1b7f2f75c36c80afbb330b7c4c8b1fdb3f40fbbf47b40223390f3146164",
+   "bytes": 25510
+  },
+  {
+   "path": "anruf/flow/burst-v2/f131.webp",
+   "sha256": "3073925eeaec0171c399e4bc93f6e4a22659b08ba4651327a338e7b3c5a9aa3c",
+   "bytes": 24912
+  },
+  {
+   "path": "anruf/flow/burst-v2/f132.webp",
+   "sha256": "57334366942a786fa089f5c34799f351ba24dce7c5f055317fb6aa60a21b5d49",
+   "bytes": 18374
+  },
+  {
+   "path": "anruf/flow/burst-v2/f133.webp",
+   "sha256": "2e2e0900970581100e3fd12c3a68d6311db505388d412694b4471289197de676",
+   "bytes": 18430
+  },
+  {
+   "path": "anruf/flow/burst-v2/f134.webp",
+   "sha256": "da42ad4c1d93174e5e8ac93c2ee9e41339b47bf7503a67a57c55159459d185dc",
+   "bytes": 18614
+  },
+  {
+   "path": "anruf/flow/burst-v2/f135.webp",
+   "sha256": "44cfb4b805519025565e91e1212583e0e1ad8da5066e8cb677d605359ba34bcb",
+   "bytes": 18600
+  },
+  {
+   "path": "anruf/flow/burst-v2/f136.webp",
+   "sha256": "35eaa7502ed8b67a142034b4bd09060a3b50b8aa8c8c25cc41a2d2806e79b0b2",
+   "bytes": 24678
+  },
+  {
+   "path": "anruf/flow/burst-v2/f137.webp",
+   "sha256": "0b25523c55daf00248e158891ec098209c597745fa252455627febbca02a6f49",
+   "bytes": 18962
+  },
+  {
+   "path": "anruf/flow/burst-v2/f138.webp",
+   "sha256": "dc3e089ff7e50b3cbd0fe59c4d1f572ec01ea1da68c65c252221cfee57120d73",
+   "bytes": 18772
+  },
+  {
+   "path": "anruf/flow/burst-v2/f139.webp",
+   "sha256": "e903fc549b44abf87f0ad16a64d72a4d5a6b47c05bfffb2eeaddce8bfbe3dc4b",
+   "bytes": 18776
+  },
+  {
+   "path": "anruf/flow/burst-v2/f140.webp",
+   "sha256": "4177ebf92f874dc133880b5d3aacc43d8488dad02bce1576fe12c4e6146c8a6d",
+   "bytes": 18432
+  },
+  {
+   "path": "anruf/flow/burst-v2/f141.webp",
+   "sha256": "13d966d4e0c35d49fcbbbd0604b21e5733d893d3349f8f4cb685445eedde82fe",
+   "bytes": 18296
+  },
+  {
+   "path": "anruf/flow/burst-v2/f142.webp",
+   "sha256": "90911cb3cca2c58f5fddfdeaf368a62e6d7d40475558ebc1763bd796bb08c7d1",
+   "bytes": 18132
+  },
+  {
+   "path": "anruf/flow/burst-v2/f143.webp",
+   "sha256": "39a7a8b3f5301648e3407350cd667cebda413647132ae2318e2f15170fd65f53",
+   "bytes": 18664
+  },
+  {
+   "path": "anruf/flow/burst-v2/f144.webp",
+   "sha256": "2d0332528af03edd7de0013b6440e1fdbfce6885e337673d004b6792f7927eaa",
+   "bytes": 17878
+  },
+  {
+   "path": "anruf/flow/burst-v2/f145.webp",
+   "sha256": "3d68a4b642b957bb6687ad6c9872c138fb7dfbe9a9f12fafa0a1f2961df70d05",
+   "bytes": 18226
+  },
+  {
+   "path": "anruf/flow/burst-v2/f146.webp",
+   "sha256": "9fcad9c6b3ad74d5b75653fc63543ca52e8ac1d6d629f3d3accf1d88016e6e74",
+   "bytes": 17946
+  },
+  {
+   "path": "anruf/flow/burst-v2/f147.webp",
+   "sha256": "a3e378e918fb0f78d7bc962dff7dd7d95142462eb46183ad535e8c4478fadac6",
+   "bytes": 17746
+  },
+  {
+   "path": "anruf/flow/burst-v2/f148.webp",
+   "sha256": "22f2aaf1e20c56ed3a5470e86d3f78c78897e7cf75acc86b6d22758b6dacd3b3",
+   "bytes": 17930
+  },
+  {
+   "path": "anruf/flow/burst-v2/f149.webp",
+   "sha256": "c5ee507d5c423ab216cbb43d2965014bc7193190577a5bea65361f7ec6a4ec73",
+   "bytes": 18000
+  },
+  {
+   "path": "anruf/flow/burst-v2/f150.webp",
+   "sha256": "5e65559c76613592d2e8b7a05236161cff611c4fa1e94229d2576f0eed202a9d",
+   "bytes": 17714
+  },
+  {
+   "path": "anruf/flow/burst-v2/f151.webp",
+   "sha256": "9e7c01ec10725f533041979dcfd78b02513f76e7161300d3d92bed35b7dde0f2",
+   "bytes": 17284
+  },
+  {
+   "path": "anruf/flow/burst-v2/f152.webp",
+   "sha256": "6378ec56f3f1264d39d0a75b7c4f43087c0c4d766e1bfd8a71e81606cde9f0f1",
+   "bytes": 16918
+  },
+  {
+   "path": "anruf/flow/burst-v2/f153.webp",
+   "sha256": "734c9fb134c07a74e86a18358e32bb3215a2503d332a86a3e8aa13a6df1ab8f1",
+   "bytes": 17058
+  },
+  {
+   "path": "anruf/flow/burst-v2/f154.webp",
+   "sha256": "e0db7b4b4bcf75ca813fd2174cd49d80029e4d653a4b263dd5e86ec42b51f999",
+   "bytes": 16876
+  },
+  {
+   "path": "anruf/flow/burst-v2/f155.webp",
+   "sha256": "f095e5c92794b66acfb8a1c577d586fcdac59986aa2e082ce7fbf046548b611d",
+   "bytes": 16540
+  },
+  {
+   "path": "anruf/flow/burst-v2/f156.webp",
+   "sha256": "372318ef058d020d6b9e3bb5cebf28574227eeb901e962a29a23056808c0b2f1",
+   "bytes": 16382
+  },
+  {
+   "path": "anruf/flow/burst-v2/f157.webp",
+   "sha256": "c653724ec3894cfcf5e4fb539b1d693ce641f9791cec82c898b8c66a52823c44",
+   "bytes": 16660
+  },
+  {
+   "path": "anruf/flow/burst-v2/f158.webp",
+   "sha256": "882f1ec02fb3775f4bcd81ea8484fcc7e640284934a9ddf13fbcc5496c4eb8e4",
+   "bytes": 16504
+  },
+  {
+   "path": "anruf/flow/burst-v2/f159.webp",
+   "sha256": "b5c5995cbd4a6104370d13d2a5f4ec0a39d07d451b357260a2bd0f4c84575e54",
+   "bytes": 21882
+  },
+  {
+   "path": "anruf/flow/burst-v2/f160.webp",
+   "sha256": "b6836e570c920604b537d1078ea93ddbc4114138a8bbfe09fc91212b4abac033",
+   "bytes": 16222
+  },
+  {
+   "path": "anruf/flow/burst-v2/f161.webp",
+   "sha256": "a99f9b055a9da0ac9577aebf6fad6ffad4fab691b1bc027fc41b29f514fcb8ac",
+   "bytes": 21558
+  },
+  {
+   "path": "anruf/flow/burst-v2/f162.webp",
+   "sha256": "faa913ae5fd8b100f426b4ed6da47aa2062bf846c8cb89d4ebbd40bf50f11d1a",
+   "bytes": 15976
+  },
+  {
+   "path": "anruf/flow/burst-v2/f163.webp",
+   "sha256": "ad23fdaa613258d498db597a665db36a53ab55cfe52cd294990a4e7cd864252b",
+   "bytes": 15902
+  },
+  {
+   "path": "anruf/flow/burst-v2/f164.webp",
+   "sha256": "05a12d40ebb26aa4b0838c47aeb0161bab61cf61dcd4679306ed11c6d5f71c70",
+   "bytes": 15654
+  },
+  {
+   "path": "anruf/flow/burst-v2/f165.webp",
+   "sha256": "8ce52e5aea1d02e3ad28e4fdec1714fa1405c2f8a3325ace2b30c69ae1493d63",
+   "bytes": 20630
+  },
+  {
+   "path": "anruf/flow/burst-v2/f166.webp",
+   "sha256": "473a1c1e44686185a4c7734eff6c889b6786767d3a09e85bfe894844987146ea",
+   "bytes": 15190
+  },
+  {
+   "path": "anruf/flow/burst-v2/f167.webp",
+   "sha256": "8cf4f76c5c55145b7fc9e80be11fadd6f02f1a093ced222eaa8f68b349f73357",
+   "bytes": 15456
+  },
+  {
+   "path": "anruf/flow/burst-v2/f168.webp",
+   "sha256": "cabbad4a8931deb63b65258dde446cc4384a11882e10ceb44f98b215e9542d57",
+   "bytes": 15202
+  },
+  {
+   "path": "anruf/flow/burst-v2/f169.webp",
+   "sha256": "eb36d054db82f4370046daed71a9c82bc723b6d8f40a35495ccbe3fbeb7e0ccb",
+   "bytes": 15610
+  },
+  {
+   "path": "anruf/flow/burst-v2/f170.webp",
+   "sha256": "01aa1391e6522fb96c77f462b6ae6fd4498907bfc7c1d62488426decdc9f3aa5",
+   "bytes": 15210
+  },
+  {
+   "path": "anruf/flow/burst-v2/f171.webp",
+   "sha256": "f1034e8162262b1e45dfaa6d9c52db885d7930ef5e625460c81c65345d450fff",
+   "bytes": 20218
+  },
+  {
+   "path": "anruf/flow/burst-v2/f172.webp",
+   "sha256": "6d98b91fd4ab23d5d3e0dcc624be819a5e57f319170270b53d6b95f4b6ab899e",
+   "bytes": 14386
+  },
+  {
+   "path": "anruf/flow/burst-v2/f173.webp",
+   "sha256": "7df57e877bda246991fb58bfedc9909f3d6f02e14562b0a4587081e2411f9a9e",
+   "bytes": 14834
+  },
+  {
+   "path": "anruf/flow/burst-v2/f174.webp",
+   "sha256": "85841ba1c26e3154683bd50b18ec84d47949e1138aedbbf614332113b8f0a80f",
+   "bytes": 14674
+  },
+  {
+   "path": "anruf/flow/burst-v2/f175.webp",
+   "sha256": "158c8396349eead28243c572014c02e285bde47bd20df2165d5b3c97f89f958d",
+   "bytes": 14610
+  },
+  {
+   "path": "anruf/flow/burst-v2/f176.webp",
+   "sha256": "217fc072d7cbd785a4444160fdd49fb781ab707428163869b8e3d88f310656bb",
+   "bytes": 14384
+  },
+  {
+   "path": "anruf/flow/burst-v2/f177.webp",
+   "sha256": "8ba785c6d365df938f54437a865c6687d7c7b9a2899a85c5881799c35f426305",
+   "bytes": 19012
+  },
+  {
+   "path": "anruf/flow/burst-v2/f178.webp",
+   "sha256": "a805ecb804d0465141371a14e8bb48103d34032d3d342ca43de520b1c7c1495d",
+   "bytes": 14300
+  },
+  {
+   "path": "anruf/flow/burst-v2/f179.webp",
+   "sha256": "e55e3d0ded6c83051cf483d6141a498e6dcd6e1789762b68e8c717fe6a1c6fc1",
+   "bytes": 14216
+  },
+  {
+   "path": "anruf/flow/burst-v2/f180.webp",
+   "sha256": "33df8563610a8d2064b2d30797d36aaefe49504efda2681832719a2bf478ce04",
+   "bytes": 13840
+  },
+  {
+   "path": "anruf/flow/burst-v2/f181.webp",
+   "sha256": "ee5bab079f430b034934ee9dde74bc2817587c5d0dac95010aba2934ec9f4a41",
+   "bytes": 13424
+  },
+  {
+   "path": "anruf/flow/burst-v2/f182.webp",
+   "sha256": "e3f3654d3113737dd34cf8efa7636129ebc6db8828557c8c39d0c1b27dbb1052",
+   "bytes": 13262
+  },
+  {
+   "path": "anruf/flow/burst-v2/f183.webp",
+   "sha256": "d64adacab2ece3aab5ac7ea27ba63400fe3c36085b6fabf6f069a0bad246ce6c",
+   "bytes": 13416
+  },
+  {
+   "path": "anruf/flow/burst-v2/f184.webp",
+   "sha256": "aa38d87b32dff12487e275abdbbe78ae0ac3ced7a178dd6214cb5b883eac8002",
+   "bytes": 13142
+  },
+  {
+   "path": "anruf/flow/burst-v2/f185.webp",
+   "sha256": "14fefbd6c5d27f209225c22dde65b04fc8c9e353d8ee54e730291df987a437b1",
+   "bytes": 13246
+  },
+  {
+   "path": "anruf/flow/burst-v2/f186.webp",
+   "sha256": "0a1e00c2d4b0f31c9ae95fbb91e30a07f5f06b24b7779a76747aceb380aa25ca",
+   "bytes": 12970
+  },
+  {
+   "path": "anruf/flow/burst-v2/f187.webp",
+   "sha256": "6df185ceff995a9ea789d9616c8d737042b5d5cad4249969f09d041b8796ac80",
+   "bytes": 12948
+  },
+  {
+   "path": "anruf/flow/burst-v2/f188.webp",
+   "sha256": "17759954534605498ec33d46fea4692ae18a28efbe3031879298953cb3176bee",
+   "bytes": 12658
+  },
+  {
+   "path": "anruf/flow/burst-v2/f189.webp",
+   "sha256": "dcbf2249be10eb3b2d881071d36cc136a906df949ef09b5b4f4cd8ce46622e29",
+   "bytes": 12270
+  },
+  {
+   "path": "anruf/flow/burst-v2/f190.webp",
+   "sha256": "b42952ae87bb2b08dcce41b8c47ce07abc0b3744c7ca0461ffc49fe0d32f1c28",
+   "bytes": 12104
+  },
+  {
+   "path": "anruf/flow/burst-v2/f191.webp",
+   "sha256": "8b2044d2e0c5c5e0ec03c97aa243f244d19cd3e7e80185b1c64fc0a2209f0c37",
+   "bytes": 12132
+  },
+  {
+   "path": "anruf/flow/flow.css",
+   "sha256": "f72179f07c8f35e39ffe31638826863a7b8b50251bb316ae26a05ecb102a5291",
+   "bytes": 26032
+  },
+  {
+   "path": "anruf/flow/flow.js",
+   "sha256": "3f02e07d52c68bba6da49f4db353b4b6f52afa7034ce29ab2e7fe0e2b8202ad6",
+   "bytes": 49077
+  },
+  {
+   "path": "anruf/flow/manifest-r18.json",
+   "sha256": "54c906bed13f7be44da4f75be0b813521cf225e393909e8cd2d7938533b502f9",
+   "bytes": 53351
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f000.webp",
+   "sha256": "ed9f015b371469dc4a7ec69f4fefa8766e425a7e454b5b71d88d45f626ad799e",
+   "bytes": 12050
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f001.webp",
+   "sha256": "ab50d561791c34a44298ad55f371d530818e07ee7335e02ecac7bf669c4e97c7",
+   "bytes": 11958
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f002.webp",
+   "sha256": "f6a20aa5f8901396780323c173f5f11686d7196eb913f43ffce47af69eaa98c4",
+   "bytes": 11998
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f003.webp",
+   "sha256": "a22b830e688e41837bab3f1ded4a37deaf23d21f3a8ab9f987a1c3e318d38a72",
+   "bytes": 11762
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f004.webp",
+   "sha256": "0600a9cd940662f52bccd4ea79fe3f91c3b9a3681d9fb2052ca7241fb10100ea",
+   "bytes": 11640
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f005.webp",
+   "sha256": "3863a395946be67ecab4a1fba210a147cf11f352009a568b5d3b40d79b9f0bae",
+   "bytes": 11698
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f006.webp",
+   "sha256": "d66731449969764b04fd077395b6fd83a87bcea70916809c4aa0e3ef4d9c81d8",
+   "bytes": 11946
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f007.webp",
+   "sha256": "4f859f451005cada03465b1b7ceac898fa73e221a9f46b9eabb38c4c0becbcd3",
+   "bytes": 11508
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f008.webp",
+   "sha256": "e66f72ebd8ad4f20f875598ffabacde9b4efa654bc0edec35c633a5345945d27",
+   "bytes": 11460
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f009.webp",
+   "sha256": "8539d62017629fb98d89e58e61d87f991a2ce4205db12f31c79e7c909c553bf0",
+   "bytes": 11232
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f010.webp",
+   "sha256": "c399318538c4cdbc5e1036e8d5b7d1c8b8d3fec83a4f18c81b7c21cdc2062a85",
+   "bytes": 11270
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f011.webp",
+   "sha256": "69b08331adf97ab42480c2d524aaccf349bd49f83fdd70ac044c21b91861bd06",
+   "bytes": 11002
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f012.webp",
+   "sha256": "df9d88776ed9c658ba1ef1cd4e69172c1a6c954806a4822357be1466f1d7d0a9",
+   "bytes": 10918
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f013.webp",
+   "sha256": "b0ddd7d0bed2c080c4cbfad7b220ce573a9a884937d2e1479403d53977004608",
+   "bytes": 10758
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f014.webp",
+   "sha256": "8416389e8d97050a0c94b4e5a97bef20fc020c6923b40d066811f30e35bf9665",
+   "bytes": 10910
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f015.webp",
+   "sha256": "c03f92e9600efb1ce8f1a514339433c2a94818fb780fe90b1964c0a5d68b3e9d",
+   "bytes": 10896
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f016.webp",
+   "sha256": "fde3db4c130ff7ad93038701b3271b4541645cb27add87539fd7e28e0d805d3f",
+   "bytes": 11240
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f017.webp",
+   "sha256": "e6c470e276efcab54f04cf059f2cda1b8018d9fb2f64f1a4fe8f0e12c1c85fa6",
+   "bytes": 11290
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f018.webp",
+   "sha256": "9d382b162ba1c334ceeada7243cbb843de2272516d0126d8d87cf5dde23df458",
+   "bytes": 11494
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f019.webp",
+   "sha256": "372ee5d96a824a2f47d9d653c1103bac39a91a578bf1138fffb4ba586f1b2212",
+   "bytes": 11510
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f020.webp",
+   "sha256": "b7202dd2e96e05dfc1b857fdf201c9daef234d44ed1d644e491c36a5d8da0877",
+   "bytes": 11736
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f021.webp",
+   "sha256": "771359a610f0897bb9dee3c2967d16b0231590dcf6ebf6b0a7900359e4528d63",
+   "bytes": 11654
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f022.webp",
+   "sha256": "3475960fc53b2c87143c26853524047bd3aa5967dac93a40123fefa7662438f6",
+   "bytes": 11762
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f023.webp",
+   "sha256": "3364d4c881d8141133dc947c89e0dfd074adc452ba1cc20308b426d5e6a3d679",
+   "bytes": 11474
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f024.webp",
+   "sha256": "4d18b9b6b87876f891e75b84f267370d863458038783a087c9210a00401b514a",
+   "bytes": 11226
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f025.webp",
+   "sha256": "4b6be09c4743b99016705048259893498bedb94a044ae358671cbd585cb9653d",
+   "bytes": 11128
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f026.webp",
+   "sha256": "848b28e45bbfc965ae865d112d246a40c83e2298f86796b5cc8ee78b1cfb2914",
+   "bytes": 11632
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f027.webp",
+   "sha256": "ae4c8d99ba2b1e5b7a1edb327c1baf554efa7c354ef51f5f6270d71472688f77",
+   "bytes": 11444
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f028.webp",
+   "sha256": "80ffe833429a25c3da535b64b02cc59e4116fdc4f7835e3b0935561b4bff2572",
+   "bytes": 11436
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f029.webp",
+   "sha256": "8fa0f75a957f67d861301b6974ba617fd3058915d7cc548b91cac1200d816a4a",
+   "bytes": 11348
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f030.webp",
+   "sha256": "7c0b2d55c7fbe6a2cba789614728ca0ffee522ef784434c51f6873f294e76a74",
+   "bytes": 11342
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f031.webp",
+   "sha256": "3ebf6ec1a01e61e2f58751b4f44ce2e48c539bf129cd99921a841bafbc32d998",
+   "bytes": 11432
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f032.webp",
+   "sha256": "4fae60c52af98db7555918e36b9c1baf552982dab83fd33b2c81c63f0d268990",
+   "bytes": 11484
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f033.webp",
+   "sha256": "126d2ca5f08ac442f08ff4c4db4dc8145a6d0c035b3d88ab34ffe933498d675d",
+   "bytes": 11812
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f034.webp",
+   "sha256": "d59d948233332c2b6a1711da7796791a33dba7c14aef4b69ab19a562de1b48e8",
+   "bytes": 11764
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f035.webp",
+   "sha256": "fd2fcb175109291cb1a85bdef3cf8e9d21155911c799344201b93eb83bff836e",
+   "bytes": 11726
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f036.webp",
+   "sha256": "5de646d2e8a6774a0d46487fc7cf02249e3bc52f1b8783cb9a3b45393fd944dc",
+   "bytes": 11936
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f037.webp",
+   "sha256": "fbe4d47122150f58c69e61dafe4b209aa48e125551415df425d53223ddc5d3ea",
+   "bytes": 11670
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f038.webp",
+   "sha256": "d97e08c1bd43dcb5f157af5f0c2fe26465bdba28395993c3dbc627ca79452a0f",
+   "bytes": 11798
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f039.webp",
+   "sha256": "839a3f91f96c14e1ee010046edf4a5074e1f9c97cf2c63ed6a5233c942f51c84",
+   "bytes": 11654
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f040.webp",
+   "sha256": "64b73c2cc523622ab5a8e7d6f3e575512b807699f0174b714bab19c394e8d519",
+   "bytes": 11144
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f041.webp",
+   "sha256": "3cdfcf292556e2d30bd7c5ac48b66aaaa0631e7a202701cb01acd9a20d6201d5",
+   "bytes": 11048
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f042.webp",
+   "sha256": "6440736821c8e30430f4d49ea8541dcf840a9f24c10b67d4b55671363c4c8bce",
+   "bytes": 11016
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f043.webp",
+   "sha256": "9a11ed6af1a7abedd1afb91f5e6c3ee848f57938120457715afe4dcd51fb8f4c",
+   "bytes": 10652
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f044.webp",
+   "sha256": "0c2085ef4fc07d196a8c6785b149abf1a76a8f564624e8242a36f907de29a7ae",
+   "bytes": 10218
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f045.webp",
+   "sha256": "2d11d6c6f43737d11c89238f6e1fccaf98429fac3bba7e73e16924ef024ee58f",
+   "bytes": 9726
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f046.webp",
+   "sha256": "c1d1f2fdf08cbc070bcdbcca357fb67894f22d885d26b9791f2bf9b2ce553038",
+   "bytes": 9458
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f047.webp",
+   "sha256": "912670395b0014d9a134c8b05910224e6edd60294a3bf0a95f82078b1114f642",
+   "bytes": 9192
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f048.webp",
+   "sha256": "395ff501b78c2679d30e88bffa7ce97aba41ab874f7ae7609be144b112de12e1",
+   "bytes": 9090
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f049.webp",
+   "sha256": "b5761473ec67ac0468d7c7e12f71edd5edec37483072e9ac2d4db75e3575adba",
+   "bytes": 9016
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f050.webp",
+   "sha256": "cc5a427c809c5481f5802c039a33194df1c7cba0090d9f26de81d78a4b111ad5",
+   "bytes": 8960
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f051.webp",
+   "sha256": "7e7876930a6cc7eb25bc9713e2cd7534333ea9c39ee740b1b09ab58bb613e91a",
+   "bytes": 8766
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f052.webp",
+   "sha256": "edd4d77e74475d2a5c7fa90ba7743a8c7e233d9aa107eb017a7a2da906449d79",
+   "bytes": 8550
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f053.webp",
+   "sha256": "c4d0d7cb1e64d382bb7196e8d924a1ffd0822cbe06856fec5073bbe7c3e6e0db",
+   "bytes": 8448
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f054.webp",
+   "sha256": "82d4f2601186db8f083ea5be4e6390dd4ab0527b3b526393ac6251fd6c7334bd",
+   "bytes": 8292
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f055.webp",
+   "sha256": "543a0e9d6f3ad02ba22a274e68a2d11ecc5eb043d2b0a1e4ba5c7eede8f232bd",
+   "bytes": 8186
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f056.webp",
+   "sha256": "639e1be6bcda16858b054f15f828fc58508fff22ca2aed74165e3e17e7f1320f",
+   "bytes": 7992
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f057.webp",
+   "sha256": "53b4877f064a52389fba02b5f053c0f45a18faf4d6c383d7812806ea5af343af",
+   "bytes": 7832
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f058.webp",
+   "sha256": "9ce9501f059ca5366dcc19657a0a0413261fa6c3c9be42a21b759cac0fa3405e",
+   "bytes": 7752
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f059.webp",
+   "sha256": "3997483f6f0e792b446f1fda25cf06edb995c94dae81e8abaa14cf2549cbb8f7",
+   "bytes": 7806
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f060.webp",
+   "sha256": "79fbe37f2ceb3e0b47492185aaca1b9354d7ac341e0febd12727e33c0f8a9606",
+   "bytes": 7772
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f061.webp",
+   "sha256": "5f65ce9a68766dab2ca85128c603f33aceea76e83ed5167c8e3e26aa98d25ce5",
+   "bytes": 7748
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f062.webp",
+   "sha256": "017b6b1ade000c48ff32e53dceb4ed6d847f4a98cd0b8ce41148ded285ba0ebb",
+   "bytes": 7752
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f063.webp",
+   "sha256": "0d9fd043069aa95e3faa1fd1e5515be44b5ae51c4cacfe8e8140cff0a3884005",
+   "bytes": 7806
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f064.webp",
+   "sha256": "cac2d86dedf74cef6364cbabb6684a3aa632d90f0e839da045e6106b6cd7eee7",
+   "bytes": 7680
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f065.webp",
+   "sha256": "ee5d6d9db8c480ad11664b79a5ad3c988666c5cf335f5d192a601c89cfaeb988",
+   "bytes": 7512
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f066.webp",
+   "sha256": "5d4c4724942952b6c33f28e2484a3512eca2fffcccb41c70b82677add2eb63db",
+   "bytes": 7416
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f067.webp",
+   "sha256": "626799a89beecef2fa90eb6f3e448539a642551fdb6a3cf29d14370e21887969",
+   "bytes": 7348
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f068.webp",
+   "sha256": "5a1e8b44041941df6841279da33a4909ee7dbb1ead9e1a372baff55bbf153e9d",
+   "bytes": 7284
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f069.webp",
+   "sha256": "1b0a2b1d9a06b8584caa2a065e95718411f42b8d1c170da322b2f96c751ed337",
+   "bytes": 7298
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f070.webp",
+   "sha256": "6e22ac3ae5ff36eface01c095f0a583d4791b06a82e88f3e3fda9a9c0901887f",
+   "bytes": 7260
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f071.webp",
+   "sha256": "5c812e397f92982ea4338e877ec1e79af3e3adaf9fd14e5d6699f749f6b01c63",
+   "bytes": 7160
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f072.webp",
+   "sha256": "76c31e6420229a4d840114c9246df7d10fdb5a948c86772e1ca71cfb29098f16",
+   "bytes": 7256
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f073.webp",
+   "sha256": "68d2357d54da62907d41082d74e700af9836afc812176dbea756e48b44de1d87",
+   "bytes": 7356
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f074.webp",
+   "sha256": "24efe0d223c64ba96010d42be789c345a7f98b0e5e2d227ed3fe69809c828a86",
+   "bytes": 7426
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f075.webp",
+   "sha256": "7a1e246fd97c5ddd7ecd8eb314cbb1b213c641e8373785cadcdffa9a1207e7a3",
+   "bytes": 7332
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f076.webp",
+   "sha256": "eb72d15ee238215075ef194fe6768b86e3df64ec1eb4f7e02b8f2e176fd83b71",
+   "bytes": 7422
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f077.webp",
+   "sha256": "4724c7cee25a5ec83f55aea72167308dd04d43b6e2d6e527213ec85b382d10aa",
+   "bytes": 7358
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f078.webp",
+   "sha256": "95560be51760891fcbd61c487c4ae1ab2593ef5c4615fe57db679448fd58d7c6",
+   "bytes": 7386
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f079.webp",
+   "sha256": "0f3dd01c6f1bb1ddf181d0724915d0355d0bace3d37f4bfebff45704fcc2812c",
+   "bytes": 7272
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f080.webp",
+   "sha256": "8c74fa8c96462b965fbd06256b9d429a1b300941bba39c08ac0e19eeb4b07254",
+   "bytes": 7398
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f081.webp",
+   "sha256": "33c4377c0c71fe05ccba09c0f7f987d326936f13d21f6cccb10bbc65512e5890",
+   "bytes": 7314
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f082.webp",
+   "sha256": "7337e37b8368fccc70e7a421f0bb50f25081644797aee5999e5a08f53d3c9e92",
+   "bytes": 7236
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f083.webp",
+   "sha256": "f9e64a511024414ab24f2650a00d4461cbb058753ef84fdac26dae859f8613ef",
+   "bytes": 7280
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f084.webp",
+   "sha256": "5d64e45d1794f32c3fa48bfeaf0bd85ddc246c43bdffd3b2a48af8154fdc9c20",
+   "bytes": 7330
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f085.webp",
+   "sha256": "c37afed4a14e571bc7a4de6d3a277b2e9da0bc10f071e5b283dad97fb4fc1d8f",
+   "bytes": 7590
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f086.webp",
+   "sha256": "478bcb33cf3b76bc86a9f712400355c7446b14eccd05918fbb1dcc02b455fab7",
+   "bytes": 7800
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f087.webp",
+   "sha256": "55ea4bfddfb1bf478361eb3935900a4965443d2b6d3bb6708f9e639abe8aa9e6",
+   "bytes": 7620
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f088.webp",
+   "sha256": "ccaa07b5b73d3b02354ee1a19986b9c1fc6b40d9b7beee53d514865373352a75",
+   "bytes": 7736
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f089.webp",
+   "sha256": "272550f3a27bf45c38e765c3676eb6ba2c03cef9a65d86b0f23efce5c051ab8a",
+   "bytes": 7638
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f090.webp",
+   "sha256": "c512273620b23a4b27b96cec2fd69c0f7afa7c6da1580b28d82298baca2b283f",
+   "bytes": 7676
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f091.webp",
+   "sha256": "288b37966864be06fe9a99f8e0e7eded6c58060c88a835fdf5707a6b5f1e9b0f",
+   "bytes": 7644
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f092.webp",
+   "sha256": "9774228cecf08b45ff3c692a5baf6ccaedd258b946aaefa24f139ef441431615",
+   "bytes": 7508
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f093.webp",
+   "sha256": "a5fa780e625722d138dde905fd563d102b778cf9a0a2b4cf5ddf9e53adc51e29",
+   "bytes": 7366
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f094.webp",
+   "sha256": "20fd0d071c024642525da4ce48d32ab3137efaa5d621def142d46714899161df",
+   "bytes": 7540
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f095.webp",
+   "sha256": "506eef961500e52af2bf1cb2d99d9effc361429bcceddad4b63d7203da241c72",
+   "bytes": 7612
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f096.webp",
+   "sha256": "4d376e7efbee050136b9a05c6dc8f1bdcce1b00e54f1d9db46ff0d89eb0dffe6",
+   "bytes": 7596
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f097.webp",
+   "sha256": "3e92bf9ac44a4ffccbd23b79457b11217ce8a10eab68440a0627f1f4419c9138",
+   "bytes": 7560
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f098.webp",
+   "sha256": "1c0620bb319b9924ceeb3d113aea8c6614553435ac901ee26307c1991dde9d8d",
+   "bytes": 7476
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f099.webp",
+   "sha256": "fc548aa907f38a43f476836ed681b1ab033a42e3e966301224b6dff2602cfbb7",
+   "bytes": 7416
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f100.webp",
+   "sha256": "5f6eee18f508cfd843bc8dc5d54dda635b40b993064a74b923c124559261aa14",
+   "bytes": 7278
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f101.webp",
+   "sha256": "9cbeb9d430dd27f36ae4ba257a84f682b29a2a556c83a3fd94b1a03443cf8ab6",
+   "bytes": 7008
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f102.webp",
+   "sha256": "98ba1b93abe9099a266b8a71095ebb6f9ff15f20ee2c82ea7cd613442c49f44c",
+   "bytes": 6998
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f103.webp",
+   "sha256": "1f111442f9dcf68cc91972f38b3b0f39d431b9fcdc36842a546ba6e08b35818f",
+   "bytes": 6800
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f104.webp",
+   "sha256": "c191d318ead26528fcda3c097dc040eb78131abcc66d6de9b20ca99a3b9d7ecc",
+   "bytes": 6582
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f105.webp",
+   "sha256": "ae0aef1ad8b2c57c9b50510a7c17756c5c15ff538d0cf725cf693472fb895f7d",
+   "bytes": 6382
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f106.webp",
+   "sha256": "8f451c5a1408024b7952abad60fef5ceca087a84e0447a3cbd24914d4049cf6f",
+   "bytes": 6322
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f107.webp",
+   "sha256": "5323ee743bc8ffe3bf97b5141fbaddb15d9fec5b174c47263abe12e6be7df80b",
+   "bytes": 6036
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f108.webp",
+   "sha256": "d630b4f4cfc807e0f8ccb9d77b18ace3e26d4518bfc272fff07ef851cf94d4e6",
+   "bytes": 5600
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f109.webp",
+   "sha256": "2c227a3877f5d6493dc4a3c9a1c2c2c86926b9e5c84809871f8e9d8859e72cec",
+   "bytes": 5522
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f110.webp",
+   "sha256": "9816496e735ae4e0cddad67a5ff20fc0d6402959b6831fa4c022d7a784df9ca1",
+   "bytes": 5392
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f111.webp",
+   "sha256": "f2dd627f147a4608e081fa705e34676f2b264f78004c4f0d01734544f43d05d1",
+   "bytes": 5242
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f112.webp",
+   "sha256": "7fc6f210a5573196abead446390a0009eb4646975d6b94e18e79ee9e1a27ef6b",
+   "bytes": 5110
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f113.webp",
+   "sha256": "74585012ed89a6e5c81bc8427a3ed27bd137889247e1bfcd160a1c7bd56dcd36",
+   "bytes": 4910
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f114.webp",
+   "sha256": "9e5e6dc9f76a1a08aa619e01084fd36ad1d40b187d25fdd7eeb7ecb3131cc339",
+   "bytes": 4596
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f115.webp",
+   "sha256": "2e2a89cb893e38344a54d1987a9f2aeab2749f92bab70c34c8f4beff1eef80b6",
+   "bytes": 4428
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f116.webp",
+   "sha256": "212b9dde8cd7d3637ffd33f42ed39abdc780a24cfce2450f1228a83feabe6110",
+   "bytes": 4334
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f117.webp",
+   "sha256": "8e9b171af57afd986624125f4db9793dea26ec004b0e80e3fd8819ba51ff2d7e",
+   "bytes": 4148
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f118.webp",
+   "sha256": "859d00f3f1f742b5d0293c9082c81f112799a0a9f4b37e03b33fd12185d493cd",
+   "bytes": 4064
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f119.webp",
+   "sha256": "ef330eccd2b6b3d68f6d9fba2bf384853e4047577b77ca9530e30795f86ad524",
+   "bytes": 3968
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f120.webp",
+   "sha256": "cc0398784ea3c98946cdb08637d7421c986ac1c51adf5c6d4b0fbfe1344c355b",
+   "bytes": 3748
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f121.webp",
+   "sha256": "9909de82a961b4101ff15bdf0d73c62464f8c8cc59fa5b199eb94b45f084bf1d",
+   "bytes": 3878
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f122.webp",
+   "sha256": "f83882f34445dbf7873dc4750afbf8ab4175c6f237e5533656035e83c3ce70ee",
+   "bytes": 3828
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f123.webp",
+   "sha256": "7c80c5a09bf040e444408cbfebb7ffa9fb32ec618aba0a717f06d59a72851b3e",
+   "bytes": 3824
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f124.webp",
+   "sha256": "4f8163d351cfe099d1638ea0a406e11115df2df2a3057f6593b0bc235e4949fd",
+   "bytes": 3772
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f125.webp",
+   "sha256": "e2f1219a3bac993d84cd86220714567a4c43dc87debd1ab5bc1308bc7a6fa09e",
+   "bytes": 3832
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f126.webp",
+   "sha256": "0b24c93a671d49c0f9ca9be257709ebc7bb9cb03ddfb0e805f4b272f1662822c",
+   "bytes": 3846
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f127.webp",
+   "sha256": "7485e828f9c9608a0314b32ef1c1b59a0beeabaaa2e54c0e04623cc6bc1397f4",
+   "bytes": 3808
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f128.webp",
+   "sha256": "5bc9a9c87d21df7f69197cb25328596164e8daa7e22c87a8cefb054653682af3",
+   "bytes": 3834
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f129.webp",
+   "sha256": "6b3f805aeb2e3b6d452873b7ff146f15786dcc6f04348d19aba49906778553bc",
+   "bytes": 3832
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f130.webp",
+   "sha256": "177e505663d896051c3b0aa31eff0d40702bb9e21251147b50203ee1b5905f9e",
+   "bytes": 3814
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f131.webp",
+   "sha256": "6ee8b61873ae97fcdb66c91f2f21ddc007bf57617e29731b8c7d79b21894a91a",
+   "bytes": 3800
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f132.webp",
+   "sha256": "3ec50ba7b2b1f04e1024ca2d8a93b4489a68eafe8ed9b33a010272af91ee0506",
+   "bytes": 3688
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f133.webp",
+   "sha256": "044278a634620dbf895dc60ec4a4e8e0b8edc82769706bd572e1ea904eae16bc",
+   "bytes": 3672
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f134.webp",
+   "sha256": "17c31193faafbb4c87a58440763b1a3afbf8620a215be24ced471d67a53ebd74",
+   "bytes": 3640
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f135.webp",
+   "sha256": "5caec970f417d052d10de6dd8522597f082054b3c41abfef594d98059c6b5db1",
+   "bytes": 3640
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f136.webp",
+   "sha256": "e7b54e74149e6c9f71604c686aeab66e98de1e244d463fdfa7c6e31892743cc7",
+   "bytes": 3690
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f137.webp",
+   "sha256": "33b9e7db14055fbc85d9b49d8d04021c45b3f156f5ab2d51605ec7a7f02bffc8",
+   "bytes": 3750
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f138.webp",
+   "sha256": "88641a61b4ddb853a27ea3ca5ed070fdbfe9c8ba45a003a9076d59971766f3cf",
+   "bytes": 3898
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f139.webp",
+   "sha256": "9b7739bee69daaf428f23d553727add851048da191e20b3aa80f73f2068fea6d",
+   "bytes": 3786
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f140.webp",
+   "sha256": "9dd21842395ffa764c5ee05c0242575f41efc4a5193789baae58e7fd4054c31b",
+   "bytes": 3604
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f141.webp",
+   "sha256": "c215577329ae953f0b206d120d9ee6b3103b3ff4fe863143a60aac1c85ad8753",
+   "bytes": 3210
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f142.webp",
+   "sha256": "cec1d9ffece935efade8a14c3f9b3b7cb678776d01c3782e1a00b054a4a877b6",
+   "bytes": 3320
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f143.webp",
+   "sha256": "4cd23bdc6f75378ca70aedde1c770b757c21c22aa584b7a21f27fd89d724358f",
+   "bytes": 3548
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f144.webp",
+   "sha256": "16eece0f21335cbdc087e41d853b96b9fd7882b137c4f00fed77c2a6338f7c05",
+   "bytes": 3884
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f145.webp",
+   "sha256": "9fc850ba667891b46b07b2b1ad7964a1d867969b10e3a3dc94b448f97cc904c5",
+   "bytes": 4192
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f146.webp",
+   "sha256": "b94c361a82017addfc07893ac4b82d277162d250487d9162213111ee53d0e67d",
+   "bytes": 3954
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f147.webp",
+   "sha256": "bfce41e048004688bbf33a41b07379a75e66c0060bcee6a7b481f3cfc15d1bfb",
+   "bytes": 3454
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f148.webp",
+   "sha256": "ca15be34a514d0f72abc77542e7b5cf35d50fcdc0bb185af636dfb2b7d3be67c",
+   "bytes": 3242
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f149.webp",
+   "sha256": "518789e28c4e389c43159d68935833b0f140fd1295bb8bd3d263d3e8b6b37a77",
+   "bytes": 3180
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f150.webp",
+   "sha256": "d4f85052edb8e81d99291872ab39810419fa5b36dc06318494bb68e8a03fb37b",
+   "bytes": 3210
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f151.webp",
+   "sha256": "1090ff39e876ea89f8fc5da557bca100bd958f41e1bbe3290758a310f68a7013",
+   "bytes": 3204
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f152.webp",
+   "sha256": "db6b57b8295423a1a3add975f754a591aaea213a958c70c4822ff34e85339da8",
+   "bytes": 3228
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f153.webp",
+   "sha256": "f558c823a93d91aadcda5329e9bbc8c8ea42f62b2b294232dc9a91dbde1a23cf",
+   "bytes": 3212
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f154.webp",
+   "sha256": "19255995c7789b2d694b2df448c5272a174d79532d5730c4b952929d13e1728f",
+   "bytes": 3172
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f155.webp",
+   "sha256": "acfd61b5aac337116f4d664f4cc03e7ad98448064a780b10c11368ab5dd4e70a",
+   "bytes": 3192
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f156.webp",
+   "sha256": "bee229ca9b3fb1f0286255439f686c6deacae432c41a04931b7880659ee63034",
+   "bytes": 3244
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f157.webp",
+   "sha256": "43314fb0f0ced6c91ef787bf5975507ba03692bd23c7f21a741ab02ca66512d3",
+   "bytes": 3190
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f158.webp",
+   "sha256": "bf40c1c562d357518f9c3fe554b543b8cf41dacf2ffe84be50b4b50396ebdba5",
+   "bytes": 3194
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f159.webp",
+   "sha256": "f5b804982a33acffb61d82bbd0d479ba297e4aa04d7b32213f99d38aa5707338",
+   "bytes": 3224
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f160.webp",
+   "sha256": "eb3bd0ce4f5f5a1992cbe5168fe3b373438baac9d1918e267f6c6d7d65a95286",
+   "bytes": 3240
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f161.webp",
+   "sha256": "9e581de3d420233b6d10cc376ca2fab03be7f68e87423e3d987f445c06ed3e66",
+   "bytes": 3218
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f162.webp",
+   "sha256": "1d60c1f94b8e3727c5364d5dc5bace9ced1b372233ef7c96261ed211c3e0db66",
+   "bytes": 3228
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f163.webp",
+   "sha256": "ebe547fa29fb39d656583f1e6a7e0b93d434a797e8179c14069dd4c7f188ff12",
+   "bytes": 3188
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f164.webp",
+   "sha256": "cb9c3748dcdb43f3336909bff1c19d7884d8691b3c17253c5be9562ff5f83e70",
+   "bytes": 3234
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f165.webp",
+   "sha256": "9d32195aa47a0557a8f252cc859395599894c1a772a273b0447b9abee6cb0552",
+   "bytes": 3160
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f166.webp",
+   "sha256": "c025ac54d1d069d59c56d4a61edf1543c145b4ae594b4887f933c7008388344e",
+   "bytes": 3236
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f167.webp",
+   "sha256": "37bfd92bc9eb485d02503b42a8ef29aed7204be63ec52a99c53ce9b9af7f02a4",
+   "bytes": 3196
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f168.webp",
+   "sha256": "fb345712e1e8c01393335b11015bf41f0ac570b969c494af812a5b136ddb9485",
+   "bytes": 3188
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f169.webp",
+   "sha256": "b39e06b869d6cdcd08a234ef34a997e42b024039c265019fcfdf4dd36ac3f8cd",
+   "bytes": 3196
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f170.webp",
+   "sha256": "eb8e4bb45e5bb85e9bf61eb3d40be4ce528be56dac460a52986bf4c24ce60635",
+   "bytes": 3186
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f171.webp",
+   "sha256": "6ce0dc19fdbd6dbf98563758d19d74ef7a2e58fe196cad8c6cf71ba3111ee205",
+   "bytes": 3208
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f172.webp",
+   "sha256": "93ebaddaf65395ec6a5102c56a712f7e20506d8a1aeb94232778dac6446ed982",
+   "bytes": 3232
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f173.webp",
+   "sha256": "abcb67c8fc3884c270055fbaf844a02b038b1a95e2797de67b69eb0047332bd0",
+   "bytes": 3212
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f174.webp",
+   "sha256": "ff62d47635a2c8973b914980999b7defd4658581c0d86a245641c60fa80abdb0",
+   "bytes": 3198
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f175.webp",
+   "sha256": "b4920210a22ccc6755fbe924c86f802e379cb9849f6269292a0c35426f8b03d8",
+   "bytes": 3164
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f176.webp",
+   "sha256": "30a67b27ccf8e833b8d2756a74ee67be493976c64f37d6d51052cb26dba80a4d",
+   "bytes": 3144
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f177.webp",
+   "sha256": "b026b2bc25b8c7359328a4b62af1decb10eed4177c95034a4b0526dabb828f8a",
+   "bytes": 3112
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f178.webp",
+   "sha256": "754c52869d1ab275e121f1ce4a4dde424f38ba2239810f8babf42a8eceed9625",
+   "bytes": 3166
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f179.webp",
+   "sha256": "01a1fea8d114ad91118a39f0ad333c2595fdb65730517ee22c664e3a43455e8e",
+   "bytes": 3172
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f180.webp",
+   "sha256": "4bc955592f0fdef922a5a106f42bac2bce04331e09fa8893c3f89dc8297f37b1",
+   "bytes": 3208
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f181.webp",
+   "sha256": "9c6c30b27fe9a8621f1f42f062a591ef1896c818088c93237090f222fce43b06",
+   "bytes": 3240
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f182.webp",
+   "sha256": "f4fc6c91e7ed3869ff93c73e51fb37ac437d697ddc92438ad2fb0b7000ee9517",
+   "bytes": 3208
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f183.webp",
+   "sha256": "2b5d3f91470673e103bbd803082fbaa037879be7a07aed4e013a62be18cfa009",
+   "bytes": 3192
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f184.webp",
+   "sha256": "c6a4ce1697f0f703a79e6ab898ad5f7248bab677dadccea7f17338bec45e7eed",
+   "bytes": 3210
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f185.webp",
+   "sha256": "432e8a786e8e300080a5cab5d9966b49337313e169a0520d868a86a4606e4cfa",
+   "bytes": 3172
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f186.webp",
+   "sha256": "d4b5959dddfd82b4c90cfc12f882407cd347f55d4adc05b78e24e9b6621cde05",
+   "bytes": 3194
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f187.webp",
+   "sha256": "51ce6357b68c4d11c4647452e61784c80de93f38fa1f658e5407a40cac478061",
+   "bytes": 3176
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f188.webp",
+   "sha256": "15d6c30028f3c81825bc38e65ff9b1c8936336a60f92effa2b839ea6d54442c7",
+   "bytes": 3184
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f189.webp",
+   "sha256": "0ec67d1c338471180e7be636dcf5145aab0d5b5d4b93a783e78345275a3693b6",
+   "bytes": 3158
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f190.webp",
+   "sha256": "6b84408fa772423314c4fc7082822010f66b8a44f6c8c324e5458ad3f5c4735e",
+   "bytes": 3134
+  },
+  {
+   "path": "anruf/flow/vanish-v2/f191.webp",
+   "sha256": "1e39d08bbab20711321468addde19c2a345ee5bf0d9ac89082d58cea1fbb121c",
+   "bytes": 3140
+  },
+  {
+   "path": "anruf/index.html",
+   "sha256": "cc6a4afc072cca76f98724e5b1a66dc54ad8257b5d251656e7ee294a26eb7e0f",
+   "bytes": 93570
+  },
+  {
+   "path": "anruf/mission/assets/buddy-fonts.css",
+   "sha256": "0560e02027633c886fc7d1c55e0a9015f8de2b36ea0eb2ec2c6fbb6742f9b2d8",
+   "bytes": 97874
+  },
+  {
+   "path": "anruf/mission/assets/dingsty-paket-logo-4.png",
+   "sha256": "d144d47bf7cd18b825d0d37b6463449d7f18e6d7955f1a717fcfa587c598d8ac",
+   "bytes": 11760
+  },
+  {
+   "path": "anruf/mission/assets/jump-sheet.png",
+   "sha256": "255b50a15648ff4332457aef47a3f85d67c56e46421f1b102929c369924210da",
+   "bytes": 25828
+  },
+  {
+   "path": "anruf/mission/assets/recover-sheet.png",
+   "sha256": "b3b0ba4b98ac0638b077c29efc52880162044050c65596fd83f46da8190b3fad",
+   "bytes": 18607
+  },
+  {
+   "path": "anruf/mission/assets/run-sheet.png",
+   "sha256": "9518fbd4a92b4488efb6233d7b918157c9f9d6892d67cc5ee05872effd20d189",
+   "bytes": 35708
+  },
+  {
+   "path": "anruf/mission/buddy-fonts.css",
+   "sha256": "0560e02027633c886fc7d1c55e0a9015f8de2b36ea0eb2ec2c6fbb6742f9b2d8",
+   "bytes": 97874
+  },
+  {
+   "path": "anruf/mission/combined-glue.js",
+   "sha256": "9ea5a3c039af804f4995fd0c36bea6e2cd06784f8fbb385069b8f735ea982e5f",
+   "bytes": 5961
+  },
+  {
+   "path": "anruf/mission/game.js",
+   "sha256": "052ce26fd60bac301f0e3322a064f28333fd16f226653d25ad20d1ac573389b1",
+   "bytes": 7973
+  },
+  {
+   "path": "anruf/mission/index.html",
+   "sha256": "ee9cf8fc82aa261d363afd6d764170e113c1daea316eeb2754cacfd5f88876d5",
+   "bytes": 1686
+  },
+  {
+   "path": "anruf/mission/render.js",
+   "sha256": "a3c9272ef9cd915b0b0a29f572b6d2611923d051bcc30c297d1aadc560b317ed",
+   "bytes": 3880
+  },
+  {
+   "path": "anruf/mission/runtime.js",
+   "sha256": "05ecacc1d8c3394d57f9261bed51ae177f3988a144bb09b70716f3c3c5903b03",
+   "bytes": 8247
+  },
+  {
+   "path": "anruf/mission/style.css",
+   "sha256": "9923f9a15074941e97f3597bf54740534b6ce9b4d98ffa57f72a6e820102b18e",
+   "bytes": 3821
+  },
+  {
+   "path": "assets/fonts.css",
+   "sha256": "429ae088b1ce11a578674ca5aea94dedc80b5edb4d38e09e5df8c9149c636440",
+   "bytes": 904303
+  },
+  {
+   "path": "assets/paket-dingsty.png",
+   "sha256": "10af0d70ecd42f9d98ee922fb90bda19353a5da75771d14fd764ee1a509d3c87",
+   "bytes": 57962
+  },
+  {
+   "path": "assets/shared.css",
+   "sha256": "382e58f794f90d6becf6e7d7eab6b67b67b29d07562122c78a52c4dcdc83bf59",
+   "bytes": 4015
+  },
+  {
+   "path": "brief/brief-glue.js",
+   "sha256": "2c8748eef3ff389569d8e8ed0b23d873aff988be93483daf2e35015e7738a101",
+   "bytes": 2661
+  },
+  {
+   "path": "brief/handoff-logic.js",
+   "sha256": "231a71e5078c53fce9e6cb75b94a8297a0282038bcefaee7a2074d923b2e6073",
+   "bytes": 8007
+  },
+  {
+   "path": "brief/index.html",
+   "sha256": "e694d127e30d92f14a4c0e41ccb7c62a4555580cbe3ac62544fe79261eab9ab4",
+   "bytes": 2172777
+  },
+  {
+   "path": "index.html",
+   "sha256": "bdc6fae522ba263fc190b71abc2004d4cf6588f3f1944a25c7540a65f5978859",
+   "bytes": 2589
+  },
+  {
+   "path": "landing.css",
+   "sha256": "d232b834b33de1d8a8157942f60e7e4f639c8b881d6c28b41dca3c0e00bd860f",
+   "bytes": 5468
+  },
+  {
+   "path": "landing.js",
+   "sha256": "373702ecc3088180396573131bfe9e3cc5a335e5307c449bcdacd3075adb328f",
+   "bytes": 9448
+  },
+  {
+   "path": "legal/datenschutz.html",
+   "sha256": "a5cce6b3bea1c4013f1778a87a164dc9f07423dbf013516a6f5b55cfc6a75d66",
+   "bytes": 2703
+  },
+  {
+   "path": "legal/impressum.html",
+   "sha256": "b1af2da7090d640d05153192e55e2100622a6f8637d507042bc785c10a2ac49c",
+   "bytes": 1877
+  },
+  {
+   "path": "legal/kontakt.html",
+   "sha256": "155406d52283e4d76ce2607983ee624a2b7a639c5bb328f463e06abd0b4af3dc",
+   "bytes": 987
+  },
+  {
+   "path": "shared/topbar.js",
+   "sha256": "72adf736cb6b4acaebe0ed4345405078bf9c60fc0ef29bafb0f6fb0e7497a974",
+   "bytes": 1432
+  }
+ ],
+ "weights_bytes": {
+  "anruf": 4812833,
+  "landing+shell": 985217,
+  "brief": 2183445,
+  "legal": 5567
+ },
+ "file_count": 417,
+ "total_bytes": 7987062
+}

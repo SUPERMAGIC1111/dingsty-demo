@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dingsty Loop, a small fictional game.">
+  <title>Dingsty Loop</title>
+  <link rel="stylesheet" href="assets/buddy-fonts.css">
+  <link rel="stylesheet" href="style.css?v=ca1cf8de4">
+</head>
+<body>
+  <main class="game-shell" aria-labelledby="game-title">
+    <header class="game-head"><img class="logo" src="assets/dingsty-paket-logo-4.png" alt="Dingsty"><p id="scene-label">SZENE 1</p></header>
+    <h1 id="game-title">Immer dieselbe Runde.</h1>
+    <section class="handheld" aria-label="Dingsty Loop Spielgerät">
+      <div class="screen"><canvas id="game" tabindex="0" aria-label="Dingsty Loop. Tippen oder Leertaste zum Springen."></canvas></div>
+      <div class="keys" aria-label="Spielsteuerung">
+        <button id="sound" type="button" aria-pressed="false">Ton aus</button>
+        <button id="play" class="play" type="button">PLAY</button>
+        <button id="jump" type="button">SPRINGEN</button>
+      </div>
+      <div class="pause-row"><button id="pause" type="button" aria-pressed="false">PAUSE</button></div>
+      <div id="keypad" class="keypad" hidden aria-label="Wähle die Nummer 0800"></div>
+    </section>
+    <p id="status" class="status" role="status">PLAY startet die Runde.</p>
+    <p class="small-note">Fiktives Spiel. Ton bleibt aus, bis du ihn einschaltest.</p>
+  </main>
+  <script src="game.js?v=ca1cf8de4"></script>
+  <script src="render.js?v=ca1cf8de4"></script>
+  <script src="runtime.js?v=ca1cf8de4"></script>
+  <script src="combined-glue.js?v=ca1cf8de4"></script>
+</body>
+</html>

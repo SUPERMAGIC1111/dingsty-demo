@@ -1,0 +1,258 @@
+/* Dingsty flow (candidate 1017, round 6, NOT FINAL, NOT READY). Locked components: pills, rollover and focus black, press scale .94, bouncy tabs (DINGSTY-COMPONENTS-LOCK v1).
+   Layout rule (round 5, R4-01): every control has a fixed Y in every state. The stage is the smaller of its design height and the room
+   left under the controls (dvh with vh fallback), so the story fits above the fold at 320x640, 390x844 and 1280x800. */
+:root{--flow-smooth:cubic-bezier(.625,.05,0,1);--flow-bounce:cubic-bezier(.34,1.56,.64,1);--stage-h:400px;--chrome:380px}
+/* Round 6 (R5-05, R5-09): design stage heights are the tallest card per width (alert card 355 px at 390, 367 px at 1280) plus air, not the room left. */
+@media (max-width:560px){:root{--chrome:440px}}
+@media (max-width:420px){:root{--stage-h:340px}}
+/* Narrow phones: the brand line wraps to two lines, so the reserve below the stage grows by about 20 px. */
+@media (max-width:420px){:root{--chrome:460px}}
+@media (max-width:359px){:root{--stage-h:340px}}
+@media (min-width:700px){:root{--stage-h:360px}}
+
+/* Controls: two fixed-height rows above the stage. Row 1: tabs, Ton, Stopp (two lines on phones, one on desktop).
+   Row 2: Ich bin da or Nochmal, or Ja/Nein side by side in the alert. Both rows keep their height in every state. */
+.flow-controls{display:flex;flex-direction:column;gap:8px;align-items:center;margin:10px 0 0;width:100%}
+.flow-row1{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;align-items:center;width:100%;min-height:48px}
+@media (max-width:560px){.flow-row1{min-height:104px}}
+.flow-util{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center}
+.flow-row2{display:grid;grid-template-columns:minmax(0,1fr);justify-items:center;align-items:center;width:100%;height:48px}
+.flow-row2 > *{grid-area:1/1}
+.flow-ans{display:flex;flex-direction:row;flex-wrap:nowrap;gap:8px;align-items:center;justify-content:center;max-width:100%}
+.flow-ans[hidden]{display:none}
+
+.flow-tabs{position:relative;display:inline-flex;background:var(--soft,#f4eee2);border-radius:999px;padding:3px;border:0;max-width:100%}
+.flow-tabs .blob{position:absolute;z-index:0;top:3px;left:0;height:calc(100% - 6px);background:var(--yellow,#fff35e);border-radius:999px;pointer-events:none;transition:transform .6s var(--flow-bounce),width .6s var(--flow-bounce)}
+.flow-tabs button{position:relative;z-index:1;background:transparent;min-width:0;min-height:48px;padding-left:22px;padding-right:22px;color:var(--ink,#33332f);font-size:.95rem;font-weight:600;white-space:nowrap}
+.flow-tabs button:hover,.flow-tabs button:focus-visible{background:#000!important;color:#fff!important}
+/* Round 7 (R6-06): dimmed tabs are inert and visibly off: disabled (no click, no hover, no focus), the blob fades with them. */
+.flow-tabs[data-dim="1"] button{opacity:.45}
+.flow-tabs button:disabled{pointer-events:none;cursor:default}
+.flow-tabs .blob{transition:transform .6s var(--flow-bounce),width .6s var(--flow-bounce),opacity .3s linear}
+.flow-tabs[data-dim="1"] .blob{opacity:.35}
+
+/* Pills: Ton, Stopp, Ich bin da, Nochmal. Focus = black fill + white text (the lock), same specificity as the pill itself. */
+#flow-sound,#flow-back,#flow-again{background:var(--soft,#f4eee2);color:var(--ink,#33332f);min-height:48px;padding-left:22px;padding-right:22px;font-size:.95rem;font-weight:600;white-space:nowrap}
+#flow-here,#flow-start{background:linear-gradient(180deg,#fff9a6,#fff35e);background-color:#fff35e;color:var(--ink,#33332f);min-height:48px;padding-left:26px;padding-right:26px;font-family:"Young Serif",Georgia,serif;font-weight:400;font-size:1.05rem;white-space:nowrap}
+#flow-sound:hover,#flow-sound:focus-visible,#flow-back:hover,#flow-back:focus-visible,#flow-again:hover,#flow-again:focus-visible,#flow-here:hover,#flow-here:focus-visible,#flow-start:hover,#flow-start:focus-visible,#notice-demo:hover,#notice-demo:focus-visible{background:#000!important;color:#fff!important}
+#flow-sound:focus-visible,#flow-back:focus-visible,#flow-again:focus-visible,#flow-here:focus-visible,#flow-start:focus-visible,#notice-demo:focus-visible,.flow-tabs button:focus-visible{outline:none;box-shadow:none}
+/* Round 12 (R11-01): a pressed "Ich bin da" stays in the locked pressed look (black fill, white text) until the freeze, so the press is seen at once. */
+#flow-here.ack,#flow-here.ack:hover{background:#000!important;color:#fff!important}
+
+/* Alert answers (round 5): short copy, side by side in row 2. Ja = primary go (yellow gradient, Young Serif label); Nein = standard soft pill. */
+#gotit{background:linear-gradient(180deg,#fff9a6,#fff35e);color:var(--ink,#33332f);font-family:"Young Serif",Georgia,serif;font-weight:400;font-size:1.05rem;padding-left:20px;padding-right:20px;min-height:48px;min-width:0;border:0;white-space:nowrap}
+#notit{background:var(--soft,#f4eee2);color:var(--ink,#33332f);font-family:"Elms Sans",ui-sans-serif,system-ui,sans-serif;font-weight:600;font-size:.96rem;padding-left:18px;padding-right:18px;min-height:48px;min-width:0;border:0;white-space:nowrap}
+#gotit:hover,#gotit:focus-visible,#notit:hover,#notit:focus-visible{background:#000!important;color:#fff!important}
+
+/* Stage: ONE box. Its height is min(design height, room under the controls) and is the same in every state of a viewport.
+   container-type makes the character scale to the stage (cqh). Layers are absolutely placed and never change the box. */
+.flow-scene{position:relative;width:100%;margin:10px 0 0;overflow:hidden;container-type:size;
+  height:max(160px,min(var(--stage-h),calc(100vh - var(--chrome))));
+  height:max(160px,min(var(--stage-h),calc(100dvh - var(--chrome))))}
+.fl{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;min-width:0;opacity:0;visibility:hidden;transition:opacity .6s var(--flow-smooth),visibility 0s linear .6s}
+.fl.on{opacity:1;visibility:visible;transition:opacity .6s var(--flow-smooth),visibility 0s linear 0s}
+
+/* Real card and burst are centred in the stage box. */
+.fl-real,.fl-burst{justify-content:center;padding-top:0}
+/* Burst layer: keyed frames at 440 x 385 (native size at 1x; the clip is shown at most 440 CSS px wide). */
+#flow-canvas{display:block;width:min(100%,440px,calc(100cqh * 440 / 385));height:auto;aspect-ratio:440/385;background:transparent;cursor:pointer}
+/* Round 8 (N-R7-04): the closing phone sits right of centre inside the clip (its visible pixels centre at 0.68 of the frame width, measured
+   on flow/vanish/f191.webp). When the vanish clip ends, the canvas slides left so the phone is centred. The frames are not changed. */
+#flow-canvas{transition:transform .6s var(--flow-smooth)}
+/* round 13 (R12-03): the phone's centre in flow/vanish/f191 is 0.684 of the clip width (measured on the frame), so the shift is 0.5 - 0.684 = -18.4 %. */
+.flow-scene.closed #flow-canvas{transform:translateX(-18.4%)}
+
+/* Game layer: the runner iframe fills the stage box. Its own card header is hidden inside the flow. */
+/* Round 5 (R4-10): the game card is only as tall as the game (centred in the box), not the whole stage box. */
+.fl-game .mission-card{position:relative;inset:auto;margin:0;padding:0;background:transparent;border:0;border-radius:0;width:100%;height:auto}
+.fl-game .mission-card summary,.fl-game #mission-note{display:none}
+/* The runner frame: up to 300 px tall, narrower only when the stage is short, so the canvas and the Springen button stay inside the box. */
+/* Round 6 (R5-01, R5-02): full stage width; the height is the game's own height, reported by the game (default until it reports). */
+#mission-frame{position:relative;inset:auto;display:block;margin:0 auto;width:100%;max-width:480px;height:min(300px,100cqh);min-height:0}
+
+/* Pixel cubes that converge into the runner or leave it. Positioned by JS over the whole stage box. */
+#flow-fx{position:absolute;inset:0;pointer-events:none;z-index:5;overflow:hidden}
+.fp{position:absolute;left:0;top:0;width:9px;height:9px;border-radius:2px;opacity:0;will-change:transform}
+.fp-y{background:#fff35e;box-shadow:inset -2px -2px 0 rgba(51,51,47,.14)}
+.fp-w{background:#fffdf8;box-shadow:inset -2px -2px 0 rgba(51,51,47,.12)}
+
+/* Demo label (R4-03): shown only on the no-mic path. Absolutely placed, so it never moves the layout. */
+.flow-demo{position:absolute;left:8px;top:8px;z-index:9;margin:0;padding:5px 10px;border-radius:999px;background:var(--soft,#f4eee2);color:var(--mute,#6b665f);font:600 14px/1.2 "Elms Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.01em;pointer-events:none;max-width:calc(100% - 16px)}
+
+/* Round 9 (N-R8-02, N-R8-03): the demo offer that appears under a notice (microphone denied or failed); it uses the locked yellow pill. */
+#notice-demo{min-height:48px;margin:10px auto 0;padding-left:26px;padding-right:26px;font-family:"Young Serif",Georgia,serif;font-weight:400;font-size:1.05rem;white-space:nowrap;background:linear-gradient(180deg,#fff9a6,#fff35e);color:var(--ink,#33332f);border:0}
+/* Round 9: while the game runs, the demo label moves to the bottom-left of the stage, so it does not cover the game's score text (top-left). */
+.flow-scene[data-state="game-watch"] .flow-demo,.flow-scene[data-state="game-play"] .flow-demo{top:auto;bottom:6px}
+/* The stage character: the keyed frame (same asset as the burst), drawn at 2x its crop. Scales to the stage height (cqh) when short. */
+#dingsty{width:auto;height:min(64vw,300px);height:min(64vw,300px,60cqh);aspect-ratio:462/570;margin:6px auto 0}
+/* A short stage (small phones): the hint line repeats the caption and goes; the figure and the headline shrink, so the card stays inside the box. */
+/* Round 7 (R6-05): a short stage (320 x 640 and similar) puts the hero on the left at up to 76 % of the stage height, and the headline and hint on the right:
+   the hero is about twice as large as the stacked card, and the card stays inside the box. */
+@container (max-height:260px){
+  /* Round 8 (R6-05, N-R7-06 overlap): the hero is larger (86 % of the stage height, width from the height), and the top 28 px are kept
+     free for the "Demo: simulated voice" label, so a four-line headline no longer runs under it (measured at 320 x 640, EN alert). */
+  /* Round 9 (N-R8-07): the hero is 82 % of the stage height (width from the height, 66.4 cqh keeps the 462 x 570 ratio); the column gap
+     is 16 px, the bottom gap 12 px; row 3 holds the demo offer. */
+  #stage{display:grid;grid-template-columns:auto minmax(0,1fr);grid-template-rows:auto auto auto;column-gap:16px;row-gap:4px;align-items:center;justify-items:start;text-align:left;padding-top:28px;padding-bottom:12px}
+  #dingsty{grid-column:1;grid-row:1 / span 3;width:min(64vw,300px,66.4cqh);height:min(64vw,300px,82cqh);margin:0}
+  #status{grid-column:2;grid-row:1;font-size:1rem;line-height:1.05;text-align:left}
+  #hint{grid-column:2;grid-row:2;font-size:12px;line-height:1.25;margin:0;text-align:left}
+  #notice-demo{grid-column:2;grid-row:3;justify-self:start;margin:0;min-height:40px;padding-top:4px;padding-bottom:4px;font-size:.95rem}
+  /* round 9: the demo label moves up 4 px in the short stage, so it clears the top of the hero (320 x 640 waiting state) */
+  .flow-demo{top:4px;left:4px}
+}
+
+/* Round 11 (notice clip): with the demo offer on screen (no microphone, phone entry) the hero is smaller, so the offer's bottom edge
+   stays inside the stage box. Measured before the fix: the offer ended 16 px below the 340 px stage at 390 x 844 and was clipped. */
+.flow-scene[data-notice="1"] #dingsty{width:auto;height:min(36vw,150px,50cqh)}
+/* Round 14 (N13-01): the alert hero keeps the "dance" keyframes (index.html: up 22 px, scaled 1.1 at the peak). Measured on the live
+   animation at 390 DE: the ink top falls to 340.8 against the stage top 359.4, so the antenna tip was cut. In the alert only, the scene
+   and the card let the hero overflow; no box moves, so every control keeps its Y. */
+.flow-scene[data-state="alert"],.flow-scene[data-state="alert"] #stage{overflow:visible}
+/* Round 4 (R3-03, R3-04, N10): locked pills carry no shadow; cards are the solid card colour (#fffdf8), not translucent;
+   the detector readout line is hidden while listening in the flow. */
+button.go,button.yes,button.no,#flow-here,#gotit,#notit,#flow-sound,#flow-back,#flow-again,#start,#launch-demo{box-shadow:none!important}
+.listening-ui .stage{background:#fffdf8!important}
+#hear{display:none!important}
+
+/* Stage text: locked heading font, balanced line breaks. The mascot and the mic meter are not used in the flow. */
+#status{font-family:"Young Serif",Georgia,serif;font-weight:400;letter-spacing:-.02em;text-wrap:balance}
+.celebrate-mascot,.paket-mascot{display:none!important}
+.meter{display:none!important}
+
+/* Round 5: the legacy full-stop button under the stage is hidden in the flow; Stopp in row 1 is the one way back (no second Stopp). */
+#stop{display:none!important}
+/* round 6: while the flow is shown the page fits the viewport (no page scrollbar): a smaller bottom padding below More */
+body:has(#listening-ui:not([hidden])){padding-bottom:8px}
+/* Demo start: locked wide pill, one line, 180 px minimum. */
+#sim{min-width:180px;white-space:nowrap}
+
+/* Caption and count-up timer (fixed boxes under the controls, two caption lines at most). */
+/* Round 6 (N6, R5-13): captions use the page's locked body font (Elms Sans); no extra font is downloaded. Balanced lines: no lone last word. */
+.flow-caption{font:500 15px/1.4 "Elms Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:#575047;text-align:center;min-height:2.8em;margin:6px 6px 0;width:100%;text-wrap:balance}
+/* Round 7 (R6-07): timer in the locked body font (Elms Sans), numerals tabular so the count does not jitter. */
+.flow-timer{font:600 13px/1.3 "Elms Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;font-variant-numeric:tabular-nums;letter-spacing:.02em;color:#6b665f;text-align:center;margin:0;min-height:1.3em;width:100%}
+
+@media (prefers-reduced-motion:reduce){
+  .fl,.fl.on{transition:opacity .6s linear,visibility 0s}
+  .flow-tabs .blob,.flow-tabs button,#flow-sound,#flow-back,#flow-here,#flow-again,#gotit,#notit,#flow-canvas{transition:none!important}
+}
+
+/* ROUND 15 (Günter, stream 1: "looks really not good"). ONE control system: every pill, tab, answer and menu button has the same font,
+   weight, size, line height and height, and its label is centred in the box. Row 1: the mode track and "Mehr" (one menu holds Ton,
+   Sprache, Empfindlichkeit and the notes). Row 2: the one primary action and Stopp. The card has ONE height in every state; the stage
+   keeps headroom for the dance and the burst, and the scene does not clip them (overflow visible). */
+:root{--pill-h:48px;--pill-font:600 16px/1.2 "Elms Sans",ui-sans-serif,system-ui,sans-serif;--pill-pad:22px;--card-h:320px;--stage-h:356px}
+@media (max-width:560px){:root{--chrome:440px}}
+@media (max-width:420px){:root{--chrome:460px}}
+@media (max-width:359px){:root{--card-h:300px;--stage-h:336px;--pill-pad:18px}}
+@media (min-width:700px){:root{--card-h:340px;--stage-h:376px}}
+.flow-scene{overflow:visible;margin-top:14px;height:max(160px,min(var(--stage-h),calc(100vh - var(--chrome))));height:max(160px,min(var(--stage-h),calc(100dvh - var(--chrome))))}
+#stage{box-sizing:border-box;width:100%;height:min(var(--card-h),100cqh);display:flex;flex-direction:column;justify-content:center;align-items:center}
+#more>summary{min-width:0;padding:0 var(--pill-pad)}
+@container (max-height:260px){#stage{display:grid}}
+button,#flow-sound,#flow-back,#flow-again,#flow-here,#flow-start,#gotit,#notit,#notice-demo,#more>summary,button.go,.launch .go{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;height:var(--pill-h);min-height:var(--pill-h);padding:0 var(--pill-pad) 1.6px;font:var(--pill-font);letter-spacing:0;text-decoration:none;white-space:nowrap;border:0;border-radius:999px;box-shadow:none}
+#flow-here,#flow-start,#gotit,#notice-demo,button.go,.launch .go{background:linear-gradient(180deg,#fff9a6,#fff35e);background-color:#fff35e;color:var(--ink,#33332f)}
+#flow-sound,#flow-back,#flow-again,#notit,#more>summary{background:var(--soft,#f4eee2);color:var(--ink,#33332f)}
+button:hover,button:focus-visible,#more>summary:hover,#more>summary:focus-visible{background:#000!important;color:#fff!important;outline:none;box-shadow:none}
+.flow-controls{gap:10px}
+.flow-row1{display:flex;flex-wrap:nowrap;gap:8px;justify-content:center;align-items:center;width:100%;min-height:var(--pill-h)}
+@media (max-width:359px){.flow-row1{flex-wrap:wrap}}
+.flow-row2{display:grid;grid-template-columns:auto auto;justify-content:center;align-items:center;column-gap:8px;width:100%;height:var(--pill-h)}
+.flow-row2>#flow-here,.flow-row2>#flow-start,.flow-row2>#flow-again{grid-column:1;grid-row:1}
+.flow-row2>#flow-back{grid-column:2;grid-row:1}
+.flow-row2>#answer{grid-column:1/-1;grid-row:1}
+.flow-ans{display:flex;gap:8px;justify-content:center}
+.flow-tabs{padding:3px}
+.flow-tabs button{height:calc(var(--pill-h) - 6px);min-height:0;padding:0 var(--pill-pad) 1.6px;background:transparent}
+#more{position:relative;gap:0;margin:0;width:auto;flex:none}
+#more>.menu-panel{display:none}
+#more>summary{list-style:none;cursor:pointer}
+#more>summary::-webkit-details-marker{display:none}
+/* round 19 (review 1017 finding 1): the popover opens BELOW the Starten row (row 2 ends 114 px below the Mehr box's top at every width), never on the primary */
+#more[open]>.menu-panel{position:absolute;top:114px;right:0;z-index:40;display:grid;gap:8px;box-sizing:border-box;width:min(320px,calc(100vw - 32px));padding:12px;border-radius:20px;background:var(--card,#fffdf8);box-shadow:0 18px 40px -22px rgba(60,50,20,.35)}
+.menu-btn{width:100%}
+#more[open]>.menu-panel{text-align:left}
+/* round 19 (review 1017 finding 6): "Nochmal" in the done state is the yellow primary, like Starten and "Ich bin da" */
+#flow-again{background:linear-gradient(180deg,#fff9a6,#fff35e);background-color:#fff35e;color:var(--ink,#33332f)}
+label.menu-row{display:flex;flex-direction:row;align-items:center;justify-content:flex-start;gap:10px;text-align:left;min-height:var(--pill-h);font:400 15px/1.3 "Elms Sans",ui-sans-serif,system-ui,sans-serif;color:var(--ink,#33332f)}
+.menu-row select{height:40px;border:0;border-radius:999px;background:var(--soft,#f4eee2);padding:0 14px;font:600 15px/1.2 "Elms Sans",ui-sans-serif,system-ui,sans-serif;color:var(--ink,#33332f)}
+.menu-row select,.menu-slider input{margin-left:auto}
+.menu-slider input{width:45%}
+.menu-note,.menu-say{margin:0;font:400 14px/1.4 "Elms Sans",ui-sans-serif,system-ui,sans-serif;color:var(--mute,#6b665f)}
+.menu-say{white-space:pre-wrap;color:var(--ink,#33332f)}
+.hint:empty{display:none}
+
+/* ROUND 16 (REVIEW-1015). Overrides the round-15 block above; the later rule wins.
+   Row 1: the mode track, then ONE slot holding "Mehr" (no session) or "Stopp" (a session runs or an alert waits). Row 2: ONE cell,
+   holding the primary action (Starten, Ich bin da, Nochmal) or the two answers of the alert, centred. No two controls share a box.
+   Track pills are the pill token (48 px, 16 px). The scene IS the card: one surface behind the story (card, burst, game, freeze, done). */
+.flow-row1{display:flex;flex-wrap:nowrap;justify-content:center;align-items:center;gap:8px;width:100%;min-height:var(--pill-h)}
+.flow-slot{position:relative;display:grid;justify-items:center;align-items:center;flex:none}
+.flow-slot>*{grid-area:1/1}
+#flow-back{justify-self:center}
+.flow-row2{display:grid;grid-template-columns:auto;grid-template-rows:auto;column-gap:0;justify-content:center;justify-items:center;align-items:center;width:100%;height:var(--pill-h)}
+.flow-row2>*{grid-area:1/1;margin:0}
+.flow-row2>#answer{grid-column:1;grid-row:1}
+.flow-row2>.flow-ans{display:flex;flex-wrap:nowrap;gap:8px;justify-content:center;align-items:center}
+.flow-tabs{padding:0;background:var(--soft,#f4eee2);border-radius:999px;flex:none}
+.flow-tabs .blob{top:0;height:100%}
+.flow-tabs button{height:var(--pill-h);min-height:var(--pill-h);padding:0 var(--pill-pad) 1.6px;font:var(--pill-font);background:transparent}
+#more{flex:none}
+#more>summary{height:var(--pill-h);min-height:var(--pill-h)}
+.flow-scene{overflow:visible;margin-top:14px;background:var(--card,#fffdf8);border-radius:30px;box-shadow:0 20px 50px -30px rgba(60,50,20,.26);height:max(160px,min(var(--card-h),calc(100vh - var(--chrome))));height:max(160px,min(var(--card-h),calc(100dvh - var(--chrome))))}
+#stage,.stage,.stage.alert,.listening-ui .stage{background:transparent!important;box-shadow:none!important;border-radius:0;overflow:visible;height:100%;box-sizing:border-box}
+.flow-demo{top:10px;left:14px}
+#more[open]>.menu-panel{width:min(236px,calc(100vw - 32px));right:0}
+.menu-row select{height:var(--pill-h);min-height:var(--pill-h)}
+.menu-row select:focus-visible,.menu-btn:focus-visible,#flow-sound:focus-visible{background:#000!important;color:#fff!important;outline:none}
+button:focus-visible,#flow-back:focus-visible,#flow-again:focus-visible,#flow-start:focus-visible,#flow-here:focus-visible,#gotit:focus-visible,#notit:focus-visible,#notice-demo:focus-visible,#more>summary:focus-visible,.flow-tabs button:focus-visible{background:#000!important;color:#fff!important;outline:none;box-shadow:none}
+/* 320 px (296 px of content): the track, Mehr or Stopp, and the two answers fit on ONE line each at 16 px side padding (the lock asks for 22;
+   this is the narrow-screen exception, listed for Günter). The chrome above the stage is about 330 px here, so the card keeps 300 px. */
+@media (max-width:359px){
+  :root{--chrome:330px}
+  .flow-row1{flex-wrap:nowrap;gap:6px;min-height:var(--pill-h)}
+  .flow-row2{height:var(--pill-h)}
+  .flow-row2>.flow-ans{flex-direction:row;gap:6px}
+  .flow-row2>.flow-ans button,#flow-back,#more>summary{padding-left:16px;padding-right:16px}
+  .flow-tabs button{padding-left:16px;padding-right:16px}
+  body{padding-left:16px;padding-right:16px} /* round 17 (C): a 16 px side gutter at 320 px (was 12 px from the 390 px rule in index.html) */
+  /* round 17 (C): the 288 px card wraps the alert title to three lines; the character gives up height so the copy stays inside the 300 px card */
+  .flow-scene[data-state="alert"] #dingsty{height:min(64vw,300px,46cqh)}
+}
+
+/* ROUND 22 (Günter, 2026-10-17): the segmented controls are a soft grey track with ONE WHITE pill that springs between the options
+   (0.6 s, the measured Osmo curve); yellow only for ONE primary action per screen; neutral soft pills for Stopp, Mehr, Ton, Nein,
+   the demo offer and the link; the arrow is an inline SVG; typography and card spacing follow the Paket Brief (go-live) where the locks allow. */
+:root{--track:#e9e5dc;--pill-white:#fff;--ease-osmo:cubic-bezier(.625,.05,0,1);
+  --pill-font:600 .95rem/1.2 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+/* Zuschauen / Spielen: soft grey track, one white selected pill, selected ink, unselected quieter ink, hover darkens the label */
+.flow-tabs{background:var(--track)!important;border-radius:999px}
+.flow-tabs .blob{background:var(--pill-white)!important;box-shadow:0 1px 2px rgba(31,29,26,.10),0 2px 8px rgba(31,29,26,.07);transition:transform .6s var(--ease-osmo),width .6s var(--ease-osmo),opacity .3s linear}
+.flow-tabs button{background:transparent!important;color:var(--mute,#6b665f)!important;box-shadow:none!important}
+.flow-tabs button[aria-pressed="true"]{color:var(--ink,#33332f)!important}
+.flow-tabs button:hover{color:var(--ink,#33332f)!important}
+.flow-tabs button:focus-visible{background:#000!important;color:#fff!important}
+@media (prefers-reduced-motion:reduce){.flow-tabs .blob{transition:none!important}}
+/* the language track in the Mehr popover: the same track and white pill */
+.seg{position:relative;display:inline-flex;align-items:center;background:var(--track);border-radius:999px;padding:0;flex:none}
+.seg .blob{position:absolute;z-index:0;top:3px;left:0;height:calc(100% - 6px);background:var(--pill-white);border-radius:999px;box-shadow:0 1px 2px rgba(31,29,26,.10),0 2px 8px rgba(31,29,26,.07);pointer-events:none;transition:transform .6s var(--ease-osmo),width .6s var(--ease-osmo)}
+.seg button{position:relative;z-index:1;height:42px;min-height:42px;padding:0 12px;border:0;border-radius:999px;background:transparent;color:var(--mute,#6b665f);font:600 .88rem/1 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;box-shadow:none;cursor:pointer}
+.seg button[aria-pressed="true"]{color:var(--ink,#33332f)}
+.seg button:hover{color:var(--ink,#33332f)}
+.seg button:focus-visible{background:#000;color:#fff;outline:none}
+@media (prefers-reduced-motion:reduce){.seg .blob{transition:none}}
+
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+/* YELLOW ONLY for one primary per screen: Ich bin da / Starten (flow), Ja (alert), Nochmal (done), Starten (launch) */
+#notice-demo:not(:focus-visible),#copy-link:not(:focus-visible){background:var(--soft,#f4eee2)!important;background-color:var(--soft,#f4eee2)!important;color:var(--ink,#33332f)!important}
+#notice-demo:hover,#copy-link:hover{background:#000!important;color:#fff!important}
+/* primaries use Young Serif (the lock's primary face); pills keep the 48 px token */
+#flow-here,#flow-start,#gotit,#flow-again,.launch .go,button.go{font-family:"Young Serif",Georgia,"Times New Roman",serif;font-weight:400;font-size:.95rem}
+/* the arrow: an inline SVG with its own space (replaces the text glyph that touched "da") */
+button svg.arrow{display:inline-block;width:14px;height:14px;margin-left:6px;vertical-align:middle;flex:none;color:currentColor;overflow:visible}
+/* card: flat, the Brief's card shadow */
+.flow-scene{box-shadow:0 1px 2px rgba(31,29,26,.06)}
+/* typography: the Brief's caption and label sizes (muted caption, medium labels) */
+#flow-caption{font:400 .9rem/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--mute,#6b665f)}
+.menu-row{font:500 .88rem/1.3 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:#3b3833}

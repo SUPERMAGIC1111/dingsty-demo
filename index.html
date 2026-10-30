@@ -1,1 +1,71 @@
-<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Dingsty Demo</title><meta http-equiv="refresh" content="0;url=hold-buddy/index.html?demo=1"></head><body style="margin:0;background:#f4f2ed;font:16px system-ui;padding:24px;color:#33332f"><p>Dingsty Demo l&auml;dt &hellip; <a href="hold-buddy/index.html?demo=1" style="color:#33332f">Weiter</a></p></body></html>
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dingsty Paket: Briefhilfe oder eine simulierte Warteschleifen-Demo. Es wird nichts gesendet und niemand angerufen.">
+  <title>Dingsty Paket — Was hilft dir jetzt?</title>
+  <link rel="stylesheet" href="assets/fonts.css">
+  <link rel="stylesheet" href="assets/shared.css">
+  <link rel="stylesheet" href="landing.css">
+  <link rel="stylesheet" href="ux-extra.css">
+</head>
+<body>
+  <div class="app">
+    <header class="lh">
+      <a class="wm" id="brand" href="index.html" aria-label="Dingsty Paket — Start">dingsty<span class="sl" aria-hidden="true">///</span></a>
+      <div class="lh-r">
+        <span class="dx-badge" id="badge">Test-Version</span>
+        <div class="dx-seg" role="group" aria-label="Sprache">
+          <span class="dx-seg-thumb" aria-hidden="true"></span>
+          <button type="button" aria-pressed="true" data-lang="de">DE</button>
+          <button type="button" aria-pressed="false" data-lang="en">EN</button>
+          <button type="button" aria-pressed="false" data-lang="es">ES</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="h1">
+        <p class="eyebrow" id="eyebrow"></p>
+        <h1 id="h1"></h1>
+        <p class="sub" id="sub"></p>
+        <p class="boundary" id="boundary"></p>
+      </section>
+
+      <section class="choices" id="choices" aria-label="Wähle einen Weg">
+        <a class="choice choice-letter" id="brief-choice" href="brief/index.html?lang=de">
+          <strong id="brief-title"></strong>
+          <span class="choice-desc" id="brief-desc"></span>
+          <span class="choice-meta" id="brief-meta"></span>
+          <span class="choice-footer">
+            <span class="choice-action" id="brief-action"></span>
+            <img class="choice-art choice-art-plane" src="assets/dingsty-paper-plane-cutout.png" alt="" width="220" height="160">
+          </span>
+        </a>
+        <a class="choice choice-phone" id="phone-choice" href="anruf/index.html?demo=1&amp;lang=de">
+          <strong id="phone-title"></strong>
+          <span class="choice-desc" id="phone-desc"></span>
+          <span class="choice-meta" id="phone-meta"></span>
+          <span class="choice-footer">
+            <span class="choice-action" id="phone-action"></span>
+            <img class="choice-art" src="assets/dingsty-phone-cutout.png" alt="" width="160" height="160">
+          </span>
+        </a>
+      </section>
+
+      <p class="hint" id="hint"></p>
+      <p class="start-note" id="note"></p>
+    </main>
+
+    <footer class="foot">
+      <span>© 2026 Dingsty</span>
+      <a id="l-datenschutz" href="legal/datenschutz.html?lang=de">Datenschutz</a>
+      <a id="l-impressum" href="legal/impressum.html?lang=de">Impressum</a>
+      <a id="l-kontakt" href="legal/kontakt.html?lang=de">Kontakt</a>
+      <p class="weniger" id="weniger"></p>
+    </footer>
+  </div>
+  <script src="landing.js"></script>
+</body>
+</html>

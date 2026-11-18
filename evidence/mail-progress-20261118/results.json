@@ -1,0 +1,3717 @@
+{
+  "application_sha": "92742fd4a58e2cabde9afadb1db50690f8978c0b",
+  "baseline": "7a93a29cbc8fca9ae9fba40f9275e0978b319cb2",
+  "method": "Installed Chromium; native local HTTP UI events; no live external contact actions.",
+  "runs": [
+    {
+      "width": 1280,
+      "reduce": false,
+      "checks": [
+        {
+          "label": "step 1 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 407.5,
+            "contentLeft": 407.5,
+            "controls": [
+              {
+                "label": "",
+                "rect": {
+                  "x": 407.5,
+                  "y": 202,
+                  "width": 74,
+                  "height": 44,
+                  "top": 202,
+                  "right": 481.5,
+                  "bottom": 246,
+                  "left": 407.5
+                }
+              },
+              {
+                "label": "1/5",
+                "rect": {
+                  "x": 783.796875,
+                  "y": 214,
+                  "width": 39.453125,
+                  "height": 20,
+                  "top": 214,
+                  "right": 823.25,
+                  "bottom": 234,
+                  "left": 783.796875
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 835.25,
+                  "y": 202,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 202,
+                  "right": 879.5,
+                  "bottom": 246,
+                  "left": 835.25
+                }
+              }
+            ],
+            "viewport": 1280,
+            "scrollWidth": 1280
+          }
+        },
+        {
+          "label": "step 1 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 407.5,
+              "y": 202,
+              "width": 74,
+              "height": 44,
+              "top": 202,
+              "right": 481.5,
+              "bottom": 246,
+              "left": 407.5
+            },
+            {
+              "x": 783.796875,
+              "y": 214,
+              "width": 39.453125,
+              "height": 20,
+              "top": 214,
+              "right": 823.25,
+              "bottom": 234,
+              "left": 783.796875
+            },
+            {
+              "x": 835.25,
+              "y": 202,
+              "width": 44.25,
+              "height": 44,
+              "top": 202,
+              "right": 879.5,
+              "bottom": 246,
+              "left": 835.25
+            }
+          ]
+        },
+        {
+          "label": "step 1 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "existing Paket logo image renders",
+          "pass": true
+        },
+        {
+          "label": "legacy duplicate Paket text stays hidden",
+          "pass": true
+        },
+        {
+          "label": "language control has 44px target",
+          "pass": true
+        },
+        {
+          "label": "original rolling letters remain",
+          "pass": true
+        },
+        {
+          "label": "original rollover respects motion setting",
+          "pass": true
+        },
+        {
+          "label": "step 2 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 2 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 407.5,
+            "contentLeft": 407.5,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 687.75,
+                  "y": 148,
+                  "width": 81.34375,
+                  "height": 44,
+                  "top": 148,
+                  "right": 769.09375,
+                  "bottom": 192,
+                  "left": 687.75
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 407.5,
+                  "y": 148,
+                  "width": 74,
+                  "height": 44,
+                  "top": 148,
+                  "right": 481.5,
+                  "bottom": 192,
+                  "left": 407.5
+                }
+              },
+              {
+                "label": "2/5",
+                "rect": {
+                  "x": 781.09375,
+                  "y": 160,
+                  "width": 42.15625,
+                  "height": 20,
+                  "top": 160,
+                  "right": 823.25,
+                  "bottom": 180,
+                  "left": 781.09375
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 835.25,
+                  "y": 148,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 148,
+                  "right": 879.5,
+                  "bottom": 192,
+                  "left": 835.25
+                }
+              }
+            ],
+            "viewport": 1280,
+            "scrollWidth": 1280
+          }
+        },
+        {
+          "label": "step 2 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 407.5,
+              "y": 148,
+              "width": 74,
+              "height": 44,
+              "top": 148,
+              "right": 481.5,
+              "bottom": 192,
+              "left": 407.5
+            },
+            {
+              "x": 687.75,
+              "y": 148,
+              "width": 81.34375,
+              "height": 44,
+              "top": 148,
+              "right": 769.09375,
+              "bottom": 192,
+              "left": 687.75
+            },
+            {
+              "x": 781.09375,
+              "y": 160,
+              "width": 42.15625,
+              "height": 20,
+              "top": 160,
+              "right": 823.25,
+              "bottom": 180,
+              "left": 781.09375
+            },
+            {
+              "x": 835.25,
+              "y": 148,
+              "width": 44.25,
+              "height": 44,
+              "top": 148,
+              "right": 879.5,
+              "bottom": 192,
+              "left": 835.25
+            }
+          ]
+        },
+        {
+          "label": "step 2 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "Back remains available",
+          "pass": true
+        },
+        {
+          "label": "Back preserves draft",
+          "pass": true
+        },
+        {
+          "label": "step 2 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 2 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 407.5,
+            "contentLeft": 407.5,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 687.75,
+                  "y": 148,
+                  "width": 81.34375,
+                  "height": 44,
+                  "top": 148,
+                  "right": 769.09375,
+                  "bottom": 192,
+                  "left": 687.75
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 407.5,
+                  "y": 148,
+                  "width": 74,
+                  "height": 44,
+                  "top": 148,
+                  "right": 481.5,
+                  "bottom": 192,
+                  "left": 407.5
+                }
+              },
+              {
+                "label": "2/5",
+                "rect": {
+                  "x": 781.09375,
+                  "y": 160,
+                  "width": 42.15625,
+                  "height": 20,
+                  "top": 160,
+                  "right": 823.25,
+                  "bottom": 180,
+                  "left": 781.09375
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 835.25,
+                  "y": 148,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 148,
+                  "right": 879.5,
+                  "bottom": 192,
+                  "left": 835.25
+                }
+              }
+            ],
+            "viewport": 1280,
+            "scrollWidth": 1280
+          }
+        },
+        {
+          "label": "step 2 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 407.5,
+              "y": 148,
+              "width": 74,
+              "height": 44,
+              "top": 148,
+              "right": 481.5,
+              "bottom": 192,
+              "left": 407.5
+            },
+            {
+              "x": 687.75,
+              "y": 148,
+              "width": 81.34375,
+              "height": 44,
+              "top": 148,
+              "right": 769.09375,
+              "bottom": 192,
+              "left": 687.75
+            },
+            {
+              "x": 781.09375,
+              "y": 160,
+              "width": 42.15625,
+              "height": 20,
+              "top": 160,
+              "right": 823.25,
+              "bottom": 180,
+              "left": 781.09375
+            },
+            {
+              "x": 835.25,
+              "y": 148,
+              "width": 44.25,
+              "height": 44,
+              "top": 148,
+              "right": 879.5,
+              "bottom": 192,
+              "left": 835.25
+            }
+          ]
+        },
+        {
+          "label": "step 2 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "step 3 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 3 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 407.5,
+            "contentLeft": 407.5,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 688.125,
+                  "y": 176,
+                  "width": 81.34375,
+                  "height": 44,
+                  "top": 176,
+                  "right": 769.46875,
+                  "bottom": 220,
+                  "left": 688.125
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 407.5,
+                  "y": 176,
+                  "width": 74,
+                  "height": 44,
+                  "top": 176,
+                  "right": 481.5,
+                  "bottom": 220,
+                  "left": 407.5
+                }
+              },
+              {
+                "label": "3/5",
+                "rect": {
+                  "x": 781.46875,
+                  "y": 188,
+                  "width": 41.78125,
+                  "height": 20,
+                  "top": 188,
+                  "right": 823.25,
+                  "bottom": 208,
+                  "left": 781.46875
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 835.25,
+                  "y": 176,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 176,
+                  "right": 879.5,
+                  "bottom": 220,
+                  "left": 835.25
+                }
+              }
+            ],
+            "viewport": 1280,
+            "scrollWidth": 1280
+          }
+        },
+        {
+          "label": "step 3 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 407.5,
+              "y": 176,
+              "width": 74,
+              "height": 44,
+              "top": 176,
+              "right": 481.5,
+              "bottom": 220,
+              "left": 407.5
+            },
+            {
+              "x": 688.125,
+              "y": 176,
+              "width": 81.34375,
+              "height": 44,
+              "top": 176,
+              "right": 769.46875,
+              "bottom": 220,
+              "left": 688.125
+            },
+            {
+              "x": 781.46875,
+              "y": 188,
+              "width": 41.78125,
+              "height": 20,
+              "top": 188,
+              "right": 823.25,
+              "bottom": 208,
+              "left": 781.46875
+            },
+            {
+              "x": 835.25,
+              "y": 176,
+              "width": 44.25,
+              "height": 44,
+              "top": 176,
+              "right": 879.5,
+              "bottom": 220,
+              "left": 835.25
+            }
+          ]
+        },
+        {
+          "label": "step 3 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "step 4 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 4 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 407.5,
+            "contentLeft": 407.5,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 687.609375,
+                  "y": 132,
+                  "width": 81.34375,
+                  "height": 44,
+                  "top": 132,
+                  "right": 768.953125,
+                  "bottom": 176,
+                  "left": 687.609375
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 407.5,
+                  "y": 132,
+                  "width": 74,
+                  "height": 44,
+                  "top": 132,
+                  "right": 481.5,
+                  "bottom": 176,
+                  "left": 407.5
+                }
+              },
+              {
+                "label": "4/5",
+                "rect": {
+                  "x": 780.953125,
+                  "y": 144,
+                  "width": 42.296875,
+                  "height": 20,
+                  "top": 144,
+                  "right": 823.25,
+                  "bottom": 164,
+                  "left": 780.953125
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 835.25,
+                  "y": 132,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 132,
+                  "right": 879.5,
+                  "bottom": 176,
+                  "left": 835.25
+                }
+              }
+            ],
+            "viewport": 1280,
+            "scrollWidth": 1280
+          }
+        },
+        {
+          "label": "step 4 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 407.5,
+              "y": 132,
+              "width": 74,
+              "height": 44,
+              "top": 132,
+              "right": 481.5,
+              "bottom": 176,
+              "left": 407.5
+            },
+            {
+              "x": 687.609375,
+              "y": 132,
+              "width": 81.34375,
+              "height": 44,
+              "top": 132,
+              "right": 768.953125,
+              "bottom": 176,
+              "left": 687.609375
+            },
+            {
+              "x": 780.953125,
+              "y": 144,
+              "width": 42.296875,
+              "height": 20,
+              "top": 144,
+              "right": 823.25,
+              "bottom": 164,
+              "left": 780.953125
+            },
+            {
+              "x": 835.25,
+              "y": 132,
+              "width": 44.25,
+              "height": 44,
+              "top": 132,
+              "right": 879.5,
+              "bottom": 176,
+              "left": 835.25
+            }
+          ]
+        },
+        {
+          "label": "step 4 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "draft survives handoff",
+          "pass": true
+        },
+        {
+          "label": "step 5 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 5 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 407.5,
+            "contentLeft": 407.5,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 687.703125,
+                  "y": 132,
+                  "width": 81.34375,
+                  "height": 44,
+                  "top": 132,
+                  "right": 769.046875,
+                  "bottom": 176,
+                  "left": 687.703125
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 407.5,
+                  "y": 132,
+                  "width": 74,
+                  "height": 44,
+                  "top": 132,
+                  "right": 481.5,
+                  "bottom": 176,
+                  "left": 407.5
+                }
+              },
+              {
+                "label": "5/5",
+                "rect": {
+                  "x": 781.046875,
+                  "y": 144,
+                  "width": 42.203125,
+                  "height": 20,
+                  "top": 144,
+                  "right": 823.25,
+                  "bottom": 164,
+                  "left": 781.046875
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 835.25,
+                  "y": 132,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 132,
+                  "right": 879.5,
+                  "bottom": 176,
+                  "left": 835.25
+                }
+              }
+            ],
+            "viewport": 1280,
+            "scrollWidth": 1280
+          }
+        },
+        {
+          "label": "step 5 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 407.5,
+              "y": 132,
+              "width": 74,
+              "height": 44,
+              "top": 132,
+              "right": 481.5,
+              "bottom": 176,
+              "left": 407.5
+            },
+            {
+              "x": 687.703125,
+              "y": 132,
+              "width": 81.34375,
+              "height": 44,
+              "top": 132,
+              "right": 769.046875,
+              "bottom": 176,
+              "left": 687.703125
+            },
+            {
+              "x": 781.046875,
+              "y": 144,
+              "width": 42.203125,
+              "height": 20,
+              "top": 144,
+              "right": 823.25,
+              "bottom": 164,
+              "left": 781.046875
+            },
+            {
+              "x": 835.25,
+              "y": 132,
+              "width": 44.25,
+              "height": 44,
+              "top": 132,
+              "right": 879.5,
+              "bottom": 176,
+              "left": 835.25
+            }
+          ]
+        },
+        {
+          "label": "step 5 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "checklist remains usable",
+          "pass": true
+        },
+        {
+          "label": "restart clears first input",
+          "pass": true
+        },
+        {
+          "label": "English switch works",
+          "pass": true
+        },
+        {
+          "label": "English dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 407.5,
+            "contentLeft": 407.5,
+            "controls": [
+              {
+                "label": "",
+                "rect": {
+                  "x": 407.5,
+                  "y": 202,
+                  "width": 74,
+                  "height": 44,
+                  "top": 202,
+                  "right": 481.5,
+                  "bottom": 246,
+                  "left": 407.5
+                }
+              },
+              {
+                "label": "1/5",
+                "rect": {
+                  "x": 784.046875,
+                  "y": 214,
+                  "width": 39.453125,
+                  "height": 20,
+                  "top": 214,
+                  "right": 823.5,
+                  "bottom": 234,
+                  "left": 784.046875
+                }
+              },
+              {
+                "label": "ES",
+                "rect": {
+                  "x": 835.5,
+                  "y": 201.97467041015625,
+                  "width": 44,
+                  "height": 44,
+                  "top": 201.97467041015625,
+                  "right": 879.5,
+                  "bottom": 245.97467041015625,
+                  "left": 835.5
+                }
+              }
+            ],
+            "viewport": 1280,
+            "scrollWidth": 1280
+          }
+        },
+        {
+          "label": "English progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 407.5,
+              "y": 202,
+              "width": 74,
+              "height": 44,
+              "top": 202,
+              "right": 481.5,
+              "bottom": 246,
+              "left": 407.5
+            },
+            {
+              "x": 784.046875,
+              "y": 214,
+              "width": 39.453125,
+              "height": 20,
+              "top": 214,
+              "right": 823.5,
+              "bottom": 234,
+              "left": 784.046875
+            },
+            {
+              "x": 835.5,
+              "y": 201.97467041015625,
+              "width": 44,
+              "height": 44,
+              "top": 201.97467041015625,
+              "right": 879.5,
+              "bottom": 245.97467041015625,
+              "left": 835.5
+            }
+          ]
+        },
+        {
+          "label": "English no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "Spanish switch works",
+          "pass": true
+        },
+        {
+          "label": "Spanish dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 407.5,
+            "contentLeft": 407.5,
+            "controls": [
+              {
+                "label": "",
+                "rect": {
+                  "x": 407.5,
+                  "y": 116,
+                  "width": 74,
+                  "height": 44,
+                  "top": 116,
+                  "right": 481.5,
+                  "bottom": 160,
+                  "left": 407.5
+                }
+              },
+              {
+                "label": "1/5",
+                "rect": {
+                  "x": 784.046875,
+                  "y": 128,
+                  "width": 39.453125,
+                  "height": 20,
+                  "top": 128,
+                  "right": 823.5,
+                  "bottom": 148,
+                  "left": 784.046875
+                }
+              },
+              {
+                "label": "DE",
+                "rect": {
+                  "x": 835.5,
+                  "y": 115.9747314453125,
+                  "width": 44,
+                  "height": 44,
+                  "top": 115.9747314453125,
+                  "right": 879.5,
+                  "bottom": 159.9747314453125,
+                  "left": 835.5
+                }
+              }
+            ],
+            "viewport": 1280,
+            "scrollWidth": 1280
+          }
+        },
+        {
+          "label": "Spanish progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 407.5,
+              "y": 116,
+              "width": 74,
+              "height": 44,
+              "top": 116,
+              "right": 481.5,
+              "bottom": 160,
+              "left": 407.5
+            },
+            {
+              "x": 784.046875,
+              "y": 128,
+              "width": 39.453125,
+              "height": 20,
+              "top": 128,
+              "right": 823.5,
+              "bottom": 148,
+              "left": 784.046875
+            },
+            {
+              "x": 835.5,
+              "y": 115.9747314453125,
+              "width": 44,
+              "height": 44,
+              "top": 115.9747314453125,
+              "right": 879.5,
+              "bottom": 159.9747314453125,
+              "left": 835.5
+            }
+          ]
+        },
+        {
+          "label": "Spanish no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "no JavaScript or missing-asset errors",
+          "pass": true,
+          "actual": {
+            "errors": [],
+            "httpErrors": []
+          }
+        }
+      ],
+      "errors": [],
+      "httpErrors": []
+    },
+    {
+      "width": 390,
+      "reduce": false,
+      "checks": [
+        {
+          "label": "step 1 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 176,
+                  "width": 70,
+                  "height": 44,
+                  "top": 176,
+                  "right": 112,
+                  "bottom": 220,
+                  "left": 42
+                }
+              },
+              {
+                "label": "1/5",
+                "rect": {
+                  "x": 256.296875,
+                  "y": 188,
+                  "width": 39.453125,
+                  "height": 20,
+                  "top": 188,
+                  "right": 295.75,
+                  "bottom": 208,
+                  "left": 256.296875
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 303.75,
+                  "y": 176,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 176,
+                  "right": 348,
+                  "bottom": 220,
+                  "left": 303.75
+                }
+              }
+            ],
+            "viewport": 390,
+            "scrollWidth": 390
+          }
+        },
+        {
+          "label": "step 1 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 176,
+              "width": 70,
+              "height": 44,
+              "top": 176,
+              "right": 112,
+              "bottom": 220,
+              "left": 42
+            },
+            {
+              "x": 256.296875,
+              "y": 188,
+              "width": 39.453125,
+              "height": 20,
+              "top": 188,
+              "right": 295.75,
+              "bottom": 208,
+              "left": 256.296875
+            },
+            {
+              "x": 303.75,
+              "y": 176,
+              "width": 44.25,
+              "height": 44,
+              "top": 176,
+              "right": 348,
+              "bottom": 220,
+              "left": 303.75
+            }
+          ]
+        },
+        {
+          "label": "step 1 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "existing Paket logo image renders",
+          "pass": true
+        },
+        {
+          "label": "legacy duplicate Paket text stays hidden",
+          "pass": true
+        },
+        {
+          "label": "language control has 44px target",
+          "pass": true
+        },
+        {
+          "label": "original rolling letters remain",
+          "pass": true
+        },
+        {
+          "label": "original rollover respects motion setting",
+          "pass": true
+        },
+        {
+          "label": "step 2 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 2 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 179.53125,
+                  "y": 136,
+                  "width": 66.0625,
+                  "height": 44,
+                  "top": 136,
+                  "right": 245.59375,
+                  "bottom": 180,
+                  "left": 179.53125
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 136,
+                  "width": 70,
+                  "height": 44,
+                  "top": 136,
+                  "right": 112,
+                  "bottom": 180,
+                  "left": 42
+                }
+              },
+              {
+                "label": "2/5",
+                "rect": {
+                  "x": 253.59375,
+                  "y": 148,
+                  "width": 42.15625,
+                  "height": 20,
+                  "top": 148,
+                  "right": 295.75,
+                  "bottom": 168,
+                  "left": 253.59375
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 303.75,
+                  "y": 136,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 136,
+                  "right": 348,
+                  "bottom": 180,
+                  "left": 303.75
+                }
+              }
+            ],
+            "viewport": 390,
+            "scrollWidth": 390
+          }
+        },
+        {
+          "label": "step 2 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 136,
+              "width": 70,
+              "height": 44,
+              "top": 136,
+              "right": 112,
+              "bottom": 180,
+              "left": 42
+            },
+            {
+              "x": 179.53125,
+              "y": 136,
+              "width": 66.0625,
+              "height": 44,
+              "top": 136,
+              "right": 245.59375,
+              "bottom": 180,
+              "left": 179.53125
+            },
+            {
+              "x": 253.59375,
+              "y": 148,
+              "width": 42.15625,
+              "height": 20,
+              "top": 148,
+              "right": 295.75,
+              "bottom": 168,
+              "left": 253.59375
+            },
+            {
+              "x": 303.75,
+              "y": 136,
+              "width": 44.25,
+              "height": 44,
+              "top": 136,
+              "right": 348,
+              "bottom": 180,
+              "left": 303.75
+            }
+          ]
+        },
+        {
+          "label": "step 2 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "Back remains available",
+          "pass": true
+        },
+        {
+          "label": "Back preserves draft",
+          "pass": true
+        },
+        {
+          "label": "step 2 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 2 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 179.53125,
+                  "y": 136,
+                  "width": 66.0625,
+                  "height": 44,
+                  "top": 136,
+                  "right": 245.59375,
+                  "bottom": 180,
+                  "left": 179.53125
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 136,
+                  "width": 70,
+                  "height": 44,
+                  "top": 136,
+                  "right": 112,
+                  "bottom": 180,
+                  "left": 42
+                }
+              },
+              {
+                "label": "2/5",
+                "rect": {
+                  "x": 253.59375,
+                  "y": 148,
+                  "width": 42.15625,
+                  "height": 20,
+                  "top": 148,
+                  "right": 295.75,
+                  "bottom": 168,
+                  "left": 253.59375
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 303.75,
+                  "y": 136,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 136,
+                  "right": 348,
+                  "bottom": 180,
+                  "left": 303.75
+                }
+              }
+            ],
+            "viewport": 390,
+            "scrollWidth": 390
+          }
+        },
+        {
+          "label": "step 2 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 136,
+              "width": 70,
+              "height": 44,
+              "top": 136,
+              "right": 112,
+              "bottom": 180,
+              "left": 42
+            },
+            {
+              "x": 179.53125,
+              "y": 136,
+              "width": 66.0625,
+              "height": 44,
+              "top": 136,
+              "right": 245.59375,
+              "bottom": 180,
+              "left": 179.53125
+            },
+            {
+              "x": 253.59375,
+              "y": 148,
+              "width": 42.15625,
+              "height": 20,
+              "top": 148,
+              "right": 295.75,
+              "bottom": 168,
+              "left": 253.59375
+            },
+            {
+              "x": 303.75,
+              "y": 136,
+              "width": 44.25,
+              "height": 44,
+              "top": 136,
+              "right": 348,
+              "bottom": 180,
+              "left": 303.75
+            }
+          ]
+        },
+        {
+          "label": "step 2 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "step 3 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 3 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 179.90625,
+                  "y": 140,
+                  "width": 66.0625,
+                  "height": 44,
+                  "top": 140,
+                  "right": 245.96875,
+                  "bottom": 184,
+                  "left": 179.90625
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 140,
+                  "width": 70,
+                  "height": 44,
+                  "top": 140,
+                  "right": 112,
+                  "bottom": 184,
+                  "left": 42
+                }
+              },
+              {
+                "label": "3/5",
+                "rect": {
+                  "x": 253.96875,
+                  "y": 152,
+                  "width": 41.78125,
+                  "height": 20,
+                  "top": 152,
+                  "right": 295.75,
+                  "bottom": 172,
+                  "left": 253.96875
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 303.75,
+                  "y": 140,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 140,
+                  "right": 348,
+                  "bottom": 184,
+                  "left": 303.75
+                }
+              }
+            ],
+            "viewport": 390,
+            "scrollWidth": 390
+          }
+        },
+        {
+          "label": "step 3 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 140,
+              "width": 70,
+              "height": 44,
+              "top": 140,
+              "right": 112,
+              "bottom": 184,
+              "left": 42
+            },
+            {
+              "x": 179.90625,
+              "y": 140,
+              "width": 66.0625,
+              "height": 44,
+              "top": 140,
+              "right": 245.96875,
+              "bottom": 184,
+              "left": 179.90625
+            },
+            {
+              "x": 253.96875,
+              "y": 152,
+              "width": 41.78125,
+              "height": 20,
+              "top": 152,
+              "right": 295.75,
+              "bottom": 172,
+              "left": 253.96875
+            },
+            {
+              "x": 303.75,
+              "y": 140,
+              "width": 44.25,
+              "height": 44,
+              "top": 140,
+              "right": 348,
+              "bottom": 184,
+              "left": 303.75
+            }
+          ]
+        },
+        {
+          "label": "step 3 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "step 4 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 4 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 179.390625,
+                  "y": 128,
+                  "width": 66.0625,
+                  "height": 44,
+                  "top": 128,
+                  "right": 245.453125,
+                  "bottom": 172,
+                  "left": 179.390625
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 128,
+                  "width": 70,
+                  "height": 44,
+                  "top": 128,
+                  "right": 112,
+                  "bottom": 172,
+                  "left": 42
+                }
+              },
+              {
+                "label": "4/5",
+                "rect": {
+                  "x": 253.453125,
+                  "y": 140,
+                  "width": 42.296875,
+                  "height": 20,
+                  "top": 140,
+                  "right": 295.75,
+                  "bottom": 160,
+                  "left": 253.453125
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 303.75,
+                  "y": 128,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 128,
+                  "right": 348,
+                  "bottom": 172,
+                  "left": 303.75
+                }
+              }
+            ],
+            "viewport": 390,
+            "scrollWidth": 390
+          }
+        },
+        {
+          "label": "step 4 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 128,
+              "width": 70,
+              "height": 44,
+              "top": 128,
+              "right": 112,
+              "bottom": 172,
+              "left": 42
+            },
+            {
+              "x": 179.390625,
+              "y": 128,
+              "width": 66.0625,
+              "height": 44,
+              "top": 128,
+              "right": 245.453125,
+              "bottom": 172,
+              "left": 179.390625
+            },
+            {
+              "x": 253.453125,
+              "y": 140,
+              "width": 42.296875,
+              "height": 20,
+              "top": 140,
+              "right": 295.75,
+              "bottom": 160,
+              "left": 253.453125
+            },
+            {
+              "x": 303.75,
+              "y": 128,
+              "width": 44.25,
+              "height": 44,
+              "top": 128,
+              "right": 348,
+              "bottom": 172,
+              "left": 303.75
+            }
+          ]
+        },
+        {
+          "label": "step 4 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "draft survives handoff",
+          "pass": true
+        },
+        {
+          "label": "step 5 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 5 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 179.484375,
+                  "y": 128,
+                  "width": 66.0625,
+                  "height": 44,
+                  "top": 128,
+                  "right": 245.546875,
+                  "bottom": 172,
+                  "left": 179.484375
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 128,
+                  "width": 70,
+                  "height": 44,
+                  "top": 128,
+                  "right": 112,
+                  "bottom": 172,
+                  "left": 42
+                }
+              },
+              {
+                "label": "5/5",
+                "rect": {
+                  "x": 253.546875,
+                  "y": 140,
+                  "width": 42.203125,
+                  "height": 20,
+                  "top": 140,
+                  "right": 295.75,
+                  "bottom": 160,
+                  "left": 253.546875
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 303.75,
+                  "y": 128,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 128,
+                  "right": 348,
+                  "bottom": 172,
+                  "left": 303.75
+                }
+              }
+            ],
+            "viewport": 390,
+            "scrollWidth": 390
+          }
+        },
+        {
+          "label": "step 5 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 128,
+              "width": 70,
+              "height": 44,
+              "top": 128,
+              "right": 112,
+              "bottom": 172,
+              "left": 42
+            },
+            {
+              "x": 179.484375,
+              "y": 128,
+              "width": 66.0625,
+              "height": 44,
+              "top": 128,
+              "right": 245.546875,
+              "bottom": 172,
+              "left": 179.484375
+            },
+            {
+              "x": 253.546875,
+              "y": 140,
+              "width": 42.203125,
+              "height": 20,
+              "top": 140,
+              "right": 295.75,
+              "bottom": 160,
+              "left": 253.546875
+            },
+            {
+              "x": 303.75,
+              "y": 128,
+              "width": 44.25,
+              "height": 44,
+              "top": 128,
+              "right": 348,
+              "bottom": 172,
+              "left": 303.75
+            }
+          ]
+        },
+        {
+          "label": "step 5 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "checklist remains usable",
+          "pass": true
+        },
+        {
+          "label": "restart clears first input",
+          "pass": true
+        },
+        {
+          "label": "English switch works",
+          "pass": true
+        },
+        {
+          "label": "English dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 176,
+                  "width": 70,
+                  "height": 44,
+                  "top": 176,
+                  "right": 112,
+                  "bottom": 220,
+                  "left": 42
+                }
+              },
+              {
+                "label": "1/5",
+                "rect": {
+                  "x": 256.546875,
+                  "y": 188,
+                  "width": 39.453125,
+                  "height": 20,
+                  "top": 188,
+                  "right": 296,
+                  "bottom": 208,
+                  "left": 256.546875
+                }
+              },
+              {
+                "label": "ES",
+                "rect": {
+                  "x": 304,
+                  "y": 176,
+                  "width": 44,
+                  "height": 44,
+                  "top": 176,
+                  "right": 348,
+                  "bottom": 220,
+                  "left": 304
+                }
+              }
+            ],
+            "viewport": 390,
+            "scrollWidth": 390
+          }
+        },
+        {
+          "label": "English progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 176,
+              "width": 70,
+              "height": 44,
+              "top": 176,
+              "right": 112,
+              "bottom": 220,
+              "left": 42
+            },
+            {
+              "x": 256.546875,
+              "y": 188,
+              "width": 39.453125,
+              "height": 20,
+              "top": 188,
+              "right": 296,
+              "bottom": 208,
+              "left": 256.546875
+            },
+            {
+              "x": 304,
+              "y": 176,
+              "width": 44,
+              "height": 44,
+              "top": 176,
+              "right": 348,
+              "bottom": 220,
+              "left": 304
+            }
+          ]
+        },
+        {
+          "label": "English no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "Spanish switch works",
+          "pass": true
+        },
+        {
+          "label": "Spanish dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 1,
+                  "width": 70,
+                  "height": 44,
+                  "top": 1,
+                  "right": 112,
+                  "bottom": 45,
+                  "left": 42
+                }
+              },
+              {
+                "label": "1/5",
+                "rect": {
+                  "x": 256.546875,
+                  "y": 13,
+                  "width": 39.453125,
+                  "height": 20,
+                  "top": 13,
+                  "right": 296,
+                  "bottom": 33,
+                  "left": 256.546875
+                }
+              },
+              {
+                "label": "DE",
+                "rect": {
+                  "x": 304,
+                  "y": 0.9746856689453125,
+                  "width": 44,
+                  "height": 44,
+                  "top": 0.9746856689453125,
+                  "right": 348,
+                  "bottom": 44.97468566894531,
+                  "left": 304
+                }
+              }
+            ],
+            "viewport": 390,
+            "scrollWidth": 390
+          }
+        },
+        {
+          "label": "Spanish progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 1,
+              "width": 70,
+              "height": 44,
+              "top": 1,
+              "right": 112,
+              "bottom": 45,
+              "left": 42
+            },
+            {
+              "x": 256.546875,
+              "y": 13,
+              "width": 39.453125,
+              "height": 20,
+              "top": 13,
+              "right": 296,
+              "bottom": 33,
+              "left": 256.546875
+            },
+            {
+              "x": 304,
+              "y": 0.9746856689453125,
+              "width": 44,
+              "height": 44,
+              "top": 0.9746856689453125,
+              "right": 348,
+              "bottom": 44.97468566894531,
+              "left": 304
+            }
+          ]
+        },
+        {
+          "label": "Spanish no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "no JavaScript or missing-asset errors",
+          "pass": true,
+          "actual": {
+            "errors": [],
+            "httpErrors": []
+          }
+        }
+      ],
+      "errors": [],
+      "httpErrors": []
+    },
+    {
+      "width": 320,
+      "reduce": false,
+      "checks": [
+        {
+          "label": "step 1 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 176,
+                  "width": 66,
+                  "height": 44,
+                  "top": 176,
+                  "right": 108,
+                  "bottom": 220,
+                  "left": 42
+                }
+              },
+              {
+                "label": "1/5",
+                "rect": {
+                  "x": 192.296875,
+                  "y": 188,
+                  "width": 35.453125,
+                  "height": 20,
+                  "top": 188,
+                  "right": 227.75,
+                  "bottom": 208,
+                  "left": 192.296875
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 233.75,
+                  "y": 176,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 176,
+                  "right": 278,
+                  "bottom": 220,
+                  "left": 233.75
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "step 1 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 176,
+              "width": 66,
+              "height": 44,
+              "top": 176,
+              "right": 108,
+              "bottom": 220,
+              "left": 42
+            },
+            {
+              "x": 192.296875,
+              "y": 188,
+              "width": 35.453125,
+              "height": 20,
+              "top": 188,
+              "right": 227.75,
+              "bottom": 208,
+              "left": 192.296875
+            },
+            {
+              "x": 233.75,
+              "y": 176,
+              "width": 44.25,
+              "height": 44,
+              "top": 176,
+              "right": 278,
+              "bottom": 220,
+              "left": 233.75
+            }
+          ]
+        },
+        {
+          "label": "step 1 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "existing Paket logo image renders",
+          "pass": true
+        },
+        {
+          "label": "legacy duplicate Paket text stays hidden",
+          "pass": true
+        },
+        {
+          "label": "language control has 44px target",
+          "pass": true
+        },
+        {
+          "label": "original rolling letters remain",
+          "pass": true
+        },
+        {
+          "label": "original rollover respects motion setting",
+          "pass": true
+        },
+        {
+          "label": "step 2 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 2 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 117.53125,
+                  "y": 136,
+                  "width": 66.0625,
+                  "height": 44,
+                  "top": 136,
+                  "right": 183.59375,
+                  "bottom": 180,
+                  "left": 117.53125
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 136,
+                  "width": 66,
+                  "height": 44,
+                  "top": 136,
+                  "right": 108,
+                  "bottom": 180,
+                  "left": 42
+                }
+              },
+              {
+                "label": "2/5",
+                "rect": {
+                  "x": 189.59375,
+                  "y": 148,
+                  "width": 38.15625,
+                  "height": 20,
+                  "top": 148,
+                  "right": 227.75,
+                  "bottom": 168,
+                  "left": 189.59375
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 233.75,
+                  "y": 136,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 136,
+                  "right": 278,
+                  "bottom": 180,
+                  "left": 233.75
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "step 2 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 136,
+              "width": 66,
+              "height": 44,
+              "top": 136,
+              "right": 108,
+              "bottom": 180,
+              "left": 42
+            },
+            {
+              "x": 117.53125,
+              "y": 136,
+              "width": 66.0625,
+              "height": 44,
+              "top": 136,
+              "right": 183.59375,
+              "bottom": 180,
+              "left": 117.53125
+            },
+            {
+              "x": 189.59375,
+              "y": 148,
+              "width": 38.15625,
+              "height": 20,
+              "top": 148,
+              "right": 227.75,
+              "bottom": 168,
+              "left": 189.59375
+            },
+            {
+              "x": 233.75,
+              "y": 136,
+              "width": 44.25,
+              "height": 44,
+              "top": 136,
+              "right": 278,
+              "bottom": 180,
+              "left": 233.75
+            }
+          ]
+        },
+        {
+          "label": "step 2 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "Back remains available",
+          "pass": true
+        },
+        {
+          "label": "Back preserves draft",
+          "pass": true
+        },
+        {
+          "label": "step 2 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 2 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 117.53125,
+                  "y": 136,
+                  "width": 66.0625,
+                  "height": 44,
+                  "top": 136,
+                  "right": 183.59375,
+                  "bottom": 180,
+                  "left": 117.53125
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 136,
+                  "width": 66,
+                  "height": 44,
+                  "top": 136,
+                  "right": 108,
+                  "bottom": 180,
+                  "left": 42
+                }
+              },
+              {
+                "label": "2/5",
+                "rect": {
+                  "x": 189.59375,
+                  "y": 148,
+                  "width": 38.15625,
+                  "height": 20,
+                  "top": 148,
+                  "right": 227.75,
+                  "bottom": 168,
+                  "left": 189.59375
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 233.75,
+                  "y": 136,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 136,
+                  "right": 278,
+                  "bottom": 180,
+                  "left": 233.75
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "step 2 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 136,
+              "width": 66,
+              "height": 44,
+              "top": 136,
+              "right": 108,
+              "bottom": 180,
+              "left": 42
+            },
+            {
+              "x": 117.53125,
+              "y": 136,
+              "width": 66.0625,
+              "height": 44,
+              "top": 136,
+              "right": 183.59375,
+              "bottom": 180,
+              "left": 117.53125
+            },
+            {
+              "x": 189.59375,
+              "y": 148,
+              "width": 38.15625,
+              "height": 20,
+              "top": 148,
+              "right": 227.75,
+              "bottom": 168,
+              "left": 189.59375
+            },
+            {
+              "x": 233.75,
+              "y": 136,
+              "width": 44.25,
+              "height": 44,
+              "top": 136,
+              "right": 278,
+              "bottom": 180,
+              "left": 233.75
+            }
+          ]
+        },
+        {
+          "label": "step 2 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "step 3 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 3 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 117.90625,
+                  "y": 140,
+                  "width": 66.0625,
+                  "height": 44,
+                  "top": 140,
+                  "right": 183.96875,
+                  "bottom": 184,
+                  "left": 117.90625
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 140,
+                  "width": 66,
+                  "height": 44,
+                  "top": 140,
+                  "right": 108,
+                  "bottom": 184,
+                  "left": 42
+                }
+              },
+              {
+                "label": "3/5",
+                "rect": {
+                  "x": 189.96875,
+                  "y": 152,
+                  "width": 37.78125,
+                  "height": 20,
+                  "top": 152,
+                  "right": 227.75,
+                  "bottom": 172,
+                  "left": 189.96875
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 233.75,
+                  "y": 140,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 140,
+                  "right": 278,
+                  "bottom": 184,
+                  "left": 233.75
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "step 3 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 140,
+              "width": 66,
+              "height": 44,
+              "top": 140,
+              "right": 108,
+              "bottom": 184,
+              "left": 42
+            },
+            {
+              "x": 117.90625,
+              "y": 140,
+              "width": 66.0625,
+              "height": 44,
+              "top": 140,
+              "right": 183.96875,
+              "bottom": 184,
+              "left": 117.90625
+            },
+            {
+              "x": 189.96875,
+              "y": 152,
+              "width": 37.78125,
+              "height": 20,
+              "top": 152,
+              "right": 227.75,
+              "bottom": 172,
+              "left": 189.96875
+            },
+            {
+              "x": 233.75,
+              "y": 140,
+              "width": 44.25,
+              "height": 44,
+              "top": 140,
+              "right": 278,
+              "bottom": 184,
+              "left": 233.75
+            }
+          ]
+        },
+        {
+          "label": "step 3 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "step 4 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 4 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 117.390625,
+                  "y": 128,
+                  "width": 66.0625,
+                  "height": 44,
+                  "top": 128,
+                  "right": 183.453125,
+                  "bottom": 172,
+                  "left": 117.390625
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 128,
+                  "width": 66,
+                  "height": 44,
+                  "top": 128,
+                  "right": 108,
+                  "bottom": 172,
+                  "left": 42
+                }
+              },
+              {
+                "label": "4/5",
+                "rect": {
+                  "x": 189.453125,
+                  "y": 140,
+                  "width": 38.296875,
+                  "height": 20,
+                  "top": 140,
+                  "right": 227.75,
+                  "bottom": 160,
+                  "left": 189.453125
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 233.75,
+                  "y": 128,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 128,
+                  "right": 278,
+                  "bottom": 172,
+                  "left": 233.75
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "step 4 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 128,
+              "width": 66,
+              "height": 44,
+              "top": 128,
+              "right": 108,
+              "bottom": 172,
+              "left": 42
+            },
+            {
+              "x": 117.390625,
+              "y": 128,
+              "width": 66.0625,
+              "height": 44,
+              "top": 128,
+              "right": 183.453125,
+              "bottom": 172,
+              "left": 117.390625
+            },
+            {
+              "x": 189.453125,
+              "y": 140,
+              "width": 38.296875,
+              "height": 20,
+              "top": 140,
+              "right": 227.75,
+              "bottom": 160,
+              "left": 189.453125
+            },
+            {
+              "x": 233.75,
+              "y": 128,
+              "width": 44.25,
+              "height": 44,
+              "top": 128,
+              "right": 278,
+              "bottom": 172,
+              "left": 233.75
+            }
+          ]
+        },
+        {
+          "label": "step 4 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "draft survives handoff",
+          "pass": true
+        },
+        {
+          "label": "step 5 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 5 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 117.484375,
+                  "y": 128,
+                  "width": 66.0625,
+                  "height": 44,
+                  "top": 128,
+                  "right": 183.546875,
+                  "bottom": 172,
+                  "left": 117.484375
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 128,
+                  "width": 66,
+                  "height": 44,
+                  "top": 128,
+                  "right": 108,
+                  "bottom": 172,
+                  "left": 42
+                }
+              },
+              {
+                "label": "5/5",
+                "rect": {
+                  "x": 189.546875,
+                  "y": 140,
+                  "width": 38.203125,
+                  "height": 20,
+                  "top": 140,
+                  "right": 227.75,
+                  "bottom": 160,
+                  "left": 189.546875
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 233.75,
+                  "y": 128,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 128,
+                  "right": 278,
+                  "bottom": 172,
+                  "left": 233.75
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "step 5 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 128,
+              "width": 66,
+              "height": 44,
+              "top": 128,
+              "right": 108,
+              "bottom": 172,
+              "left": 42
+            },
+            {
+              "x": 117.484375,
+              "y": 128,
+              "width": 66.0625,
+              "height": 44,
+              "top": 128,
+              "right": 183.546875,
+              "bottom": 172,
+              "left": 117.484375
+            },
+            {
+              "x": 189.546875,
+              "y": 140,
+              "width": 38.203125,
+              "height": 20,
+              "top": 140,
+              "right": 227.75,
+              "bottom": 160,
+              "left": 189.546875
+            },
+            {
+              "x": 233.75,
+              "y": 128,
+              "width": 44.25,
+              "height": 44,
+              "top": 128,
+              "right": 278,
+              "bottom": 172,
+              "left": 233.75
+            }
+          ]
+        },
+        {
+          "label": "step 5 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "checklist remains usable",
+          "pass": true
+        },
+        {
+          "label": "restart clears first input",
+          "pass": true
+        },
+        {
+          "label": "English switch works",
+          "pass": true
+        },
+        {
+          "label": "English dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 176,
+                  "width": 66,
+                  "height": 44,
+                  "top": 176,
+                  "right": 108,
+                  "bottom": 220,
+                  "left": 42
+                }
+              },
+              {
+                "label": "1/5",
+                "rect": {
+                  "x": 192.546875,
+                  "y": 188,
+                  "width": 35.453125,
+                  "height": 20,
+                  "top": 188,
+                  "right": 228,
+                  "bottom": 208,
+                  "left": 192.546875
+                }
+              },
+              {
+                "label": "ES",
+                "rect": {
+                  "x": 234,
+                  "y": 176,
+                  "width": 44,
+                  "height": 44,
+                  "top": 176,
+                  "right": 278,
+                  "bottom": 220,
+                  "left": 234
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "English progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 176,
+              "width": 66,
+              "height": 44,
+              "top": 176,
+              "right": 108,
+              "bottom": 220,
+              "left": 42
+            },
+            {
+              "x": 192.546875,
+              "y": 188,
+              "width": 35.453125,
+              "height": 20,
+              "top": 188,
+              "right": 228,
+              "bottom": 208,
+              "left": 192.546875
+            },
+            {
+              "x": 234,
+              "y": 176,
+              "width": 44,
+              "height": 44,
+              "top": 176,
+              "right": 278,
+              "bottom": 220,
+              "left": 234
+            }
+          ]
+        },
+        {
+          "label": "English no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "Spanish switch works",
+          "pass": true
+        },
+        {
+          "label": "Spanish dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 1,
+                  "width": 66,
+                  "height": 44,
+                  "top": 1,
+                  "right": 108,
+                  "bottom": 45,
+                  "left": 42
+                }
+              },
+              {
+                "label": "1/5",
+                "rect": {
+                  "x": 192.546875,
+                  "y": 13,
+                  "width": 35.453125,
+                  "height": 20,
+                  "top": 13,
+                  "right": 228,
+                  "bottom": 33,
+                  "left": 192.546875
+                }
+              },
+              {
+                "label": "DE",
+                "rect": {
+                  "x": 234,
+                  "y": 1,
+                  "width": 44,
+                  "height": 44,
+                  "top": 1,
+                  "right": 278,
+                  "bottom": 45,
+                  "left": 234
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "Spanish progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 1,
+              "width": 66,
+              "height": 44,
+              "top": 1,
+              "right": 108,
+              "bottom": 45,
+              "left": 42
+            },
+            {
+              "x": 192.546875,
+              "y": 13,
+              "width": 35.453125,
+              "height": 20,
+              "top": 13,
+              "right": 228,
+              "bottom": 33,
+              "left": 192.546875
+            },
+            {
+              "x": 234,
+              "y": 1,
+              "width": 44,
+              "height": 44,
+              "top": 1,
+              "right": 278,
+              "bottom": 45,
+              "left": 234
+            }
+          ]
+        },
+        {
+          "label": "Spanish no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "no JavaScript or missing-asset errors",
+          "pass": true,
+          "actual": {
+            "errors": [],
+            "httpErrors": []
+          }
+        }
+      ],
+      "errors": [],
+      "httpErrors": []
+    },
+    {
+      "width": 320,
+      "reduce": true,
+      "checks": [
+        {
+          "label": "step 1 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 176,
+                  "width": 66,
+                  "height": 44,
+                  "top": 176,
+                  "right": 108,
+                  "bottom": 220,
+                  "left": 42
+                }
+              },
+              {
+                "label": "1/5",
+                "rect": {
+                  "x": 192.296875,
+                  "y": 188,
+                  "width": 35.453125,
+                  "height": 20,
+                  "top": 188,
+                  "right": 227.75,
+                  "bottom": 208,
+                  "left": 192.296875
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 233.75,
+                  "y": 176,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 176,
+                  "right": 278,
+                  "bottom": 220,
+                  "left": 233.75
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "step 1 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 176,
+              "width": 66,
+              "height": 44,
+              "top": 176,
+              "right": 108,
+              "bottom": 220,
+              "left": 42
+            },
+            {
+              "x": 192.296875,
+              "y": 188,
+              "width": 35.453125,
+              "height": 20,
+              "top": 188,
+              "right": 227.75,
+              "bottom": 208,
+              "left": 192.296875
+            },
+            {
+              "x": 233.75,
+              "y": 176,
+              "width": 44.25,
+              "height": 44,
+              "top": 176,
+              "right": 278,
+              "bottom": 220,
+              "left": 233.75
+            }
+          ]
+        },
+        {
+          "label": "step 1 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "existing Paket logo image renders",
+          "pass": true
+        },
+        {
+          "label": "legacy duplicate Paket text stays hidden",
+          "pass": true
+        },
+        {
+          "label": "language control has 44px target",
+          "pass": true
+        },
+        {
+          "label": "original rolling letters remain",
+          "pass": true
+        },
+        {
+          "label": "original rollover respects motion setting",
+          "pass": true
+        },
+        {
+          "label": "step 2 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 2 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 117.53125,
+                  "y": 136,
+                  "width": 66.0625,
+                  "height": 44,
+                  "top": 136,
+                  "right": 183.59375,
+                  "bottom": 180,
+                  "left": 117.53125
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 136,
+                  "width": 66,
+                  "height": 44,
+                  "top": 136,
+                  "right": 108,
+                  "bottom": 180,
+                  "left": 42
+                }
+              },
+              {
+                "label": "2/5",
+                "rect": {
+                  "x": 189.59375,
+                  "y": 148,
+                  "width": 38.15625,
+                  "height": 20,
+                  "top": 148,
+                  "right": 227.75,
+                  "bottom": 168,
+                  "left": 189.59375
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 233.75,
+                  "y": 136,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 136,
+                  "right": 278,
+                  "bottom": 180,
+                  "left": 233.75
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "step 2 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 136,
+              "width": 66,
+              "height": 44,
+              "top": 136,
+              "right": 108,
+              "bottom": 180,
+              "left": 42
+            },
+            {
+              "x": 117.53125,
+              "y": 136,
+              "width": 66.0625,
+              "height": 44,
+              "top": 136,
+              "right": 183.59375,
+              "bottom": 180,
+              "left": 117.53125
+            },
+            {
+              "x": 189.59375,
+              "y": 148,
+              "width": 38.15625,
+              "height": 20,
+              "top": 148,
+              "right": 227.75,
+              "bottom": 168,
+              "left": 189.59375
+            },
+            {
+              "x": 233.75,
+              "y": 136,
+              "width": 44.25,
+              "height": 44,
+              "top": 136,
+              "right": 278,
+              "bottom": 180,
+              "left": 233.75
+            }
+          ]
+        },
+        {
+          "label": "step 2 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "Back remains available",
+          "pass": true
+        },
+        {
+          "label": "Back preserves draft",
+          "pass": true
+        },
+        {
+          "label": "step 2 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 2 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 117.53125,
+                  "y": 136,
+                  "width": 66.0625,
+                  "height": 44,
+                  "top": 136,
+                  "right": 183.59375,
+                  "bottom": 180,
+                  "left": 117.53125
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 136,
+                  "width": 66,
+                  "height": 44,
+                  "top": 136,
+                  "right": 108,
+                  "bottom": 180,
+                  "left": 42
+                }
+              },
+              {
+                "label": "2/5",
+                "rect": {
+                  "x": 189.59375,
+                  "y": 148,
+                  "width": 38.15625,
+                  "height": 20,
+                  "top": 148,
+                  "right": 227.75,
+                  "bottom": 168,
+                  "left": 189.59375
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 233.75,
+                  "y": 136,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 136,
+                  "right": 278,
+                  "bottom": 180,
+                  "left": 233.75
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "step 2 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 136,
+              "width": 66,
+              "height": 44,
+              "top": 136,
+              "right": 108,
+              "bottom": 180,
+              "left": 42
+            },
+            {
+              "x": 117.53125,
+              "y": 136,
+              "width": 66.0625,
+              "height": 44,
+              "top": 136,
+              "right": 183.59375,
+              "bottom": 180,
+              "left": 117.53125
+            },
+            {
+              "x": 189.59375,
+              "y": 148,
+              "width": 38.15625,
+              "height": 20,
+              "top": 148,
+              "right": 227.75,
+              "bottom": 168,
+              "left": 189.59375
+            },
+            {
+              "x": 233.75,
+              "y": 136,
+              "width": 44.25,
+              "height": 44,
+              "top": 136,
+              "right": 278,
+              "bottom": 180,
+              "left": 233.75
+            }
+          ]
+        },
+        {
+          "label": "step 2 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "step 3 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 3 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 117.90625,
+                  "y": 136,
+                  "width": 66.0625,
+                  "height": 44,
+                  "top": 136,
+                  "right": 183.96875,
+                  "bottom": 180,
+                  "left": 117.90625
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 136,
+                  "width": 66,
+                  "height": 44,
+                  "top": 136,
+                  "right": 108,
+                  "bottom": 180,
+                  "left": 42
+                }
+              },
+              {
+                "label": "3/5",
+                "rect": {
+                  "x": 189.96875,
+                  "y": 148,
+                  "width": 37.78125,
+                  "height": 20,
+                  "top": 148,
+                  "right": 227.75,
+                  "bottom": 168,
+                  "left": 189.96875
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 233.75,
+                  "y": 136,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 136,
+                  "right": 278,
+                  "bottom": 180,
+                  "left": 233.75
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "step 3 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 136,
+              "width": 66,
+              "height": 44,
+              "top": 136,
+              "right": 108,
+              "bottom": 180,
+              "left": 42
+            },
+            {
+              "x": 117.90625,
+              "y": 136,
+              "width": 66.0625,
+              "height": 44,
+              "top": 136,
+              "right": 183.96875,
+              "bottom": 180,
+              "left": 117.90625
+            },
+            {
+              "x": 189.96875,
+              "y": 148,
+              "width": 37.78125,
+              "height": 20,
+              "top": 148,
+              "right": 227.75,
+              "bottom": 168,
+              "left": 189.96875
+            },
+            {
+              "x": 233.75,
+              "y": 136,
+              "width": 44.25,
+              "height": 44,
+              "top": 136,
+              "right": 278,
+              "bottom": 180,
+              "left": 233.75
+            }
+          ]
+        },
+        {
+          "label": "step 3 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "step 4 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 4 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 117.390625,
+                  "y": 128,
+                  "width": 66.0625,
+                  "height": 44,
+                  "top": 128,
+                  "right": 183.453125,
+                  "bottom": 172,
+                  "left": 117.390625
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 128,
+                  "width": 66,
+                  "height": 44,
+                  "top": 128,
+                  "right": 108,
+                  "bottom": 172,
+                  "left": 42
+                }
+              },
+              {
+                "label": "4/5",
+                "rect": {
+                  "x": 189.453125,
+                  "y": 140,
+                  "width": 38.296875,
+                  "height": 20,
+                  "top": 140,
+                  "right": 227.75,
+                  "bottom": 160,
+                  "left": 189.453125
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 233.75,
+                  "y": 128,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 128,
+                  "right": 278,
+                  "bottom": 172,
+                  "left": 233.75
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "step 4 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 128,
+              "width": 66,
+              "height": 44,
+              "top": 128,
+              "right": 108,
+              "bottom": 172,
+              "left": 42
+            },
+            {
+              "x": 117.390625,
+              "y": 128,
+              "width": 66.0625,
+              "height": 44,
+              "top": 128,
+              "right": 183.453125,
+              "bottom": 172,
+              "left": 117.390625
+            },
+            {
+              "x": 189.453125,
+              "y": 140,
+              "width": 38.296875,
+              "height": 20,
+              "top": 140,
+              "right": 227.75,
+              "bottom": 160,
+              "left": 189.453125
+            },
+            {
+              "x": 233.75,
+              "y": 128,
+              "width": 44.25,
+              "height": 44,
+              "top": 128,
+              "right": 278,
+              "bottom": 172,
+              "left": 233.75
+            }
+          ]
+        },
+        {
+          "label": "step 4 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "draft survives handoff",
+          "pass": true
+        },
+        {
+          "label": "step 5 counter correct",
+          "pass": true
+        },
+        {
+          "label": "step 5 dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "← Zurück",
+                "rect": {
+                  "x": 117.484375,
+                  "y": 128,
+                  "width": 66.0625,
+                  "height": 44,
+                  "top": 128,
+                  "right": 183.546875,
+                  "bottom": 172,
+                  "left": 117.484375
+                }
+              },
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 128,
+                  "width": 66,
+                  "height": 44,
+                  "top": 128,
+                  "right": 108,
+                  "bottom": 172,
+                  "left": 42
+                }
+              },
+              {
+                "label": "5/5",
+                "rect": {
+                  "x": 189.546875,
+                  "y": 140,
+                  "width": 38.203125,
+                  "height": 20,
+                  "top": 140,
+                  "right": 227.75,
+                  "bottom": 160,
+                  "left": 189.546875
+                }
+              },
+              {
+                "label": "EN",
+                "rect": {
+                  "x": 233.75,
+                  "y": 128,
+                  "width": 44.25,
+                  "height": 44,
+                  "top": 128,
+                  "right": 278,
+                  "bottom": 172,
+                  "left": 233.75
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "step 5 progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 128,
+              "width": 66,
+              "height": 44,
+              "top": 128,
+              "right": 108,
+              "bottom": 172,
+              "left": 42
+            },
+            {
+              "x": 117.484375,
+              "y": 128,
+              "width": 66.0625,
+              "height": 44,
+              "top": 128,
+              "right": 183.546875,
+              "bottom": 172,
+              "left": 117.484375
+            },
+            {
+              "x": 189.546875,
+              "y": 140,
+              "width": 38.203125,
+              "height": 20,
+              "top": 140,
+              "right": 227.75,
+              "bottom": 160,
+              "left": 189.546875
+            },
+            {
+              "x": 233.75,
+              "y": 128,
+              "width": 44.25,
+              "height": 44,
+              "top": 128,
+              "right": 278,
+              "bottom": 172,
+              "left": 233.75
+            }
+          ]
+        },
+        {
+          "label": "step 5 no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "checklist remains usable",
+          "pass": true
+        },
+        {
+          "label": "restart clears first input",
+          "pass": true
+        },
+        {
+          "label": "English switch works",
+          "pass": true
+        },
+        {
+          "label": "English dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 176,
+                  "width": 66,
+                  "height": 44,
+                  "top": 176,
+                  "right": 108,
+                  "bottom": 220,
+                  "left": 42
+                }
+              },
+              {
+                "label": "1/5",
+                "rect": {
+                  "x": 192.546875,
+                  "y": 188,
+                  "width": 35.453125,
+                  "height": 20,
+                  "top": 188,
+                  "right": 228,
+                  "bottom": 208,
+                  "left": 192.546875
+                }
+              },
+              {
+                "label": "ES",
+                "rect": {
+                  "x": 234,
+                  "y": 176,
+                  "width": 44,
+                  "height": 44,
+                  "top": 176,
+                  "right": 278,
+                  "bottom": 220,
+                  "left": 234
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "English progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 176,
+              "width": 66,
+              "height": 44,
+              "top": 176,
+              "right": 108,
+              "bottom": 220,
+              "left": 42
+            },
+            {
+              "x": 192.546875,
+              "y": 188,
+              "width": 35.453125,
+              "height": 20,
+              "top": 188,
+              "right": 228,
+              "bottom": 208,
+              "left": 192.546875
+            },
+            {
+              "x": 234,
+              "y": 176,
+              "width": 44,
+              "height": 44,
+              "top": 176,
+              "right": 278,
+              "bottom": 220,
+              "left": 234
+            }
+          ]
+        },
+        {
+          "label": "English no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "Spanish switch works",
+          "pass": true
+        },
+        {
+          "label": "Spanish dots align with card content",
+          "pass": true,
+          "actual": {
+            "dotsLeft": 42,
+            "contentLeft": 42,
+            "controls": [
+              {
+                "label": "",
+                "rect": {
+                  "x": 42,
+                  "y": 1,
+                  "width": 66,
+                  "height": 44,
+                  "top": 1,
+                  "right": 108,
+                  "bottom": 45,
+                  "left": 42
+                }
+              },
+              {
+                "label": "1/5",
+                "rect": {
+                  "x": 192.546875,
+                  "y": 13,
+                  "width": 35.453125,
+                  "height": 20,
+                  "top": 13,
+                  "right": 228,
+                  "bottom": 33,
+                  "left": 192.546875
+                }
+              },
+              {
+                "label": "DE",
+                "rect": {
+                  "x": 234,
+                  "y": 1,
+                  "width": 44,
+                  "height": 44,
+                  "top": 1,
+                  "right": 278,
+                  "bottom": 45,
+                  "left": 234
+                }
+              }
+            ],
+            "viewport": 320,
+            "scrollWidth": 320
+          }
+        },
+        {
+          "label": "Spanish progress controls do not overlap",
+          "pass": true,
+          "actual": [
+            {
+              "x": 42,
+              "y": 1,
+              "width": 66,
+              "height": 44,
+              "top": 1,
+              "right": 108,
+              "bottom": 45,
+              "left": 42
+            },
+            {
+              "x": 192.546875,
+              "y": 13,
+              "width": 35.453125,
+              "height": 20,
+              "top": 13,
+              "right": 228,
+              "bottom": 33,
+              "left": 192.546875
+            },
+            {
+              "x": 234,
+              "y": 1,
+              "width": 44,
+              "height": 44,
+              "top": 1,
+              "right": 278,
+              "bottom": 45,
+              "left": 234
+            }
+          ]
+        },
+        {
+          "label": "Spanish no horizontal overflow",
+          "pass": true
+        },
+        {
+          "label": "no JavaScript or missing-asset errors",
+          "pass": true,
+          "actual": {
+            "errors": [],
+            "httpErrors": []
+          }
+        }
+      ],
+      "errors": [],
+      "httpErrors": []
+    }
+  ],
+  "pass": 168,
+  "fail": 0
+}
